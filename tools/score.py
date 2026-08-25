@@ -39,6 +39,9 @@ total = 0; wsum = 0
 for dname, vals in dim.items():
     mean = st.mean(vals); w = weight[dname]; total += mean*w; wsum += w
     print(f"  {dname:32s} {mean:.2f}   (w={w:.0f}%)")
+if wsum == 0:
+    print("\nNo criteria scored yet — fill rater1..rater3 (0-4) in the worksheet.")
+    sys.exit(0)
 print(f"\nWeighted total: {total/wsum:.2f} / 4   (weights provisional — ADR 0001/0002)")
 
 print("\nSubtotals:")
