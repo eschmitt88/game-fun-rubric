@@ -5,7 +5,16 @@ principles; this file refines them for this project.
 
 ## What this project is about
 
-One or two sentences. Fill in when the project stops being exploratory.
+Literature-grounded research on *what makes games fun*, distilled into an
+actionable design rubric for a **digital single-player game** the user is
+designing. Output of record: `docs/rubric.md` (versioned; v0 from
+established frameworks, revised as literature is ingested).
+
+Core frameworks in scope: Koster (Theory of Fun), MDA (Hunicke/LeBlanc/
+Zubek), Lazzaro's 4 Keys, Self-Determination Theory / PENS (Ryan, Rigby,
+Przybylski), Csikszentmihalyi flow, Schell's Lenses, Juul (failure,
+casual), Cook (loops/skill atoms), Chen (flow in games), Malone's
+intrinsic-motivation heuristics, Bartle/Yee player motivations.
 
 ## Layout (see user CLAUDE.md for the full rationale)
 
@@ -46,7 +55,8 @@ down or explicitly flag the need to raise a ceiling.
 
 ## Project-specific facts
 
-- Primary language: (fill in)
+- Primary language: Markdown (lit review); Python only for any scoring tooling.
+- Scope: digital single-player game design; competitive/multiplayer criteria are out of scope unless flagged.
 - Environment: managed by `uv`; run `make env` to sync.
 - Data: tracked by DVC. Large artifacts on SN850X via `~/projects/`.
 
