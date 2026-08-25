@@ -39,3 +39,4 @@ skills; read by `/lint`.
 2026-08-25 03:22 ingest deterding2015joys
 2026-08-25 03:22 curate 2026-08-25-empirical-and-critiques.md ingested=16 declined=5 dup=0
 2026-08-25 05:10 promote-moc mechanisms-of-fun (23 concepts); lint clean
+2026-08-25 05:22 discover targeted-gaps n=15
