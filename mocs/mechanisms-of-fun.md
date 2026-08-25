@@ -2,7 +2,7 @@
 kind: moc
 name: "Mechanisms of fun"
 added: "2026-08-25"
-concepts: [fun-as-pattern-learning, skill-atoms, loops-and-arcs, intrinsic-motivation-challenge-fantasy-curiosity, information-gap-curiosity, meaningful-decisions, flow-challenge-skill-balance, multidimensional-challenge-taxonomy, player-driven-dynamic-difficulty, failure-and-difficulty, need-frustration-and-expectation-violation, game-feel-and-juice, juice-as-orthogonal-to-core-loop, feedback-coherence-vs-legibility, four-keys-to-fun, mda-framework, systemic-emergence, hedonic-enjoyment-vs-eudaimonic-appreciation, negative-emotion-positive-experience, immersion-not-purely-positive, intuitive-controls-price-of-admission, euphoric-ease-solitary-play, design-lenses-catalog]
+concepts: [games-as-art-of-agency, striving-play-vs-achievement-play, disposable-ends, layered-agency, reward-schedule-taxonomy, fun-vs-compulsion-boundary, input-output-randomness-timing, tutorial-onboarding-design, instrument-reuse-beyond-original-scope, fun-as-pattern-learning, skill-atoms, loops-and-arcs, intrinsic-motivation-challenge-fantasy-curiosity, information-gap-curiosity, meaningful-decisions, flow-challenge-skill-balance, multidimensional-challenge-taxonomy, player-driven-dynamic-difficulty, failure-and-difficulty, need-frustration-and-expectation-violation, game-feel-and-juice, juice-as-orthogonal-to-core-loop, feedback-coherence-vs-legibility, four-keys-to-fun, mda-framework, systemic-emergence, hedonic-enjoyment-vs-eudaimonic-appreciation, negative-emotion-positive-experience, immersion-not-purely-positive, intuitive-controls-price-of-admission, euphoric-ease-solitary-play, design-lenses-catalog]
 ---
 
 # Mechanisms of fun
@@ -60,6 +60,18 @@ dimension in `docs/rubric.md`.
 - [[hedonic-enjoyment-vs-eudaimonic-appreciation]] — story feeds
   appreciation on a track that never crosses enjoyment (ADR 0004).
 - [[euphoric-ease-solitary-play]] — single-player's free enjoyment floor.
+
+## Layer 6 — Why play at all (round 3)
+- [[games-as-art-of-agency]] · [[striving-play-vs-achievement-play]] ·
+  [[disposable-ends]] · [[layered-agency]] — Nguyen: the medium is agency;
+  arbitrary goals motivate as disposable ends; grounds 2.6 and G2.
+- [[reward-schedule-taxonomy]] · [[fun-vs-compulsion-boundary]] — the
+  operant machinery behind 3.5 and why it cannot judge itself.
+- [[input-output-randomness-timing]] — randomness after the choice is
+  fine; before it, it reads as unfair.
+- [[tutorial-onboarding-design]] — value scales with discoverability.
+- [[instrument-reuse-beyond-original-scope]] — GameFlow's 15-year drift;
+  a warning for this rubric.
 
 ## Design-move catalogue
 - [[design-lenses-catalog]] — Deterding's heuristic cards cross-indexed by

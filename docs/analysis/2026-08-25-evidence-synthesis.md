@@ -189,3 +189,141 @@ which is itself evidence that "more of a good thing" rows need ceilings.
 - Five round-2 candidates declined: two books (Costikyan, Yu), two retention
   telemetry papers, one loot-box paper — all recorded with reasons in
   `raw/_candidates/_done/`.
+
+---
+
+# Round 3 addendum (13 targeted sources → rubric v0.4)
+
+Round 3 was aimed at named gaps rather than breadth. Every gap listed at
+the end of round 2 now has at least one source; three are closed, the rest
+are sharpened.
+
+## Gaps closed
+
+1. **Juice vs experience, quantitatively.** hicks2019juicy (two controlled
+   studies, N=40 + 32; PENS + PXI + AttrakDiff2): visual embellishment
+   raised appeal (η²=.17), immersion (η²=.17) and curiosity (η²=.19) in
+   every game, never moved objective performance across seven metrics, did
+   not touch autonomy or ease-of-control, and raised perceived competence
+   only where feedback was tied to the competence-defining action (Quake 3,
+   d=.44; null in the two simpler research games). 4.2 becomes a proper E1
+   row; 1.4 gains a conditional E1; G1's juice caveat is sharpened to "the
+   loop must carry itself".
+2. **Onboarding.** andersen2012impact (randomized field experiment,
+   N>45,000, 8 tutorial designs × 3 games): tutorials helped only the
+   complex, unconventional game (+29% time, +75% progress), were null in
+   genre-typical games, forced-practice never helped anywhere, on-demand
+   help *reduced* play. 8.1 is rewritten from "teach by doing" to "onboarding
+   scaled to discoverability" and goes E4 → E1.
+3. **Randomness.** zhang2021effect (controlled 2×2, N=18): randomness
+   resolved *before* the decision (card draw) hurt satisfaction (ηp²=.30);
+   randomness resolved *after* it did not. This reverses Burgun's uncited
+   claim and refines both Malone (randomness is not one mechanism) and Juul
+   (unfairness = unplannable, not random). 3.3 and 5.2 now distinguish
+   input from output randomness; Burgun is flagged as contested.
+
+## Gaps sharpened
+
+4. **Challenge → enjoyment.** abuhamdeh2012importance (abstract-only):
+   stronger opponents *and* closer games both raised enjoyment in Internet
+   chess; effect moderated by intrinsic motivation × goal-directedness.
+   Closeness (uncertainty) and raw difficulty are likely different levers —
+   the meta-analytic null pooled them. Also reinforces the gates: challenge
+   amplifies fun only atop an already-motivating loop.
+5. **DDA is mixed, not null.** denisova2015adaptation (N=42): hidden,
+   pacing-based DDA raised IEQ immersion (η²=.16) and control, while its own
+   Challenge subscale did not move — the same instrument insensitivity
+   Klarkowski found with FSS-2. Two instruments, two labs, same result:
+   generic self-report challenge items do not track known manipulations.
+6. **Measurement.** nacke2008flow: physiology (EMG valence, GSR)
+   discriminated flow from boredom where GEQ self-report did not — the
+   false-negative mirror of Klarkowski's false positive. ballou2024basic
+   (BANGS, N=1,246): the first validated need-*frustration* instrument;
+   frustration and satisfaction only moderately anti-correlated (r=−.37 to
+   −.47), relatedness items usable for NPCs/worlds. Step 4 of the protocol
+   now names BANGS, objective challenge signals, and optional physiology.
+7. **Session shape and compulsion.** hopson2001behavioral names the
+   operant machinery (variable-ratio, chain schedules) behind 3.5's "one
+   more" hook and is explicit that response rate says nothing about
+   benefit. The rubric's resolution: read 3.5 jointly with dimension 2 —
+   strong pull + low autonomy/competence satisfaction is the compulsion
+   signature. Behavioural contrast independently converges with Ballou's
+   expectation-delta account for 8.6.
+8. **Toys vs tools, reframed.** nguyen2019games replaces Malone's
+   toys/tools cut with achievement / striving / fictive play, supplies the
+   mechanism for why arbitrary goals motivate (disposable ends), and adds
+   new criterion **2.6 distinctive, coherent agency** — the whole
+   goals+abilities+constraints package as a recognizable mode of being. It
+   also names a third outcome (aesthetic experience of well-fitted agency)
+   the fun rubric does not score.
+9. **Lineage.** sweetser2012revisiting (165 RTS heuristics) and
+   sweetser2020gameflow (205 applications audited): the closest prior
+   rubric was mostly used as a questionnaire it was never validated to be;
+   inter-rater reliability remains unpublished after 15 years. Mined
+   heuristics: skill transfer across sibling systems (1.2), replay review
+   (1.3), AI competence as a symmetric lever (3.1/3.3), hopelessness
+   anchor (3.2), inspect-on-demand (4.4), per-effect coherence, UI theming
+   and non-repetition (4.5). Sweetser 2020's criterion-writing checklist is
+   queued for the v0.5 wording pass.
+10. **Coherence as a fourth juice mechanism.** kelly2014dont (E5) adds
+    contextual/diegetic incoherence to legibility, distraction and overload
+    as candidate explanations for why extreme juice hurts — none yet tested
+    against the others.
+
+## Evidence tier movements (v0.3 → v0.4)
+
+| Row | v0.3 | v0.4 | Cause |
+|---|---|---|---|
+| G1 | E4/E3/E1-dir | + E1 (performance never moves) | hicks2019juicy |
+| G2 | E5/E3 | + E4 mechanism, + E3 moderation | nguyen2019games; abuhamdeh2012importance |
+| 1.2 | E4 | E4 + E1 (learn by doing) | andersen2012impact; sweetser2012revisiting |
+| 1.4 | E2 | E2 + **E1 conditional** | hicks2019juicy |
+| 2.5 | E2/E3 | E2 (frustration items) | ballou2024basic |
+| 2.6 | — | E4 (new) | nguyen2019games |
+| 3.1 | E2/E4 | + E1-small, E3 | denisova2015adaptation; abuhamdeh2012importance |
+| 3.3 | E1/E3 | **E1 ×3** | zhang2021effect; denisova2015adaptation |
+| 3.5 | E4/E3 | E4 + cross-read rule | hopson2001behavioral |
+| 4.2 | E1/E3/E4 | **E1** (real effect sizes) | hicks2019juicy |
+| 4.5 | E1/E2/E3 | + E5 per-effect check | kelly2014dont; sweetser2012revisiting |
+| 6.3 | E1/E2/E3 | + E1 (juice → curiosity) | hicks2019juicy |
+| 8.1 | E4 | **E1** | andersen2012impact |
+| 8.5 | E1-null | E1 mixed | denisova2015adaptation |
+| 8.6 | E3 | E3 + E4 convergent | hopson2001behavioral |
+
+## State of the answer after three rounds (44 sources)
+
+What makes a single-player digital game fun, in evidence order:
+
+1. **A core loop that carries itself** — juice never rescues it (E1: seven
+   performance metrics unmoved, enjoyment only rises when the loop is
+   already good), and challenge only amplifies enjoyment on a loop that is
+   already intrinsically motivating and goal-directed.
+2. **Deserved, recoverable failure with legible feedback** — self-blame
+   after failure predicts higher ratings (E1); randomness the player could
+   not plan around is what reads as unfair (E1); failure tolerance tracks
+   confidence in closing the gap, not gap size.
+3. **Competence, then autonomy** — the strongest and second-strongest
+   predictors across every SDT study; both are gated by intuitive controls
+   that add nothing themselves; frustration of either is a separate,
+   measurable state.
+4. **Feedback in the right order** — acknowledgment, goal legibility, then
+   juice; music matters (the only pooled-significant design factor); juice
+   raises appeal, immersion and curiosity with an inverted-U ceiling.
+5. **Challenge as four things** — cognitive, performative, emotional,
+   decision-making, calibrated per type as an irregular wave; close
+   outcomes beat blowouts; visible difficulty settings are the weakest
+   lever and hidden pacing adaptation the least-tested promising one.
+6. **Curiosity as information gaps** the player believes they can close.
+7. **Emotion including designed loss** — negative peaks are among the most
+   enjoyed and appreciated moments; story runs on its own track toward
+   appreciation, not fun.
+8. **Expectation calibration** — frustration is the delta between what the
+   game led you to expect and what it did.
+
+What is still folklore: the relative *weights*. Every weight in the
+rubric is a consensus ordering, not a measured one.
+
+## Round-3 declines
+Sifa 2015 (retention telemetry) and Ito 2026 (human-vs-AI opponents) were
+verified but declined as out of single-player-fun scope; both recorded in
+`raw/_candidates/_done/`.

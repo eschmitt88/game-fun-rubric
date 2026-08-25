@@ -66,3 +66,33 @@ SessionEnd hook backstops this if you forget.
   to critic scores; test inter-rater reliability of v0.3.
 - Consider a scoring worksheet (CSV/quarto) so the rubric is usable in a
   playtest without reading 300 lines.
+
+## 2026-08-25 (session 3, agency: max — round 3)
+
+### Did
+- Round 3 targeted sweep (15 verified) → 13 ingested, 2 declined; 44
+  literature notes, 39 concepts, 2 MoCs.
+- Rubric v0.4: new 2.6 distinctive agency; 8.1 rewritten (E1); 3.3/5.2
+  randomness timing; 3.5 × dim-2 compulsion cross-read; step-4 protocol
+  adds BANGS, objective challenge signals, optional physiology. ADR 0005.
+- Scoring worksheet + `tools/score.py` (gates, subtotals, deltas,
+  bottom-five, compulsion flag). Lint clean.
+
+### Findings
+- Juice: raises appeal/immersion/curiosity, never performance, competence
+  only when tied to the competence-defining action (Hicks 2019, E1).
+- Tutorials help only complex/unconventional games; forced practice never
+  helps; on-demand help hurt (Andersen 2012, N>45k).
+- Input randomness hurts, output randomness doesn't (Zhang 2021) —
+  Burgun reversed; flagged contested.
+- Self-report challenge subscales miss known manipulations in two
+  instruments; physiology discriminates where GEQ doesn't.
+- Hidden pacing-DDA raised immersion — DDA evidence is mixed, not null.
+- No source in 44 supplies relative weights; still consensus ordering.
+
+### Next
+- v0.5 wording pass with Sweetser 2020's criterion checklist.
+- Calibration study (two shipped same-genre games, 3 blind raters, IRR).
+- Library re-fetch: kao2020effects, bowey2015, abuhamdeh2012,
+  deterding2015lens; Sweetser/Johnson/Wyeth/Ozdowska ACE 2012 companion.
+- Corroborate or drop 2.6 by v0.6.

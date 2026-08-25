@@ -50,6 +50,11 @@ for t in ("functional","psychosocial","story"):
 if tier["functional"] and st.mean(tier["functional"]) < 2.0:
     print("  ! functional floor < 2.0: psychosocial (2,5,6) scores are unreliable (ADR 0003). Story track (7) reported separately (ADR 0004).")
 
+# ADR 0005: compulsion signature — strong 3.5 pull with weak dimension 2
+d2 = [m for r, m, d in crit if r["id"].startswith("2.")]
+s35 = [m for r, m, d in crit if r["id"] == "3.5"]
+if s35 and d2 and s35[0] >= 3 and st.mean(d2) < 2:
+    print("\n! 3.5 >= 3 with dimension 2 mean < 2: compulsion signature (ADR 0005) — do not credit 3.5 until agency/competence improve.")
 flag = [(r["id"], d) for r, m, d in crit if d >= 2]
 if flag: print("\nRater disagreement >= 2 (discuss before trusting):", ", ".join(f"{i} (Δ{d:.0f})" for i, d in flag))
 

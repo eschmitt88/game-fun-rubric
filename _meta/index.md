@@ -10,7 +10,7 @@ and `/new-experiment`.
 
 ## Deliverables
 
-- [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.3, 31 sources, evidence-tiered, 8.6 added)
+- [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.4, 44 sources, evidence-tiered, 42 rows)
 
 ## Literature (44 notes, 2026-08-25)
 
@@ -26,6 +26,10 @@ Empirical layer: caroux2023player, vandenabeele2020development (PXI), tyack2020s
 
 Hubs (round 1+2): design-evidence-quality, player-experience-measurement, flow-challenge-skill-balance, need-satisfaction-sdt-pens, meaningful-decisions, player-experience-measurement (9), flow-challenge-skill-balance (7), player-motivation-profiles (5). MoC candidate: **evidence & measurement** cluster is ripe.
 
+## Tools
+
+- `tools/rubric_worksheet.csv` + `tools/score.py` — fill rater columns, run `python tools/score.py tools/rubric_worksheet.csv --profile <S1>`
+
 ## Maps of Content
 
 - [mocs/evidence-and-measurement.md](../mocs/evidence-and-measurement.md) — how we know
@@ -34,7 +38,7 @@ Hubs (round 1+2): design-evidence-quality, player-experience-measurement, flow-c
 ## Analyses & decisions
 
 - docs/analysis/2026-08-25-evidence-synthesis.md
-- ADR 0001 genre-agnostic weights · 0002 evidence tiers · 0003 functional gates psychosocial · 0004 dimension 7 story track
+- ADR 0001 genre-agnostic weights · 0002 evidence tiers · 0003 functional gates psychosocial · 0004 dimension 7 story track · 0005 agency criterion + compulsion cross-read
 
 ## Active experiments
 
