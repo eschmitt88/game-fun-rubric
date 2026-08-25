@@ -12,11 +12,15 @@ and `/new-experiment`.
 
 - [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.2, evidence-tiered)
 
-## Literature (15 notes, 2026-08-25)
+## Literature (31 notes, 2026-08-25)
+
+Round 2 (empirical/critical): kao2020effects, hicks2018good, denisova2020measuring (CORGIS), bowey2015manipulating, klarkowski2015operationalising, kumari2019role, to2016integrating, oliver2016video, bopp2016negative, haider2022minipxi, ballou2023just, jennett2008measuring (IEQ), deterding2015lens, meier2012interesting, vandenberghe2016engines, deterding2015joys.
+
+Round 1
 
 Empirical layer: caroux2023player, vandenabeele2020development (PXI), tyack2020self, ryan2006motivational (PENS), sweetser2005gameflow, malone1981toward, juul2013art. Theory/practitioner: koster2012theory, hunicke2004mda, lazzaro2004why, chen2007flow, cook2007chemistry, jonasson2012juice, yee2015handy, burgun2015why.
 
-## Concepts (20)
+## Concepts (30)
 
 Hubs: design-evidence-quality (12 sources), player-experience-measurement (9), flow-challenge-skill-balance (7), player-motivation-profiles (5). MoC candidate: **evidence & measurement** cluster is ripe.
 

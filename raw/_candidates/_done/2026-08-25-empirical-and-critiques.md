@@ -5,6 +5,7 @@ discovered: 2026-08-25
 source: discover
 n_requested: 18
 n_returned: 21
+curated: 2026-08-25
 ---
 
 Round 2 targets what the canon lacks: controlled experiments on juice,
@@ -158,3 +159,29 @@ retention telemetry (to test whether "fun" and "keeps playing" diverge).
 - type: paper
 - summary: Zendle & Cairns (2018, N=7,422) link loot-box spend to problem-gambling severity.
 - reason: Marks the fun-vs-compulsion boundary the rubric deliberately excludes.
+
+## Curation
+
+16 ingested, 5 declined (agency: max, headroom GO).
+
+1. ingested → kao2020effects (abstract-only; ScienceDirect bot-walled despite CC-BY — re-fetch via library)
+2. ingested → hicks2018good
+3. ingested → denisova2020measuring
+4. ingested → bowey2015manipulating (abstract-only; no OA copy exists)
+5. ingested → klarkowski2015operationalising (via Wayback copy of QUT ePrints)
+6. ingested → kumari2019role
+7. ingested → to2016integrating
+8. ingested → oliver2016video
+9. ingested → bopp2016negative (raw = content-equivalent 2015 master's thesis; CHI PDF paywalled)
+10. ingested → haider2022minipxi
+11. ingested → ballou2023just
+12. ingested → jennett2008measuring
+13. ingested → deterding2015lens (abstract + 5 supplementary PDFs; main text paywalled)
+14. ingested → meier2012interesting (journalist write-up; GDC Vault paywalled)
+15. ingested → vandenberghe2016engines (secondary summaries; no transcript)
+16. ingested → deterding2015joys
+17. declined — book, not fetchable; Costikyan's taxonomy captured via kumari2019role
+18. declined — book, not fetchable; keep as designer source on good randomness for a future pass
+19. declined — retention/churn telemetry, not fun; revisit only if a fun-vs-retention question is opened
+20. declined — same as 19 (Weibull decay baseline)
+21. declined — fun-vs-compulsion is explicitly out of rubric scope (Known gaps); noted as the boundary citation

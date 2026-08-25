@@ -1,9 +1,9 @@
 ---
 kind: concept
 name: "skill-atoms"
-status: seedling    # seedling | growing | mature
+status: growing    # seedling | growing | mature
 added: "2026-08-25"
-sources: [cook2007chemistry, koster2012theory10yearslater]
+sources: [cook2007chemistry, koster2012theory10yearslater, deterding2015lens]
 related_concepts: [design-evidence-quality, flow-challenge-skill-balance, fun-as-pattern-learning, loops-and-arcs, player-motivation-profiles]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -19,6 +19,8 @@ Cook's atomic unit of play — Action → Simulation → Feedback → Modeling �
 
 - **cook2007chemistry** — Primary source; Action→Simulation→Feedback→Modeling; skill chains as directed graph.
 - **koster2012theory** — Convergent second formalization for 1.2.
+
+- **deterding2015lens** — Third independent, more granular formalization (Motivation/Goal/Action/Challenge/Rules/Feedback).
 
 ## Connections
 

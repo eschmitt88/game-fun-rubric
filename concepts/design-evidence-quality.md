@@ -1,9 +1,9 @@
 ---
 kind: concept
 name: "design-evidence-quality"
-status: growing    # seedling | growing | mature
+status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [burgun2015why, caroux2023player, cook2007chemistry, hunicke2004mda, jonasson2012juice, juul2013art, koster2012theory10yearslater, lazzaro2004why, malone1981toward, sweetser2005gameflow, tyack2020self, gamer-motivation-model-handy-reference]
+sources: [burgun2015why, caroux2023player, cook2007chemistry, hunicke2004mda, jonasson2012juice, juul2013art, koster2012theory10yearslater, lazzaro2004why, malone1981toward, sweetser2005gameflow, tyack2020self, gamer-motivation-model-handy-reference, bopp2016negative, bowey2015manipulating, deterding2015joys, deterding2015lens, haider2022minipxi, hicks2018good, jennett2008measuring, klarkowski2015operationalising, kumari2019role, meier2012interesting, vandenberghe2016engines]
 related_concepts: [failure-and-difficulty, flow-challenge-skill-balance, four-keys-to-fun, fun-as-pattern-learning, game-feel-and-juice, intrinsic-motivation-challenge-fantasy-curiosity]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -29,6 +29,18 @@ A standard for weighing design claims by their evidence — controlled ablation 
 - **sweetser2005gameflow** — Validation is confirmation not prediction; no inter-rater data.
 - **tyack2020self** — 82.73% of 110 CHI/CHI PLAY papers cite SDT only descriptively.
 - **yee2015handy** — High-N, non-peer-reviewed, self-selected, correlational.
+
+- **bopp2016negative** — E2 exemplar, correlational.
+- **bowey2015manipulating** — Self-report PX is outcome-sensitive, not purely design-sensitive.
+- **deterding2015joys** — E3, N=19 re-analysis.
+- **deterding2015lens** — Peer-reviewed, 495 cites, but no outcome data; E3/E4.
+- **haider2022minipxi** — Single-item proxies for Progress Feedback and Clarity of Goals have near-zero validity under delayed recall.
+- **hicks2018good** — E3 exemplar.
+- **jennett2008measuring** — Three controlled experiments + factor validation.
+- **klarkowski2015operationalising** — N=20, single game, uncounterbalanced order.
+- **kumari2019role** — E3 exemplar, N=13 grounded theory.
+- **meier2012interesting** — E5 via secondary journalist account.
+- **vandenberghe2016engines** — Talk with no transcript/data.
 
 ## Connections
 

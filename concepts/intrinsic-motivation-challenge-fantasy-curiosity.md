@@ -1,9 +1,9 @@
 ---
 kind: concept
 name: "intrinsic-motivation-challenge-fantasy-curiosity"
-status: seedling    # seedling | growing | mature
+status: growing    # seedling | growing | mature
 added: "2026-08-25"
-sources: [malone1981toward]
+sources: [malone1981toward, deterding2015lens, kumari2019role, to2016integrating]
 related_concepts: [design-evidence-quality, fun-as-pattern-learning, game-feel-and-juice, player-motivation-profiles]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -18,6 +18,10 @@ Malone's tripartite theory: intrinsically motivating activities derive appeal fr
 ## Why it matters here
 
 - **malone1981toward** — Underlies dims 5 and 6.
+
+- **deterding2015lens** — Curiosity lenses operationalize Malone.
+- **kumari2019role** — Curiosity linked to all seven uncertainty types; Content vs Configuration sub-typology.
+- **to2016integrating** — Extends Malone's single curiosity construct into five types.
 
 ## Connections
 
