@@ -3,7 +3,7 @@ kind: concept
 name: "player-motivation-profiles"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [chen2007flow, koster2012theory10yearslater, malone1981toward, ryan2006motivational, gamer-motivation-model-handy-reference, meier2012interesting, vandenberghe2016engines]
+sources: [chen2007flow, koster2012theory10yearslater, malone1981toward, ryan2006motivational, gamer-motivation-model-handy-reference, meier2012interesting, vandenberghe2016engines, rigby2007rethinking]
 related_concepts: [design-evidence-quality, flow-challenge-skill-balance, fun-as-pattern-learning, game-feel-and-juice, intrinsic-motivation-challenge-fantasy-curiosity, intuitive-controls-price-of-admission]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -25,6 +25,8 @@ Typologies of why different players play (Bartle, Yee/Quantic Foundry 12-factor,
 
 - **meier2012interesting** — Informal seven-archetype taxonomy, folk corroboration of S1.
 - **vandenberghe2016engines** — 5 Domains ↔ Big Five as second typology for S1.
+
+- **rigby2007rethinking** — Turn-based strategy: strong autonomy–enjoyment correlation (genre reweighting colour).
 
 ## Connections
 

@@ -3,7 +3,7 @@ kind: concept
 name: "loops-and-arcs"
 status: seedling    # seedling | growing | mature
 added: "2026-08-25"
-sources: [cook2007chemistry]
+sources: [cook2007chemistry, hopson2001behavioral]
 related_concepts: [design-evidence-quality, fun-as-pattern-learning, skill-atoms]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -18,6 +18,8 @@ Cook's distinction between repeating action→system→feedback structures that 
 ## Why it matters here
 
 - **cook2007chemistry** — Grounds Dim 5 and 3.5 'loop within an arc'.
+
+- **hopson2001behavioral** — Chain schedules restate loop-feeding-arc.
 
 ## Connections
 

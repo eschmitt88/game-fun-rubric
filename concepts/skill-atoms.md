@@ -1,9 +1,9 @@
 ---
 kind: concept
 name: "skill-atoms"
-status: growing    # seedling | growing | mature
+status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [cook2007chemistry, koster2012theory10yearslater, deterding2015lens]
+sources: [cook2007chemistry, koster2012theory10yearslater, deterding2015lens, andersen2012impact, sweetser2012revisiting]
 related_concepts: [design-evidence-quality, flow-challenge-skill-balance, fun-as-pattern-learning, loops-and-arcs, player-motivation-profiles]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -21,6 +21,9 @@ Cook's atomic unit of play — Action → Simulation → Feedback → Modeling �
 - **koster2012theory** — Convergent second formalization for 1.2.
 
 - **deterding2015lens** — Third independent, more granular formalization (Motivation/Goal/Action/Challenge/Rules/Feedback).
+
+- **andersen2012impact** — Players learned more from experimentation than from any tutorial text.
+- **sweetser2012revisiting** — Cross-system skill transfer heuristic (1.2).
 
 ## Connections
 

@@ -40,3 +40,17 @@ skills; read by `/lint`.
 2026-08-25 03:22 curate 2026-08-25-empirical-and-critiques.md ingested=16 declined=5 dup=0
 2026-08-25 05:10 promote-moc mechanisms-of-fun (23 concepts); lint clean
 2026-08-25 05:22 discover targeted-gaps n=15
+2026-08-25 05:38 ingest hicks2019juicy
+2026-08-25 05:38 ingest ballou2024basic
+2026-08-25 05:38 ingest abuhamdeh2012importance
+2026-08-25 05:38 ingest zhang2021effect
+2026-08-25 05:38 ingest denisova2015adaptation
+2026-08-25 05:38 ingest andersen2012impact
+2026-08-25 05:38 ingest sweetser2012revisiting
+2026-08-25 05:38 ingest sweetser2020gameflow
+2026-08-25 05:38 ingest nacke2008flow
+2026-08-25 05:38 ingest kelly2014dont
+2026-08-25 05:38 ingest hopson2001behavioral
+2026-08-25 05:38 ingest rigby2007rethinking
+2026-08-25 05:38 ingest nguyen2019games
+2026-08-25 05:38 curate 2026-08-25-targeted-gaps.md ingested=13 declined=2 dup=0

@@ -1,9 +1,9 @@
 ---
 kind: concept
 name: "juice-as-orthogonal-to-core-loop"
-status: growing    # seedling | growing | mature
+status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [jonasson2012juice, hicks2018good, kao2020effects]
+sources: [jonasson2012juice, hicks2018good, kao2020effects, hicks2019juicy, kelly2014dont]
 related_concepts: [design-evidence-quality, game-feel-and-juice]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -21,6 +21,9 @@ Feedback layers can be added or stripped without changing rules or win/loss stru
 
 - **hicks2018good** — 'Holistic nature': juice alone isn't enough.
 - **kao2020effects** — None condition underperforms Medium/High — nuances G1 toggle.
+
+- **hicks2019juicy** — Mechanics held constant, performance never moved.
+- **kelly2014dont** — About which feedback, not whether separable.
 
 ## Connections
 

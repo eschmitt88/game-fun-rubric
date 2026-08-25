@@ -5,6 +5,7 @@ discovered: 2026-08-25
 source: discover
 n_requested: 14
 n_returned: 15
+curated: 2026-08-25
 ---
 
 Round 3 closes gaps named in rubric v0.3 "Known gaps" and NOTES.md.
@@ -98,3 +99,23 @@ Round 3 closes gaps named in rubric v0.3 "Known gaps" and NOTES.md.
 - type: paper
 - summary: Ito (2026): pooled g=.63 enjoyment penalty for computer vs human opponents across 25 effect sizes.
 - reason: Recent meta-analysis, but opponent-type is a multiplayer/social variable.
+
+## Curation
+
+13 ingested, 2 declined (agency: max, headroom GO).
+
+1. ingested → hicks2019juicy (full text; PENS Competence α=.219 in one condition flagged)
+2. ingested → ballou2024basic
+3. ingested → abuhamdeh2012importance (abstract-only; SAGE closed, no OA anywhere)
+4. ingested → zhang2021effect
+5. ingested → denisova2015adaptation (notes-track paper; df inconsistency flagged)
+6. ingested → andersen2012impact
+7. ingested → sweetser2012revisiting (via journal OJS mirror; covers 4 of 8 elements — companion ACE 2012 paper not fetched)
+8. ingested → sweetser2020gameflow
+9. ingested → nacke2008flow (via Wayback copy of DiVA)
+10. ingested → kelly2014dont (slides + abstract; no transcript)
+11. ingested → hopson2001behavioral
+12. ingested → rigby2007rethinking (trade press; data tables not retrievable)
+13. ingested → nguyen2019games (Phil Review article as stand-in for the book)
+14. declined — retention telemetry; same class declined in round 2
+15. declined — opponent type (human vs AI) is a social/multiplayer variable; out of single-player scope

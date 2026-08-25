@@ -1,9 +1,9 @@
 ---
 kind: concept
 name: "intuitive-controls-price-of-admission"
-status: seedling    # seedling | growing | mature
+status: growing    # seedling | growing | mature
 added: "2026-08-25"
-sources: [ryan2006motivational, sweetser2005gameflow]
+sources: [ryan2006motivational, sweetser2005gameflow, rigby2007rethinking, sweetser2012revisiting]
 related_concepts: [design-evidence-quality, flow-challenge-skill-balance, need-satisfaction-sdt-pens, player-experience-measurement, player-motivation-profiles]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -19,6 +19,9 @@ Intuitive controls are a necessary-but-not-sufficient gate: their effect on enjo
 
 - **ryan2006motivational** — IC raw correlation drops to ns once autonomy/competence entered; anchors Dim 8 subtractor framing.
 - **sweetser2005gameflow** — Several criteria are usability heuristics, not enjoyment drivers.
+
+- **rigby2007rethinking** — Reiterates Dim 8 framing.
+- **sweetser2012revisiting** — Interface heuristics as hygiene layer.
 
 ## Connections
 

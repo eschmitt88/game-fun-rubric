@@ -3,7 +3,7 @@ kind: concept
 name: "failure-and-difficulty"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [caroux2023player, juul2013art, ballou2023just, bowey2015manipulating, denisova2020measuring, kumari2019role, to2016integrating]
+sources: [caroux2023player, juul2013art, ballou2023just, bowey2015manipulating, denisova2020measuring, kumari2019role, to2016integrating, abuhamdeh2012importance, denisova2015adaptation, zhang2021effect]
 related_concepts: [design-evidence-quality, flow-challenge-skill-balance, game-feel-and-juice, player-experience-measurement]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -25,6 +25,10 @@ Failure and its punishment (energy, life, termination, setback) are designed enj
 - **denisova2020measuring** — Distinguishes objective difficulty from felt challenge.
 - **kumari2019role** — Result uncertainty inverted-U.
 - **to2016integrating** — Confidence-vs-gap-size mechanism for 3.2.
+
+- **abuhamdeh2012importance** — Close games beat blowouts; closeness ≠ raw difficulty.
+- **denisova2015adaptation** — Third DDA data point: positive on immersion (η²=.156).
+- **zhang2021effect** — Attribution mechanism shared with Juul.
 
 ## Connections
 

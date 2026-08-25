@@ -3,7 +3,7 @@ kind: concept
 name: "design-evidence-quality"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [burgun2015why, caroux2023player, cook2007chemistry, hunicke2004mda, jonasson2012juice, juul2013art, koster2012theory10yearslater, lazzaro2004why, malone1981toward, sweetser2005gameflow, tyack2020self, gamer-motivation-model-handy-reference, bopp2016negative, bowey2015manipulating, deterding2015joys, deterding2015lens, haider2022minipxi, hicks2018good, jennett2008measuring, klarkowski2015operationalising, kumari2019role, meier2012interesting, vandenberghe2016engines]
+sources: [burgun2015why, caroux2023player, cook2007chemistry, hunicke2004mda, jonasson2012juice, juul2013art, koster2012theory10yearslater, lazzaro2004why, malone1981toward, sweetser2005gameflow, tyack2020self, gamer-motivation-model-handy-reference, bopp2016negative, bowey2015manipulating, deterding2015joys, deterding2015lens, haider2022minipxi, hicks2018good, jennett2008measuring, klarkowski2015operationalising, kumari2019role, meier2012interesting, vandenberghe2016engines, andersen2012impact, hicks2019juicy, hopson2001behavioral, kelly2014dont, nacke2008flow, rigby2007rethinking, sweetser2012revisiting, sweetser2020gameflow, zhang2021effect]
 related_concepts: [failure-and-difficulty, flow-challenge-skill-balance, four-keys-to-fun, fun-as-pattern-learning, game-feel-and-juice, intrinsic-motivation-challenge-fantasy-curiosity]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -41,6 +41,16 @@ A standard for weighing design claims by their evidence — controlled ablation 
 - **kumari2019role** — E3 exemplar, N=13 grounded theory.
 - **meier2012interesting** — E5 via secondary journalist account.
 - **vandenberghe2016engines** — Talk with no transcript/data.
+
+- **andersen2012impact** — Randomized field experiment N>45,000.
+- **hicks2019juicy** — Upgrades kao/hicks2018 citations to E1 numbers; but PENS Competence α=.219 in one condition.
+- **hopson2001behavioral** — E1 underlying science, E4/E5 article.
+- **kelly2014dont** — E5, zero citations.
+- **nacke2008flow** — E1 but fixed order, small physio subsample (n≈16).
+- **rigby2007rethinking** — Same studies, commercial claims layered on, no citable method.
+- **sweetser2012revisiting** — Grounded theory on reviews = E3.
+- **sweetser2020gameflow** — Over half of 205 applications used the never-validated GameFlow checklist as a questionnaire.
+- **zhang2021effect** — E1 experiment contradicting an E5 opinion already in the graph.
 
 ## Connections
 

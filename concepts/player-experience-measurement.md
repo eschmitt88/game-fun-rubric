@@ -3,7 +3,7 @@ kind: concept
 name: "player-experience-measurement"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [caroux2023player, hunicke2004mda, juul2013art, lazzaro2004why, ryan2006motivational, sweetser2005gameflow, tyack2020self, vandenabeele2020development, gamer-motivation-model-handy-reference, ballou2023just, bopp2016negative, bowey2015manipulating, denisova2020measuring, deterding2015joys, haider2022minipxi, hicks2018good, jennett2008measuring, kao2020effects, klarkowski2015operationalising, oliver2016video]
+sources: [caroux2023player, hunicke2004mda, juul2013art, lazzaro2004why, ryan2006motivational, sweetser2005gameflow, tyack2020self, vandenabeele2020development, gamer-motivation-model-handy-reference, ballou2023just, bopp2016negative, bowey2015manipulating, denisova2020measuring, deterding2015joys, haider2022minipxi, hicks2018good, jennett2008measuring, kao2020effects, klarkowski2015operationalising, oliver2016video, abuhamdeh2012importance, ballou2024basic, denisova2015adaptation, hicks2019juicy, nacke2008flow, rigby2007rethinking, sweetser2020gameflow]
 related_concepts: [design-evidence-quality, failure-and-difficulty, flow-challenge-skill-balance, four-keys-to-fun, functional-vs-psychosocial-consequences, game-feel-and-juice]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -38,6 +38,14 @@ Instruments and methods for quantifying subjective player experience — PENS, I
 - **kao2020effects** — Instruments unconfirmed (abstract only).
 - **klarkowski2015operationalising** — FSS-2 control/merging subscales read high even when trivially easy.
 - **oliver2016video** — Single-item enjoyment/appreciation; 4-factor PENS + insight.
+
+- **abuhamdeh2012importance** — Objective game-generated challenge measures instead of self-report.
+- **ballou2024basic** — Only instrument in graph with a frustration subscale; explains 8.4% of logged Xbox playtime.
+- **denisova2015adaptation** — IEQ Challenge subscale null despite manipulation — converges with Klarkowski.
+- **hicks2019juicy** — PENS + PXI + AttrakDiff2 side by side.
+- **nacke2008flow** — EMG valence + GSR arousal discriminated flow from boredom; GEQ Flow/Immersion self-report did not.
+- **rigby2007rethinking** — PENS beats fun ratings — vendor-asserted.
+- **sweetser2020gameflow** — Positions GameFlow vs PXI/PENS/GEQ/IEQ; two unrelated 'GEQ's exist.
 
 ## Connections
 
