@@ -6,8 +6,9 @@ principles; this file refines them for this project.
 ## What this project is about
 
 Literature-grounded research on *what makes games fun*, distilled into an
-actionable design rubric for a **digital single-player game** the user is
-designing. Output of record: `docs/rubric.md` (versioned; v0 from
+actionable, **genre-agnostic** design rubric for a digital single-player
+game the user is designing. Do not bias research toward any genre; genre-
+specific reweighting is a later, explicit step. Output of record: `docs/rubric.md` (versioned; v0 from
 established frameworks, revised as literature is ingested).
 
 Core frameworks in scope: Koster (Theory of Fun), MDA (Hunicke/LeBlanc/
@@ -56,7 +57,7 @@ down or explicitly flag the need to raise a ceiling.
 ## Project-specific facts
 
 - Primary language: Markdown (lit review); Python only for any scoring tooling.
-- Scope: digital single-player game design; competitive/multiplayer criteria are out of scope unless flagged.
+- Scope: digital single-player, genre-agnostic. Multiplayer/social criteria noted but not weighted.
 - Environment: managed by `uv`; run `make env` to sync.
 - Data: tracked by DVC. Large artifacts on SN850X via `~/projects/`.
 

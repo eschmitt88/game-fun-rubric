@@ -3,7 +3,7 @@ kind: rubric
 name: "Game Fun Rubric"
 version: 0.1
 status: draft
-scope: digital single-player
+scope: digital single-player, genre-agnostic
 updated: "2026-08-25"
 sources_status: "v0.1 written from established frameworks before literature ingest; every criterion must gain a literature/ citation by v0.2"
 ---
