@@ -10,7 +10,7 @@ and `/new-experiment`.
 
 ## Deliverables
 
-- [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.2, evidence-tiered)
+- [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.3, 31 sources, evidence-tiered, 8.6 added)
 
 ## Literature (31 notes, 2026-08-25)
 
@@ -22,7 +22,7 @@ Empirical layer: caroux2023player, vandenabeele2020development (PXI), tyack2020s
 
 ## Concepts (30)
 
-Hubs: design-evidence-quality (12 sources), player-experience-measurement (9), flow-challenge-skill-balance (7), player-motivation-profiles (5). MoC candidate: **evidence & measurement** cluster is ripe.
+Hubs (round 1+2): design-evidence-quality, player-experience-measurement, flow-challenge-skill-balance, need-satisfaction-sdt-pens, meaningful-decisions, player-experience-measurement (9), flow-challenge-skill-balance (7), player-motivation-profiles (5). MoC candidate: **evidence & measurement** cluster is ripe.
 
 ## Maps of Content
 
@@ -31,7 +31,7 @@ Hubs: design-evidence-quality (12 sources), player-experience-measurement (9), f
 ## Analyses & decisions
 
 - docs/analysis/2026-08-25-evidence-synthesis.md
-- ADR 0001 genre-agnostic weights · 0002 evidence tiers · 0003 functional gates psychosocial
+- ADR 0001 genre-agnostic weights · 0002 evidence tiers · 0003 functional gates psychosocial · 0004 dimension 7 story track
 
 ## Active experiments
 

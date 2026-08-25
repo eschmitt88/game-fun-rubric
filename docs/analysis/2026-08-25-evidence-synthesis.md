@@ -106,3 +106,86 @@ which is itself evidence that "more of a good thing" rows need ceilings.
   7.5 (hedonic/eudaimonic), and a possible need-frustration subtractor.
 - Calibration study: two shipped games, same genre/year, high vs low rated,
   3 blind raters, compare to critic scores and (if obtainable) PXI data.
+
+---
+
+# Round 2 addendum (16 empirical/critical sources → rubric v0.3)
+
+## What round 2 changed
+
+1. **Challenge is four things, not one.** CORGIS (N≈1,400, E2) separates
+   cognitive, emotional, performative and decision-making challenge; they are
+   near-independent (PERF↔DM r=−.21). This is the most likely reason pooled
+   "difficulty" effects are null — studies averaged over incommensurable
+   challenge types. 3.1 now scores per type; 1.1 gains E2 corroboration;
+   2.2's "weighty choice" rises from E5 to E3 because DM is a validated factor.
+2. **Flow self-report cannot distinguish balanced from boring.** Klarkowski
+   (E1, N=20): a working DDA build and a deliberately trivial one were
+   indistinguishable on FSS-2 flow, control and merging subscales; only
+   overload separated. Together with IEQ's finding that immersion co-occurs
+   with anxiety (jennett2008measuring) and Bowey's faked-leaderboard
+   manipulation of competence/autonomy self-report, this forces the
+   protocol change in step 4: behavioural measures + affect check +
+   immediate post-play collection, and no single-item proxies for 1.3/5.1/8.3
+   (miniPXI validity r≈.07–.09 for those items).
+3. **Juice has a ceiling.** Kao 2020 (N=3,018, E1): none *and* extreme juice
+   both hurt play time, experience, motivation and performance. 4.2 gets an
+   explicit overwhelm anchor; G1's toggle is reframed as diagnostic, not
+   target.
+4. **Fun and meaning are different outcomes with non-crossing predictors.**
+   Oliver 2016 (N=512): gameplay → competence/autonomy → enjoyment; story →
+   relatedness/insight → appreciation. Dimension 7 moves to its own track
+   in the gating structure (ADR 0004), and 7.5 is explicitly marked as
+   measuring appreciation, not fun.
+5. **Negative emotion is a legitimate design target.** Bopp 2016 (N=121):
+   loss beats were the saddest and among the most enjoyed/appreciated. 7.2
+   now has a designed-negative-peak top anchor parallel to 5.5's fiero.
+6. **Frustration is an expectation delta.** Ballou & Deterding 2023 (E3):
+   felt need frustration comes from the gap between expected and observed
+   thwarting, and escalates rush → adapt → disengage → quit. New criterion
+   8.6 (expectation calibration); ladder used as 3.2's 0-anchor.
+7. **Uncertainty at the moment-to-moment timescale.** Kumari 2019 (E3)
+   validates G1's 30-second framing and G2's agency+stakes test; adds the
+   content/configuration split to 6.3; result-uncertainty inverted U
+   plausibly the same latent curve as dimension 3.
+8. **Curiosity mechanism.** To 2016: info-gap tolerance depends on
+   confidence in closing it, not gap size — explains why 1.3 and 3.2, not raw
+   difficulty, decide whether uncertainty is fun. Three of five curiosity
+   types live in dimensions 4 and 8.
+9. **Citations corrected.** G2 now attributes Meier's criteria (trade-off,
+   situational, persistent, risk/reward, personal style) and Burgun's
+   blind-guess↔solved phrasing separately. Skill atoms cite three convergent
+   formalizations (Cook, Koster/Humble, Deterding).
+10. **Solitary play is a distinct design space.** Deterding 2015 "Joys of
+    Absence": freedom from emotion-display work is felt as enjoyment only in
+    solitary play — an empirical reason single-player is not multiplayer
+    minus social, and a hygiene-factor structure matching dimension 8.
+
+## Evidence tier movements (v0.2 → v0.3)
+
+| Row | v0.2 | v0.3 | Cause |
+|---|---|---|---|
+| G1 | E4 | E4 + E3 + E1-directional | kumari2019role; kao2020effects |
+| G2 | E5 | E5 + E3 | kumari2019role; to2016integrating |
+| 1.1 | E4 | E2/E4 | denisova2020measuring |
+| 2.2 | E5 | E3/E5 | denisova2020measuring DM factor |
+| 2.3 | E4 | E2/E5 | bopp2016negative; meier2012interesting |
+| 3.2 | E3 | E3 (richer anchors) | ballou2023just; to2016integrating |
+| 3.4 | E2/E3 | E2 ×2 with caveat | jennett2008measuring; klarkowski |
+| 4.2 | E1/E4 | E1 ×2 / E3 | kao2020effects; hicks2018good |
+| 4.4 | E4 (unsourced) | E3/E4 | hicks2018good; deterding2015lens |
+| 7.2 | E3 | E2 | bopp2016negative; CORGIS EMO |
+| 7.5 | E2 partial | E2 (appreciation) | bopp2016negative; oliver2016video |
+| 8.6 | — | E3 (new) | ballou2023just |
+
+## Still unresolved
+
+- No source supplies dimension weights; the factorial study in §5 remains
+  the only way to get them.
+- The challenge→enjoyment link with a multi-component challenge measure has
+  never been run.
+- Three round-2 notes are abstract-only (Kao, Bowey, Deterding lens); their
+  numbers need library-access re-fetch before any is promoted to E1 proper.
+- Five round-2 candidates declined: two books (Costikyan, Yu), two retention
+  telemetry papers, one loot-box paper — all recorded with reasons in
+  `raw/_candidates/_done/`.
