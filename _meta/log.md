@@ -20,3 +20,4 @@ skills; read by `/lint`.
 2026-08-25 03:11 ingest burgun2015why
 2026-08-25 03:11 curate 2026-08-25-what-makes-games-fun.md ingested=15 declined=0 dup=0
 2026-08-25 03:14 discover empirical-and-critiques n=21
+2026-08-25 03:16 promote-moc evidence-and-measurement; rubric v0.2; ADR 0001-0003

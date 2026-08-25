@@ -10,7 +10,7 @@ and `/new-experiment`.
 
 ## Deliverables
 
-- [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.1, pre-literature draft)
+- [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.2, evidence-tiered)
 
 ## Literature (15 notes, 2026-08-25)
 
@@ -22,7 +22,12 @@ Hubs: design-evidence-quality (12 sources), player-experience-measurement (9), f
 
 ## Maps of Content
 
-(promote a cluster of ≥5 related concepts into `mocs/<theme>.md`)
+- [mocs/evidence-and-measurement.md](../mocs/evidence-and-measurement.md)
+
+## Analyses & decisions
+
+- docs/analysis/2026-08-25-evidence-synthesis.md
+- ADR 0001 genre-agnostic weights · 0002 evidence tiers · 0003 functional gates psychosocial
 
 ## Active experiments
 
