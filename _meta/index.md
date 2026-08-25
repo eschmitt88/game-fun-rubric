@@ -12,6 +12,14 @@ and `/new-experiment`.
 
 - [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.1, pre-literature draft)
 
+## Literature (15 notes, 2026-08-25)
+
+Empirical layer: caroux2023player, vandenabeele2020development (PXI), tyack2020self, ryan2006motivational (PENS), sweetser2005gameflow, malone1981toward, juul2013art. Theory/practitioner: koster2012theory, hunicke2004mda, lazzaro2004why, chen2007flow, cook2007chemistry, jonasson2012juice, yee2015handy, burgun2015why.
+
+## Concepts (20)
+
+Hubs: design-evidence-quality (12 sources), player-experience-measurement (9), flow-challenge-skill-balance (7), player-motivation-profiles (5). MoC candidate: **evidence & measurement** cluster is ripe.
+
 ## Maps of Content
 
 (promote a cluster of ≥5 related concepts into `mocs/<theme>.md`)

@@ -5,6 +5,7 @@ discovered: 2026-08-25
 source: discover
 n_requested: 15
 n_returned: 15
+curated: 2026-08-25
 ---
 
 Ranked for a single-player fun rubric. Empirical/validated instruments
@@ -120,3 +121,23 @@ systemic depth in fetchable text).
 - type: post
 - summary: Burgun argues for elegant systems built around a strong core mechanism with prescribed goals, distinct from randomness- or story-driven design.
 - reason: Single-player-specific systemic-depth philosophy, including a stance on randomness, missing from emotion/flow sources.
+
+## Curation
+
+All 15 ingested (agency: max, headroom GO). Dispositions:
+
+1. ingested → caroux2023player
+2. ingested → vandenabeele2020development
+3. ingested → tyack2020self
+4. ingested → ryan2006motivational
+5. ingested → sweetser2005gameflow
+6. ingested → malone1981toward (full 1981 Cognitive Science text via CiteSeerX; Wiley blocked)
+7. ingested → koster2012theory (slides only; no transcript exists)
+8. ingested → hunicke2004mda
+9. ingested → lazzaro2004why (original XEODesign PDF)
+10. ingested → chen2007flow
+11. ingested → cook2007chemistry (Loops & Arcs folded into follow-up)
+12. ingested → juul2013art (grounded in 2009 "Fear of Failing" essay + Salon ch.1 excerpt; book paywalled)
+13. ingested → jonasson2012juice (no transcript; description + blog + juicy-breakout repo)
+14. ingested → yee2015handy (Wayback captures; quanticfoundry.com blocks fetches)
+15. ingested → burgun2015why (post is dated 2015, not 2013)
