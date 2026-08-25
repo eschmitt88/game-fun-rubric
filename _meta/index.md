@@ -26,7 +26,8 @@ Hubs (round 1+2): design-evidence-quality, player-experience-measurement, flow-c
 
 ## Maps of Content
 
-- [mocs/evidence-and-measurement.md](../mocs/evidence-and-measurement.md)
+- [mocs/evidence-and-measurement.md](../mocs/evidence-and-measurement.md) — how we know
+- [mocs/mechanisms-of-fun.md](../mocs/mechanisms-of-fun.md) — what produces the experience, layered loop → meaning
 
 ## Analyses & decisions
 
