@@ -69,3 +69,6 @@ skills; read by `/lint`.
 2026-09-02 04:35 fetch-paper https://dl.acm.org/doi/fullHtml/10.1145/3649921.3650023 (403; fetched via author site marjcuerdo.github.io Google Drive link) → raw/papers/cuerdo2024exploring.pdf
 2026-09-02 04:35 ingest cuerdo2024exploring
 2026-09-02 04:32 ingest ballou2024registered
+2026-09-02 04:33 fetch-paper https://dl.acm.org/doi/fullHtml/10.1145/3613904.3642804 (403; UW homes mirror) → raw/papers/martinez2024playing.pdf
+2026-09-02 04:33 ingest raw/papers/martinez2024playing.pdf → literature/papers/martinez2024playing.md; seeded concepts/accessibility-as-gate-on-joy.md
+2026-09-02 04:40 ingest ballou2025perceived → literature/papers/ballou2025perceived.md; updated design-evidence-quality, player-experience-measurement, single-item-vs-multiitem-measurement, fun-vs-compulsion-boundary
