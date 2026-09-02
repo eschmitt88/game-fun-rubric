@@ -5,6 +5,7 @@ discovered: 2026-09-02
 source: discover
 n_requested: 12
 n_returned: 12
+curated: 2026-09-02
 ---
 
 ## A. Criterion 2.6 (agency)
@@ -84,3 +85,19 @@ n_returned: 12
 - type: paper
 - summary: Tang & Kirman — over-supplying discovery rewards flips from engaging to fatiguing.
 - reason: 6.1/6.5 caution: discovery has its own inverted U.
+
+## Curation
+
+All 12 ingested (items 1+2 as one combined note).
+
+1+2. ingested → ridge2021fun (Ridge + Ryall full text; Vella + Nguyen reply abstract-only, retry Wayback)
+3. ingested → carstensdottir2021naked (via translate-proxy of ACM gold-OA)
+4. ingested → juul2002open
+5. ingested → cardonarivera2014games
+6. ingested → kao2024how
+7. ingested → ballou2024registered
+8. ingested → ballou2025perceived (OSF preprint mirror)
+9. ingested → johannes2021video (Europe PMC; first PMC guess was a wrong paper, caught and corrected)
+10. ingested → cuerdo2024exploring
+11. ingested → martinez2024playing
+12. ingested → tang2025designing

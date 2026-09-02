@@ -10,7 +10,7 @@ and `/new-experiment`.
 
 ## Deliverables
 
-- [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.4, 44 sources, evidence-tiered, 42 rows)
+- [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.5, 57 sources, fun-vs-retention doctrine, pilot IRR run)
 
 ## Literature (56 notes, 2026-09-02)
 
@@ -105,7 +105,7 @@ Hubs (round 1+2): design-evidence-quality, player-experience-measurement, flow-c
 ## Analyses & decisions
 
 - docs/analysis/2026-08-25-evidence-synthesis.md
-- ADR 0001 genre-agnostic weights · 0002 evidence tiers · 0003 functional gates psychosocial · 0004 dimension 7 story track · 0005 agency criterion + compulsion cross-read
+- ADR 0001 genre-agnostic weights · 0002 evidence tiers · 0003 functional gates psychosocial · 0004 dimension 7 story track · 0005 agency criterion + compulsion cross-read · 0006 keep 2.6, fun≠retention, curiosity weight trigger
 
 ## Active experiments
 

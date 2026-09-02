@@ -327,3 +327,67 @@ rubric is a consensus ordering, not a measured one.
 Sifa 2015 (retention telemetry) and Ito 2026 (human-vs-AI opponents) were
 verified but declined as out of single-player-fun scope; both recorded in
 `raw/_candidates/_done/`.
+
+---
+
+# Round 4 addendum (13 sources + pilot experiment → rubric v0.5)
+
+## The two questions round 4 was built to answer
+
+**1. Is "distinctive coherent agency" (2.6) real? — Kept, refined.**
+The philosophy-of-sport special issue on Nguyen *affirms* the coherent-
+agency thesis while adding boundary conditions: coherence without a
+playful stance curdles into obsession (Ridge), and even maximal coherence
+can degrade into absurd grind (Ryall) — both of which sharpen the
+existing 3.5 × dimension-2 compulsion cross-read rather than demand new
+rows. Vella's "beyond agency" is the one open challenge (abstract-only).
+Empirically, CHI 2021 interviews (N=28, 118 games) found mechanical/
+customization freedom lifts felt agency even in fully linear narratives —
+the first data behind 2.6 — while showing perceived agency is
+multi-factorial and individual (17 factors, 6 categories, two distinct
+disagreement patterns). Operational logics (games as Gricean
+conversation) and Juul's emergence/progression spectrum give 2.6 two
+independent theoretical framings. ADR 0006 retires the single-source risk.
+
+**2. Do fun and retention diverge? — Yes, decisively.**
+Across three objectively-logged studies: playtime↔wellbeing null over 3
+months (registered report, N=414); null at 12 timescales on Switch while
+*perceived value* predicted wellbeing ~10× more strongly (N=703, 140k
+hours); need satisfaction predicts wellbeing independent of playtime in
+EA/Nintendo data. Need satisfaction/frustration explains ~8.4% of
+playtime; wellbeing ~0%. New rubric section: playtime is a manipulation
+check, never the score.
+
+## The sleeper result
+
+kao2024how (pre-registered, N=1,699): **curiosity** was the strongest
+predictor of enjoyment (β≈.75) and the *only* significant predictor of
+free-choice playtime (β≈.87 min) — ahead of competence — and **amplified
+juice reduced competence (β=−.43) by impeding outcome binding** (the
+player can't tell which outcomes they caused). That is (a) the first
+relative-importance evidence in 57 sources, with a pre-registered trigger
+to raise dimension 6 if replicated; (b) the mechanism behind the juice
+ceiling; (c) success-*dependent* feedback confirmed as the competence
+lever (β=.45). Only reducible/epistemic uncertainty recruits curiosity.
+
+## Also folded into v0.5
+
+- Emotional challenge scales with reflection depth (cuerdo2024exploring,
+  N=53) → 7.2/7.5.
+- Accessibility is a *gate* on joy, and past the gate, mismatch can be a
+  chosen hard mode (martinez2024playing) → 8.5.
+- Discovery fatigues: reward pools decode in ~3–5 exposures
+  (tang2025designing) → 6.1/6.5 saturation caveats.
+- Pilot IRR experiment: separation 1.78/4, functional gap dominant,
+  mean rater range 0.35, 2.3% rows ≥2 — usable, with the shared-priors
+  caveat; produced the 2.4/5.3 optional-content scope notes.
+- GameFlow ACE companion remains unfetched (WAF + rate limits) —
+  placeholder note only.
+
+## Process note
+
+Round 4 agents committed their own work (the shared brief file had been
+cleaned up between sessions), producing some mislabeled commits (one
+`git add -A` swept siblings' files into `3e03761`). All content verified
+intact; future batches should re-write the brief per session and restate
+the no-git rule inline in each prompt.

@@ -1,15 +1,15 @@
 ---
 kind: rubric
 name: "Game Fun Rubric"
-version: 0.4
+version: 0.5
 status: draft
 scope: digital single-player, genre-agnostic
 updated: "2026-08-25"
-sources_status: "v0.4 — 44 literature notes. Every criterion carries an evidence tier (E1–E5) and citekeys into literature/. Weights remain provisional; see docs/analysis/2026-08-25-evidence-synthesis.md."
+sources_status: "v0.5 — 57 literature notes. Every criterion carries an evidence tier (E1–E5) and citekeys into literature/. First relative-importance signal (curiosity, kao2024how) noted but weights unchanged pending replication. Pilot IRR run (experiments/2026-08-25-rubric-pilot-irr)."
 lineage: "Structural descendant of GameFlow (sweetser2005gameflow) and Schell's lenses; adds hard gates, behavioural 0–4 anchors, weights, evidence tiers, functional→psychosocial gating, target-profile scoring, expectation calibration, distinctive agency, striving-play lens."
 ---
 
-# Game Fun Rubric — v0.4 (single-player digital, genre-agnostic)
+# Game Fun Rubric — v0.5 (single-player digital, genre-agnostic)
 
 A design-time scoring tool. Score each criterion **0–4** using the anchors,
 compute the weighted dimension score, and — more importantly — read the
@@ -190,9 +190,9 @@ link (~.50, rigby2007rethinking, vendor-reported).
 | 2.1 **Embedded decision density** — interesting decisions per minute *inside the core loop*, not in menus | long stretches with no real choice, or choice only via interrupting menus | steady | nearly every core-loop action involves a trade-off at near-zero attention cost | E4 |
 | 2.2 **Trade-offs, not puzzles** — choices between goods (Meier's "big sword for 500 gold"), felt as weighty; decision-making challenge is a distinct validated factor (CORGIS DM, CR=.89) | most choices have a correct answer | mixed | players argue about builds/routes | E3 (denisova2020measuring; kumari2019role) / E5 (meier2012interesting) |
 | 2.3 **Consequences persist and are legible** — with enough *foresight* that an early persistent choice can't silently ruin the run; morally weighted, consequence-legible choices raise autonomy and evoke guilt | choices cosmetic, or illusory (branches converge — ballou2023just's Outer Worlds) | some persist | choices shape the run; cause→effect traceable; foresight adequate | E2 (bopp2016negative) / E5 (meier2012interesting) |
-| 2.4 **Multiple valid approaches** — free to play their way, not just discover the developer's plan | one intended path | 2 paths | approaches the designer didn't anticipate work | E3 (sweetser2005gameflow Control) |
+| 2.4 **Multiple valid approaches** — free to play their way, not just discover the developer's plan; optional/post-game routes (B-sides, assist modes, unlockable styles) count when aimed at the S1 profile | one intended path | 2 paths | approaches the designer didn't anticipate work | E3 (sweetser2005gameflow Control); scope note from pilot IRR |
 | 2.5 **Self-directed play** — room for the *target* motivation profile to set its own goals; solitary play's freedom from emotion-display labour is part of this autonomy (deterding2015joys) | strictly on rails; "forced to take certain actions" | optional side goals | sandbox-level self-direction inside structure, aimed at the S1 profile | E2 (PXI Autonomy; BANGS; yee2015handy Discovery) / E3 (deterding2015joys) |
-| 2.6 **Distinctive, coherent agency** *(new in v0.4)* — goals + permitted abilities + constraints form a recognizable *mode of being* (Portal's portal gun, chess's piece moves), not a generic decision tree | generic verbs, interchangeable with other games | some signature ability | the sculpted agency is the pitch; players describe the game by what it lets them *be able to do* | E4 (nguyen2019games) |
+| 2.6 **Distinctive, coherent agency** — goals + permitted abilities + constraints form a recognizable *mode of being* (Portal's portal gun, chess's piece moves), not a generic decision tree; mechanical/customization freedom lifts felt agency even in fully linear narratives | generic verbs, interchangeable with other games | some signature ability | the sculpted agency is the pitch; players describe the game by what it lets them *be able to do* | E4-multi (nguyen2019games; ridge2021fun affirms with boundary conditions; cardonarivera2014games; juul2002open) / E3 (carstensdottir2021naked). Kept per ADR 0006; Vella's "beyond agency" challenge open. Coherence without a playful stance curdles into obsession — see the 3.5 cross-read |
 
 ## 3. Challenge–skill balance & flow (15%) — functional
 
@@ -252,7 +252,7 @@ E5) — remain untested against each other.
 | Criterion | 0 | 2 | 4 | Tier |
 |---|---|---|---|---|
 | 4.1 **Input responsiveness** — latency, buffering, cancel windows (speeding up pace alone does *not* raise immersion — jennett2008measuring) | sluggish | fine | tuned; feels like an extension of the hand | E1-trend (g=.52 p=.08) / E2 (PXI Ease of Control, weak AVE .46) |
-| 4.2 **Acknowledged, legible, then juicy** — every input is acknowledged ("I heard you" — meier2012interesting); the state change is readable *before* the screenshake; then layered hit-stop, particles, squash-stretch, sound, numbers, proportional and tied to the action that matters — with a ceiling: extreme juice hurts | silent, dry — or overwhelming | some effects | acknowledgment + goal legibility unmistakable + layered juice at medium/high, toggleable for testing | **E1** (malone1981toward; hicks2019juicy; kao2020effects) / E3 (hicks2018good) / E4 (jonasson2012juice) |
+| 4.2 **Acknowledged, legible, then juicy** — every input is acknowledged ("I heard you" — meier2012interesting); the state change is readable *before* the screenshake; then layered hit-stop, particles, squash-stretch, sound, numbers, proportional, *success-dependent* (feedback tied to actual accomplishment drives competence, β=.45), and tied to the action that matters — with a ceiling and now a mechanism: amplified feedback *reduced* competence (β=−.43) and effectance by impeding outcome binding — the player can no longer tell which outcomes their action caused (kao2024how, N=1,699 pre-registered) | silent, dry — or overwhelming | some effects | acknowledgment + goal legibility unmistakable + layered juice at medium/high, toggleable for testing | **E1** (malone1981toward; hicks2019juicy; kao2020effects) / E3 (hicks2018good) / E4 (jonasson2012juice) |
 | 4.3 **Weight and physicality** — believable mass/momentum; passes the "toy test" (fun with no goals) — necessary, not sufficient | floaty | consistent | movement itself is pleasurable | E4 / E5 caution (burgun2015why) |
 | 4.4 **State legibility** — HP, resources, threats readable at a glance; detail inspectable on demand (click-to-inspect, tooltips); juice directs attention rather than dividing it ("Glanceable", "Focus of Attention") | must read menus, or juice obscures state | mostly | diegetic or instant, with depth on demand | E3 (hicks2018good; sweetser2012revisiting) / E4 (deterding2015lens); quantitative trade-off still unresolved |
 | 4.5 **Audio and aesthetic coherence** — *has music*, not only SFX; every effect passes a per-effect coherence check against the world's physics and art style; UI chrome is themed to the world; sound and voice are varied, not repetitive | no music; clashing; effects contradict the fiction | coherent, music present | distinctive style; music carries mood; no effect is out of place | **E1** (music g=.60) / E2 (PXI Audiovisual Appeal) / E3 (hicks2018good; sweetser2012revisiting) / E5 (kelly2014dont) |
@@ -271,7 +271,7 @@ fiero (lazzaro2004why, E3). Loops nested in arcs (cook2007chemistry).
 |---|---|---|---|---|
 | 5.1 **Goal hierarchy** — short (seconds), medium (minutes), long (hours) goals always visible and running simultaneously (Civilization's wonder-vs-chariot) | one time-scale | two | all three, interlocking (overlaps PXI Goals & Rules with 8.3) | E2 partial / E5 (meier2012interesting) |
 | 5.2 **Uncertain outcome** — uses ≥2 of Malone's four mechanisms; never sure of success or failure; randomness is not monolithic — prefer output randomness (after the choice) and keep outcomes close | outcomes obvious, or blowouts | some tension | tension sustained to the end of each arc; close finishes | E1 (malone1981toward; zhang2021effect) / E3 (kumari2019role; abuhamdeh2012importance) |
-| 5.3 **Progression is felt** — power/unlocks change *how you play*; score each reward by which need it extends — competence, autonomy, relatedness (WoW mount, Zelda hookshot) | numbers go up | some new verbs | progression regularly changes the core loop | E4 (cook2007chemistry; rigby2007rethinking) |
+| 5.3 **Progression is felt** — power/unlocks change *how you play*; score each reward by which need it extends — competence, autonomy, relatedness (WoW mount, Zelda hookshot); optional/post-game unlocks count when aimed at the S1 profile (pilot IRR scope note) | numbers go up | some new verbs | progression regularly changes the core loop | E4 (cook2007chemistry; rigby2007rethinking) |
 | 5.4 **Pacing rhythm** — tension/release, novelty/consolidation, decision complexity/frequency alternate | monotone | some variation | deliberate rhythm; hours don't feel like grind | E4 / E5 (meier2012interesting) |
 | 5.5 **Fiero moments** — designed peaks of hard-won triumph ("requires effort, not prior anger") | none | occasional | recurring, memorable, earned | E3 |
 
@@ -285,6 +285,12 @@ engineered incompleteness, inconsistency, or unparsimony resolved by
 of them (perceptual, manipulatory, adjustive-reactive) live in dimensions 4
 and 8, so a game can max 6.x and still starve curiosity there. Discovery is
 an empirically separable motivation (yee2015handy) and a PXI construct.
+**First relative-importance signal in the graph**: in kao2024how's
+pre-registered SEM (N=1,699), curiosity was the strongest predictor of
+enjoyment (β≈.75) and the *only* significant predictor of free-choice
+playtime (β≈.87 min) — ahead of competence. Only *reducible/epistemic*
+uncertainty recruits curiosity; pure aleatoric randomness does not. One
+game, one study: weights unchanged until replicated (ADR 0006).
 
 | Criterion | 0 | 2 | 4 | Tier |
 |---|---|---|---|---|
@@ -348,7 +354,7 @@ forced-practice tutorials never helped anywhere, and on-demand help
 | 8.2 **Interface cost** — time in menus vs play; no forced interruptive choices | menus dominate | acceptable | menus near-absent or pleasant | E4 |
 | 8.3 **Rules are learnable** — correct mental model is buildable; adjustive-reactive curiosity ("does it work like I think?") is rewarded (overlaps PXI Goals & Rules with 5.1) | hidden/inconsistent | mostly | fully legible; surprise from combination, not obscurity | E2 partial / E3 (to2016integrating) |
 | 8.4 **Setback punishment is minimal** — checkpoints/load times don't force mechanical replay (narrative permanence is 7's business) | slow, replays forced | ok | instant; errors recoverable | E3 (juul2013art) |
-| 8.5 **Accessibility of difficulty/controls** — options broaden who reaches flow (AI aggressiveness/efficiency settings, not just multipliers); redundant multimodal feedback doubles as accessibility; DDA's pooled effect on *enjoyment* is null (g=.19) but hidden pacing-DDA raised *immersion* — outcome construct and covertness are moderators | none | basic | options broaden reach without menu friction | E1 mixed (caroux2023player; denisova2015adaptation) / E3 (hicks2018good; sweetser2012revisiting) |
+| 8.5 **Accessibility of difficulty/controls** — options broaden who reaches flow (AI aggressiveness/efficiency settings, not just multipliers); for disabled players access is a *gate*: below an ability-mismatch threshold the designed joy is unreachable at any difficulty, while above it the mismatch can itself be a chosen hard mode (martinez2024playing, E3); redundant multimodal feedback doubles as accessibility; DDA's pooled effect on *enjoyment* is null (g=.19) but hidden pacing-DDA raised *immersion* — outcome construct and covertness are moderators | none | basic | options broaden reach without menu friction | E1 mixed (caroux2023player; denisova2015adaptation) / E3 (hicks2018good; sweetser2012revisiting) |
 | 8.6 **Expectation calibration** — the game signals upcoming difficulty, constraint and randomness so expectations track what the mechanic will do (Candy Crush's up-front "hard level" labels); surprises are designed, not accidental | expectations routinely violated; players report "unfair" | mostly signposted | players are never blindsided by the *kind* of challenge, only by its content | E3 (ballou2023just) / E4 (hopson2001behavioral, convergent) |
 
 ---
@@ -383,17 +389,35 @@ forced-practice tutorials never helped anywhere, and on-demand help
    year (GameFlow protocol, corrected for blinding).
 6. Treat the bottom-five criteria as the next sprint.
 
-## Known gaps (updated v0.4)
+## Fun vs retention: playtime is not the score
 
-- **Weights**: still unconfirmed. Music (g=.60), juice (appeal/immersion/
-  curiosity, inverted U), input-randomness timing, hidden pacing-DDA on
-  immersion, and tutorial-by-complexity now have controlled evidence; none
-  supplies a *relative* importance weight. The factorial study (≥3 design
+Three objectively-logged telemetry studies (E2) now show quantity of play
+barely tracks how good the experience is: within-person playtime and
+wellbeing were unrelated over 3 months of Xbox telemetry
+(ballou2024registered, N=414, registered report); playtime predicted
+nothing at any of 12 timescales on Switch while *perceived value* of the
+time predicted wellbeing ~10× more strongly (ballou2025perceived, N=703,
+140k logged hours); need satisfaction predicted wellbeing independent of
+playtime in EA/Nintendo data, where self-reported hours correlated only
+r≈.4 with logs (johannes2021video). Meanwhile need satisfaction/
+frustration explains ~8.4% of playtime where wellbeing explains ~0%
+(ballou2024basic): *why* you play tracks hours far better than *how it
+feels*. Consequence for this rubric: retention metrics validate the 3.5
+hook, not the fun; the deliverable of a playtest is need-satisfaction +
+perceived value + rubric scores, with playtime as a manipulation check
+only.
+
+## Known gaps (updated v0.5)
+
+- **Weights**: one relative-importance signal now exists — curiosity beat
+  competence for both enjoyment and free-choice playtime in a single
+  pre-registered experiment (kao2024how). If replicated in a second game,
+  raise dimension 6 relative to 1/3 in v0.6. Otherwise still unconfirmed. The factorial study (≥3 design
   factors × PXI/BANGS × behavioural retention × player profile) is still
   the only route.
-- **Why extreme juice hurts**: four candidate mechanisms (legibility,
-  distraction, overload, contextual incoherence) are named, none tested
-  against the others; hicks2019juicy tested visual juice only and no
+- **Why extreme juice hurts**: mechanism now evidenced — impeded outcome
+  binding / sense of agency (kao2024how); legibility, distraction, overload
+  and contextual incoherence remain untested against it as contributors; hicks2019juicy tested visual juice only and no
   extreme condition; kao2020effects' effect sizes still need the full text.
 - **Burgun is contested**: his "input randomness beats output randomness"
   claim was reversed by a controlled test (zhang2021effect, N=18). Treat
@@ -423,9 +447,10 @@ forced-practice tutorials never helped anywhere, and on-demand help
   pacing; nacke2008flow finds no negative valence in skill-matched flow.
   Open; do not generalise either way.
 - **Abstract-only or partial sources**: kao2020effects, bowey2015manipulating,
-  abuhamdeh2012importance (SAGE closed, no OA anywhere), deterding2015lens
-  main text; sweetser2012revisiting covers 4 of 8 elements (companion ACE
-  2012 paper unfetched). Tiers provisional until re-fetched.
-- **Criterion wording pass (v0.5)**: adopt Sweetser 2020's revision
-  checklist — one ratable idea per row, rate agreement with a statement,
-  explicit N/A, consistent referent (game vs player vs experience).
+  abuhamdeh2012importance, deterding2015lens main text, and
+  sweetser2012gameflowace (QUT WAF + Wayback rate-limit; retry later).
+  Tiers provisional until re-fetched.
+- **Criterion wording pass (deferred to v0.6)**: several rows now carry
+  multiple ratable ideas (notably 3.1, 4.2, 8.5); apply Sweetser 2020's
+  checklist — one idea per row, statement form, explicit N/A, consistent
+  referent — as a dedicated pass with the worksheet regenerated.

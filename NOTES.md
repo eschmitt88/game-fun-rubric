@@ -96,3 +96,32 @@ SessionEnd hook backstops this if you forget.
 - Library re-fetch: kao2020effects, bowey2015, abuhamdeh2012,
   deterding2015lens; Sweetser/Johnson/Wyeth/Ozdowska ACE 2012 companion.
 - Corroborate or drop 2.6 by v0.6.
+
+## 2026-09-02 (session 4, agency: max — round 4 + pilot)
+
+### Did
+- Pilot IRR experiment (3 LLM raters, Celeste vs Mighty No. 9): confirmed
+  — separation 1.78/4, functional gap dominant, rater range 0.35, 2.3%
+  rows Δ≥2. experiments/2026-08-25-rubric-pilot-irr/.
+- Round 4: 12/12 ingested (2.6 corroboration + fun-vs-retention +
+  weak rows); ACE companion still unfetchable (placeholder note).
+- Rubric v0.5 + ADR 0006: 2.6 kept (refined); "Fun vs retention" section;
+  juice-ceiling mechanism (outcome binding); curiosity = first weight
+  signal with pre-registered trigger; 8.5 gate framing; 2.4/5.3 scope notes.
+- 57 literature notes, 45 concepts.
+
+### Findings
+- Curiosity strongest predictor of enjoyment AND the only predictor of
+  free-choice playtime (kao2024how, N=1,699); amplified juice reduces
+  competence via impeded outcome binding.
+- Playtime ≈ 0% of wellbeing; perceived value ~10× stronger; need
+  satisfaction ~8.4% of playtime. Playtime is a manipulation check.
+- 2.6 affirmed philosophically (with boundary conditions) and empirically.
+
+### Next
+- v0.6: full Sweetser-2020 wording pass + worksheet regeneration; raise
+  dim 6 if the curiosity result replicates; resolve Vella challenge
+  (fetch "Beyond agency" full text).
+- Retry fetches: sweetser2012gameflowace, kao2020effects, vella2021beyond,
+  nguyen2021opacity (Wayback rate-limited).
+- Human-rater calibration on lesser-known games remains the open validity test.
