@@ -288,11 +288,11 @@ an empirically separable motivation (yee2015handy) and a PXI construct.
 
 | Criterion | 0 | 2 | 4 | Tier |
 |---|---|---|---|---|
-| 6.1 **Rate of new content/mechanics** across the runtime | front-loaded then flat | steady | surprises through to the end | E4 |
+| 6.1 **Rate of new content/mechanics** across the runtime — reward/discovery density has a ceiling: repeated exposure to a static reward pool is decoded within ~3-5 instances, and dense or reward-mismatched exposure produces "discovery fatigue" (diminishing marginal utility + habituation), so "surprises through to the end" means *paced*, not merely *frequent* | front-loaded then flat | steady | surprises through to the end, paced to avoid saturation | E4 / E3 (tang2025designing) |
 | 6.2 **Systemic interaction** — mechanics combine into unscripted outcomes (dynamics → aesthetics) | none | a few scripted combos | emergent; players share "did you know you can…" | E4 (hunicke2004mda) |
-| 6.3 **Information gaps** — the game plants incompleteness the player wants resolved, both *content* gaps (entirely new things) and *configuration* gaps (novel arrangements of known things); visual polish itself triggers measured curiosity (η²=.19, hicks2019juicy) | no mystery | some | constant, well-paced reveals of both kinds | E1 (malone1981toward; hicks2019juicy) / E2 (PXI Curiosity) / E3 (to2016integrating; kumari2019role) |
+| 6.3 **Information gaps** — the game plants incompleteness the player wants resolved, both *content* gaps (entirely new things) and *configuration* gaps (novel arrangements of known things); visual polish itself triggers measured curiosity (η²=.19, hicks2019juicy) | no mystery | some | constant, well-paced reveals of both kinds | E1 (malone1981toward; hicks2019juicy) / E2 (PXI Curiosity) / E3 (to2016integrating; kumari2019role; tang2025designing) |
 | 6.4 **Experimentation is rewarded** | punished/ignored | sometimes | a core pleasure | E2 (QF Discovery) |
-| 6.5 **Discovery is player-authored** ("Secrets", "Surprising" lenses) | all signposted | mixed | optional depth for those who look | E4 (deterding2015lens) |
+| 6.5 **Discovery is player-authored** ("Secrets", "Surprising" lenses) — the player-explored/forgoable vs. system-awarded/no-opt-out distinction is the operational test; player-authored still requires the underlying reward logic to be *consistent*, not merely hidden, or "discovery" reads as unfair rather than earned | all signposted | mixed | optional depth for those who look | E4 (deterding2015lens) / E3 (tang2025designing) |
 
 ## 7. Emotion, fantasy & narrative (10%) — psychosocial, story track
 
@@ -307,15 +307,21 @@ moments (bopp2016negative, N=121, E2). Emotional challenge is a measurable,
 design-controllable factor (CORGIS EMO: 6.21 in Life is Strange vs 3.43 in
 Monster Hunter World, η²=.63). Hypothesis (E5): SDT relatedness may be
 satisfiable in single-player via world, faction and companion design
-(vandenberghe2016engines) — untested.
+(vandenberghe2016engines) — untested. Emotional challenge (CORGIS EMO)
+also predicts *reflection depth*: players rating higher emotional
+challenge reach deeper reflection levels (non-reflective → critical,
+χ²(4,N=53)=13.108, p<.011), and autonomy-implicating design patterns
+(emotional decision-making, empowerment, consequences of long-ago
+actions) plus negatively-valenced patterns cluster at the deepest levels
+(cuerdo2024exploring, N=53, E2).
 
 | Criterion | 0 | 2 | 4 | Tier |
 |---|---|---|---|---|
 | 7.1 **Fantasy fulfilment** — the game lets you *be* something appealing; fantasy + interesting decisions are co-equal pillars (Meier) | generic | clear fantasy | distinctive fantasy delivered by mechanics | E2 / E4 |
-| 7.2 **Emotional range, including designed negative peaks** — palette: fear/dread, relief, wonder/awe, amusement, fiero, *and* sadness, loss, guilt, mixed affect; a deliberately engineered loss beat that lands is the 7 analogue of 5.5's fiero | one note | 2–3 | a palette with at least one designed negative-valence peak that players rate highly | E2 (bopp2016negative; denisova2020measuring EMO) / E3 (lazzaro2004why) |
+| 7.2 **Emotional range, including designed negative peaks** — palette: fear/dread, relief, wonder/awe, amusement, fiero, *and* sadness, loss, guilt, mixed affect; a deliberately engineered loss beat that lands is the 7 analogue of 5.5's fiero. Autonomy-implicating design (emotional decision-making, empowerment, consequences of long-ago actions) is the mechanism most linked to a negative peak landing reflectively rather than just being witnessed | one note | 2–3 | a palette with at least one designed negative-valence peak that players rate highly | E2 (bopp2016negative; denisova2020measuring EMO; cuerdo2024exploring) / E3 (lazzaro2004why) |
 | 7.3 **Intrinsic fantasy** — Malone's test: the skill depends on the fantasy *and* the fantasy depends on the skill | bolted-on | compatible | inseparable; passes both directions | E1 |
 | 7.4 **Self-expression** — outward (builds, style, cosmetics) *and* inward (self-discovery, MDA Expression) | none | cosmetic | strategic + cosmetic + identity | E4 |
-| 7.5 **Meaning / afterglow** — the game lingers (contemplativeness β=.46, meaningful affect β=.40 → appreciation; ~50% of moving moments recalled from >2 years ago) | forgettable | some | players think about it when not playing | E2 (bopp2016negative; oliver2016video) — measures appreciation, not fun |
+| 7.5 **Meaning / afterglow** — the game lingers (contemplativeness β=.46, meaningful affect β=.40 → appreciation; ~50% of moving moments recalled from >2 years ago); a graded reflection-depth framework (non-reflective description → critical reflection) is a more behaviourally-grounded afterglow proxy than a single appreciation rating | forgettable | some | players think about it when not playing | E2 (bopp2016negative; oliver2016video; cuerdo2024exploring) — measures appreciation/reflection, not fun |
 
 ## 8. Clarity, friction & expectation (5%) — functional, subtractor only
 

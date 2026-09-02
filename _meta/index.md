@@ -12,7 +12,7 @@ and `/new-experiment`.
 
 - [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.4, 44 sources, evidence-tiered, 42 rows)
 
-## Literature (53 notes, 2026-09-02)
+## Literature (54 notes, 2026-09-02)
 
 Round 5: cuerdo2024exploring (N=53 survey, FDG 2024 — CORGIS EMO subscale
 vs. Fleck & Fitzpatrick 5-level reflection framework; emotional challenge
@@ -20,7 +20,12 @@ predicts reflection depth, χ²(4,N=53)=13.108, p<.011; autonomy-implicating
 + negatively-valenced affective design patterns cluster at deepest
 reflection levels; seeds player-reflection-depth and
 affective-design-patterns-catalog; grounds 7.2, 7.5; links bopp2016negative,
-denisova2020measuring).
+denisova2020measuring); martinez2024playing (CHI '24, N=13 gamers with
+disabilities, reflexive TA — Discovery/Evaluation/Adaptation game-adoption
+model; introduces "access difficulty" and "disabled gaming"; primary
+anchor for 8.5, seeds [[accessibility-as-gate-on-joy]]: accessibility as a
+player-relative gate on reaching designed challenge/joy, not a
+subtractor).
 
 Round 4: cardonarivera2014games (Games as Conversation — Gricean maxims/
 speech-act framing for 4.4, 8.3, 8.6, 2.6), johannes2021video (EA+Nintendo

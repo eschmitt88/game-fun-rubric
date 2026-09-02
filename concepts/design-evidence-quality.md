@@ -3,8 +3,8 @@ kind: concept
 name: "design-evidence-quality"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [burgun2015why, caroux2023player, cook2007chemistry, hunicke2004mda, jonasson2012juice, juul2013art, koster2012theory10yearslater, lazzaro2004why, malone1981toward, sweetser2005gameflow, tyack2020self, gamer-motivation-model-handy-reference, bopp2016negative, bowey2015manipulating, deterding2015joys, deterding2015lens, haider2022minipxi, hicks2018good, jennett2008measuring, klarkowski2015operationalising, kumari2019role, meier2012interesting, vandenberghe2016engines, andersen2012impact, hicks2019juicy, hopson2001behavioral, kelly2014dont, nacke2008flow, rigby2007rethinking, sweetser2012revisiting, sweetser2020gameflow, zhang2021effect]
-related_concepts: [failure-and-difficulty, flow-challenge-skill-balance, four-keys-to-fun, fun-as-pattern-learning, game-feel-and-juice, intrinsic-motivation-challenge-fantasy-curiosity]
+sources: [burgun2015why, caroux2023player, cook2007chemistry, hunicke2004mda, jonasson2012juice, juul2013art, koster2012theory10yearslater, lazzaro2004why, malone1981toward, sweetser2005gameflow, tyack2020self, gamer-motivation-model-handy-reference, bopp2016negative, bowey2015manipulating, deterding2015joys, deterding2015lens, haider2022minipxi, hicks2018good, jennett2008measuring, klarkowski2015operationalising, kumari2019role, meier2012interesting, vandenberghe2016engines, andersen2012impact, hicks2019juicy, hopson2001behavioral, kelly2014dont, nacke2008flow, rigby2007rethinking, sweetser2012revisiting, sweetser2020gameflow, zhang2021effect, tang2025designing, martinez2024playing, ballou2025perceived]
+related_concepts: [failure-and-difficulty, flow-challenge-skill-balance, four-keys-to-fun, fun-as-pattern-learning, game-feel-and-juice, intrinsic-motivation-challenge-fantasy-curiosity, accessibility-as-gate-on-joy]
 related_experiments: []
 tags: [game-fun, rubric]
 ---
@@ -39,6 +39,7 @@ A standard for weighing design claims by their evidence — controlled ablation 
 - **jennett2008measuring** — Three controlled experiments + factor validation.
 - **klarkowski2015operationalising** — N=20, single game, uncounterbalanced order.
 - **kumari2019role** — E3 exemplar, N=13 grounded theory.
+- **tang2025designing** — E3 exemplar, N=19 Reflexive Thematic Analysis, single-franchise case study; no quantitative fatigue threshold established despite it being a headline finding.
 - **meier2012interesting** — E5 via secondary journalist account.
 - **vandenberghe2016engines** — Talk with no transcript/data.
 
@@ -51,6 +52,9 @@ A standard for weighing design claims by their evidence — controlled ablation 
 - **sweetser2012revisiting** — Grounded theory on reviews = E3.
 - **sweetser2020gameflow** — Over half of 205 applications used the never-validated GameFlow checklist as a questionnaire.
 - **zhang2021effect** — E1 experiment contradicting an E5 opinion already in the graph.
+- **martinez2024playing** — E3 exemplar, N=13 reflexive thematic analysis; "access difficulty" and "disabled gaming" are this single study's own theoretical contributions, not yet independently corroborated.
+- **kao2024how** — E1 exemplar: pre-registered (confirmatory vs exploratory paths visually distinguished), N=1,699, data+analysis code released on OSF, external construct-validity check by the source framework's own authors — the strongest single trust-signal bundle in this graph; one unresolved n discrepancy between Model B's reported n and its stated "all amplified conditions" subset.
+- **ballou2025perceived** — E2, but an unusually rigorous one: preregistered, N=703/140k+ hours of objective session-level trace data, equivalence-tested (not bare NHST) across 12 timescales, plus a confound-sensitivity simulation bounding how implausible a suppressing confound would need to be. The one soft spot: the headline "life fit" predictor is an unvalidated formative self-report the authors themselves caution against over-reading causally.
 
 ## Connections
 

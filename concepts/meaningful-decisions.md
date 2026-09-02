@@ -3,7 +3,7 @@ kind: concept
 name: "meaningful-decisions"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [burgun2015why, chen2007flow, tyack2020self, ballou2023just, bopp2016negative, denisova2020measuring, kumari2019role, meier2012interesting, to2016integrating, nguyen2019games, zhang2021effect, cardonarivera2014games]
+sources: [burgun2015why, chen2007flow, tyack2020self, ballou2023just, bopp2016negative, denisova2020measuring, kumari2019role, meier2012interesting, to2016integrating, nguyen2019games, zhang2021effect, cardonarivera2014games, tang2025designing]
 related_concepts: [design-evidence-quality, flow-challenge-skill-balance, need-satisfaction-sdt-pens, player-driven-dynamic-difficulty, player-experience-measurement, player-motivation-profiles, games-as-conversation]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -31,6 +31,7 @@ A choice counts only if it is perceived, consequential, involves a real trade-of
 - **nguyen2019games** — Philosophical backing for arbitrary decisions felt as meaningful.
 - **zhang2021effect** — Input randomness confounds with deckbuilding agency.
 - **cardonarivera2014games** — Searle's illocutionary-goal taxonomy (commissives, directives) frames what makes a choice legible/real as a speech act; commissives (accepting a quest) parallel G2's persistent-consequence criterion.
+- **tang2025designing** — Late-game chest-opening strategy shifts from exhaustive to selective/value-calibrated as players build a personal reward-pattern model (FRMC); consistent internal reward-difficulty logic, not full predictability, is what players demand — minor corroboration, not a new mechanism.
 
 ## Connections
 

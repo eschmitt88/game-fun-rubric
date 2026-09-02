@@ -3,7 +3,7 @@ kind: concept
 name: "juice-as-orthogonal-to-core-loop"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [jonasson2012juice, hicks2018good, kao2020effects, hicks2019juicy, kelly2014dont]
+sources: [jonasson2012juice, hicks2018good, kao2020effects, hicks2019juicy, kelly2014dont, kao2024how]
 related_concepts: [design-evidence-quality, game-feel-and-juice]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -24,6 +24,7 @@ Feedback layers can be added or stripped without changing rules or win/loss stru
 
 - **hicks2019juicy** — Mechanics held constant, performance never moved.
 - **kelly2014dont** — About which feedback, not whether separable.
+- **kao2024how** — Amplification alone (mechanics/rules held constant) moved effectance and competence *negatively*; a second, orthogonal design factor (success-dependence, not raw amplification amount) is what drives competence and curiosity upward — toggling juice on/off is not a single lever.
 
 ## Connections
 

@@ -4,7 +4,7 @@ name: "intuitive-controls-price-of-admission"
 status: growing    # seedling | growing | mature
 added: "2026-08-25"
 sources: [ryan2006motivational, sweetser2005gameflow, rigby2007rethinking, sweetser2012revisiting]
-related_concepts: [design-evidence-quality, flow-challenge-skill-balance, need-satisfaction-sdt-pens, player-experience-measurement, player-motivation-profiles]
+related_concepts: [design-evidence-quality, flow-challenge-skill-balance, need-satisfaction-sdt-pens, player-experience-measurement, player-motivation-profiles, accessibility-as-gate-on-joy]
 related_experiments: []
 tags: [game-fun, rubric]
 ---
@@ -30,3 +30,8 @@ Intuitive controls are a necessary-but-not-sufficient gate: their effect on enjo
 - [[need-satisfaction-sdt-pens]]
 - [[player-experience-measurement]]
 - [[player-motivation-profiles]]
+- [[accessibility-as-gate-on-joy]] — sibling gate/subtractor framing for
+  Dimension 8, but universal (helps every player at the margin) rather
+  than player-relative (the same access difficulty can be absent, a
+  desirable hard mode, or a hard gate depending on the individual
+  player's abilities).

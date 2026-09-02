@@ -3,8 +3,8 @@ kind: concept
 name: "game-feel-and-juice"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [caroux2023player, jonasson2012juice, malone1981toward, hicks2018good, kao2020effects, meier2012interesting, hicks2019juicy, kelly2014dont]
-related_concepts: [design-evidence-quality, failure-and-difficulty, flow-challenge-skill-balance, fun-as-pattern-learning, intrinsic-motivation-challenge-fantasy-curiosity, juice-as-orthogonal-to-core-loop]
+sources: [caroux2023player, jonasson2012juice, malone1981toward, hicks2018good, kao2020effects, meier2012interesting, hicks2019juicy, kelly2014dont, kao2024how]
+related_concepts: [design-evidence-quality, failure-and-difficulty, flow-challenge-skill-balance, fun-as-pattern-learning, intrinsic-motivation-challenge-fantasy-curiosity, juice-as-orthogonal-to-core-loop, outcome-binding-sense-of-agency]
 related_experiments: []
 tags: [game-fun, rubric]
 ---
@@ -27,6 +27,7 @@ Real-time control responsiveness plus layered, cheap, redundant feedback (screen
 
 - **hicks2019juicy** — First controlled test: juice raises appeal, curiosity, immersion in every game; never moves objective performance; competence only when juice is tied to the competence-defining action (Quake 3).
 - **kelly2014dont** — Counter-talk to jonasson2012juice.
+- **kao2024how** — Pre-registered SEM, N=1,699: amplified feedback *lowered* effectance (β=-.19*) and competence (β=-.43***) vs standard feedback when non-success-dependent; success-dependence, not amplification per se, drives competence (β=.45***) and curiosity (β=.29***); curiosity, not competence/effectance, is the strongest enjoyment (β=.75/.76***) and only playtime (β=.88/.86 min***) predictor.
 
 ## Connections
 
@@ -36,3 +37,4 @@ Real-time control responsiveness plus layered, cheap, redundant feedback (screen
 - [[fun-as-pattern-learning]]
 - [[intrinsic-motivation-challenge-fantasy-curiosity]]
 - [[juice-as-orthogonal-to-core-loop]]
+- [[outcome-binding-sense-of-agency]]

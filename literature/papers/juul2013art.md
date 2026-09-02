@@ -15,7 +15,7 @@ relevance: 5
 credibility: 5
 status: read
 related_experiments: []
-related_concepts: ["failure-and-difficulty", "flow-challenge-skill-balance", "design-evidence-quality", "player-experience-measurement"]
+related_concepts: ["failure-and-difficulty", "flow-challenge-skill-balance", "design-evidence-quality", "player-experience-measurement", "systemic-emergence"]
 tags: [failure, difficulty, attribution-theory, flow, empirical-study, game-studies, juul]
 ---
 
@@ -210,6 +210,21 @@ on the player rather than an unfair or meaningless one.
 
 ## Follow-up
 
+- **Same author, earlier and structurally distinct source**: see
+  `juul2002open` ("The Open and the Closed: Games of Emergence and Games of
+  Progression", CGDC 2002) — the 2002 paper is a *structural* theory piece
+  (what game rules produce: emergence vs. progression) predating this
+  source's *experiential* theory of failure by over a decade. The two don't
+  overlap empirically (2002 has no player study; this source's 1.3/3.3
+  citations rest entirely on the 2009/2013 attribution-theory data), but
+  both converge on the same underlying idea from different angles: Falstein's
+  irregular difficulty wave (cited in this source, feeding 3.1) is a
+  *temporal* account of guaranteed variation in outcome, while the 2002
+  paper's emergence taxonomy is a *structural* account of guaranteed
+  variation in gameplay — read together they cover why a well-designed
+  emergent system produces both varied sessions (2002, feeding 1.1/6.2) and
+  a fair mix of failure/success within each session (this source, feeding
+  1.3/3.1/3.3).
 - **Relevance: 5** — this source directly anchors the rubric's existing
   citation at criterion 1.3 ("Juul: failure feels deserved, not unfair")
   and dimension 3's framing ("Juul: failure is enjoyable when the game lets
