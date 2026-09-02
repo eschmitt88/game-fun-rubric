@@ -3,7 +3,7 @@ kind: concept
 name: "meaningful-decisions"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [burgun2015why, chen2007flow, tyack2020self, ballou2023just, bopp2016negative, denisova2020measuring, kumari2019role, meier2012interesting, to2016integrating, nguyen2019games, zhang2021effect, cardonarivera2014games, tang2025designing]
+sources: [burgun2015why, chen2007flow, tyack2020self, ballou2023just, bopp2016negative, denisova2020measuring, kumari2019role, meier2012interesting, to2016integrating, nguyen2019games, zhang2021effect, cardonarivera2014games, tang2025designing, carstensdottir2021naked]
 related_concepts: [design-evidence-quality, flow-challenge-skill-balance, need-satisfaction-sdt-pens, player-driven-dynamic-difficulty, player-experience-measurement, player-motivation-profiles, games-as-conversation]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -32,6 +32,7 @@ A choice counts only if it is perceived, consequential, involves a real trade-of
 - **zhang2021effect** — Input randomness confounds with deckbuilding agency.
 - **cardonarivera2014games** — Searle's illocutionary-goal taxonomy (commissives, directives) frames what makes a choice legible/real as a speech act; commissives (accepting a quest) parallel G2's persistent-consequence criterion.
 - **tang2025designing** — Late-game chest-opening strategy shifts from exhaustive to selective/value-calibrated as players build a personal reward-pattern model (FRMC); consistent internal reward-difficulty logic, not full predictability, is what players demand — minor corroboration, not a new mechanism.
+- **carstensdottir2021naked** — N=28 interview study, 17-factor taxonomy of perceived narrative agency: Choices and Mechanical Experience are conflated by players (broadens 2.1/2.2 beyond dialogue/plot branches to systemic/build choice); the Wolf Among Us case shows two raters can legitimately score the same foldback structure at opposite 2.3 extremes depending on which time-scale of consequence they weight — a real, not just methodological, source of inter-rater variance.
 
 ## Connections
 

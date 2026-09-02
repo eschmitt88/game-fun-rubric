@@ -12,7 +12,17 @@ and `/new-experiment`.
 
 - [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.4, 44 sources, evidence-tiered, 42 rows)
 
-## Literature (56 notes, 2026-09-02)
+## Literature (57 notes, 2026-09-02)
+
+Round 6: carstensdottir2021naked (CHI '21, N=28 interview study, 118 games
+— first phenomenological study of *perceived* narrative agency; 17-factor
+taxonomy in 6 categories; headline finding for 2.6: mechanical/
+customization freedom "lifts" felt agency even in fully linear narratives,
+substituting for narrative branching; headline finding for 2.3: two
+raters can legitimately score the same foldback structure at opposite
+extremes depending on which time-scale of consequence they weight —
+genuine individual-differences variance, not rater error; grounds 2.1-2.6,
+8.6; links meaningful-decisions, games-as-art-of-agency).
 
 Round 5: cuerdo2024exploring (N=53 survey, FDG 2024 — CORGIS EMO subscale
 vs. Fleck & Fitzpatrick 5-level reflection framework; emotional challenge
