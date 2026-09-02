@@ -72,3 +72,5 @@ skills; read by `/lint`.
 2026-09-02 04:33 fetch-paper https://dl.acm.org/doi/fullHtml/10.1145/3613904.3642804 (403; UW homes mirror) → raw/papers/martinez2024playing.pdf
 2026-09-02 04:33 ingest raw/papers/martinez2024playing.pdf → literature/papers/martinez2024playing.md; seeded concepts/accessibility-as-gate-on-joy.md
 2026-09-02 04:40 ingest ballou2025perceived → literature/papers/ballou2025perceived.md; updated design-evidence-quality, player-experience-measurement, single-item-vs-multiitem-measurement, fun-vs-compulsion-boundary
+2026-09-02 04:34 fetch-paper https://dl.acm.org/doi/fullHtml/10.1145/3613904.3642656 (403; author mirror people.csail.mit.edu/dkao) → raw/papers/kao2024how.pdf
+2026-09-02 04:34 ingest kao2024how → literature/papers/kao2024how.md; updated game-feel-and-juice, juice-as-orthogonal-to-core-loop, feedback-coherence-vs-legibility, information-gap-curiosity, need-satisfaction-sdt-pens, design-evidence-quality; seeded concepts/outcome-binding-sense-of-agency.md
