@@ -2,9 +2,9 @@
 kind: experiment
 slug: "2026-08-25-rubric-pilot-irr"
 date: "2026-08-25"
-status: running     # running | done | abandoned
+status: done        # running | done | abandoned
 hypothesis: "Rubric v0.4 scored by 3 independent LLM raters separates a high-rated from a low-rated same-genre single-player game (Celeste vs Mighty No. 9), with mean per-criterion rater delta < 1.0"
-result: ""
+result: "Confirmed on all three counts: separation 1.78/4 weighted (3.62 vs 1.84); gap largest in functional dims (3.87 vs 1.86); mean per-row rater range 0.35 with 2.3% of rows at range >= 2"
 related_concepts: [player-experience-measurement, design-evidence-quality, instrument-reuse-beyond-original-scope]
 related_literature: [sweetser2005gameflow, sweetser2020gameflow]
 tags: [calibration, irr, pilot]
@@ -36,8 +36,27 @@ calibration study proper (which needs human raters on lesser-known games).
 
 ## Result
 
-Fill in after the run. Point at `metrics.json` (validation split — this
-is the search signal and the file every other skill reads). A separate
+See `metrics.json`. All three hypothesis clauses confirmed:
+
+- **Separation.** Celeste 3.62/4 weighted vs Mighty No. 9 1.84/4
+  (separation 1.78). Gates: Celeste G1=4.0/G2=3.0; MN9 G1=2.0/G2=2.0 —
+  neither gate-capped, which is itself informative: MN9 reads as
+  "mediocre loop", not "broken loop".
+- **Gap concentrated where predicted.** Functional subtotal 3.87 vs 1.86
+  (Δ2.01) exceeds psychosocial 3.29 vs 2.02 (Δ1.27). MN9's *relative*
+  best dimension is 5 (goals/progression, 2.27) and worst is 7 (1.27).
+- **Agreement.** Mean per-row inter-rater range 0.35; 2 of 88 row×game
+  cells at range ≥ 2 (2.3%): 2.4/mightyno9, 5.3/celeste. Low-confidence
+  flags clustered on MN9 1.3/3.3 (hit-detection severity).
+
+Interpretation limits (stated in advance): raters are LLMs sharing
+training data and cannot be blinded to the reception of famous games, so
+this is evidence of *usability and internal agreement*, not predictive
+validity — shared priors may inflate agreement. The human-rater study on
+lesser-known games remains the real calibration test. Anchor refinement
+identified: both Δ2 rows hinge on whether post-game/optional content
+(B-sides, assist mode, unlockables) counts — 2.4 and 5.3 wording should
+say so explicitly. A separate
 `final_metrics.json` holds held-out test-split numbers and is written
 only by the `dvc repro final_eval` pass at chain end. See
 `~/claude-system/claude/rules/evaluation.md`.
