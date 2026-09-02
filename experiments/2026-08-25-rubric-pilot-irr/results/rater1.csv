@@ -1,0 +1,45 @@
+id,celeste,mightyno9,notes
+G1,4,2,"celeste: dash/climb/jump loop alone is a well-documented, celebrated moment-to-moment loop even art/story-stripped; mn9: shoot-to-weaken-then-dash-through loop is a reasonable concept but feels mushy/uncommitted even before juice is considered"
+G2,3,2,"celeste: real routing/tech trade-offs per screen (dash direction, when to spend the dash) but not a goods-trade-off game"
+1.1,4,2,"celeste: 8 chapters each add a new mechanic (wind, ice, feathers, bubbles, moving blocks...), plus emergent movement tech (wavedash/hyperdash) discovered late; mn9: single dash-absorb mechanic reused across stage gimmicks, shallow pattern breadth"
+1.2,4,2,celeste: clear branching skill graph documented in devs' own postmortems; advanced tech (corner-boost, wavedash) chains visibly onto base dash-jump
+1.3,4,2,celeste: instant respawn, causes of death are legible and near-always the player's fault; assist mode is opt-in not a crutch
+1.4,4,2,"celeste: speedrun/no-death/golden-strawberry culture makes skilled play highly visible; mn9: dash-absorb combo chaining exists but skilled play is less visibly distinct"
+1.5,3,2,
+2.1,3,2,
+2.2,2,2,"neither game is a goods-trade-off design; celeste has some route/tech trade-offs, mn9 has weapon-order trade-offs, both modest"
+2.3,1,1,"weak dimension for both — precision platformers with little persistent branching; strawberry/medal collection is mostly cosmetic record-keeping, not consequence"
+2.4,3,3,"celeste: known sequence breaks/alt tech accepted by community; mn9: Mega Man-style free boss-stage ordering is a genuine multiple-approach feature"
+2.5,4,2,celeste: chapter select + B-sides + C-sides + golden strawberries give strong self-directed mastery pursuit matching the Mastery/Action target
+2.6,4,2,"celeste: single-dash-refresh-on-touch climbing is a widely-cited distinctive ""mode of being""; mn9: dash-absorb-transform is a distinctive idea but execution (hit detection, animation interrupts) undercuts the coherence"
+3.1,4,2,celeste: deliberate per-chapter curve plus optional B/C-side harder content and assist-mode floor; mn9: difficulty spikes read as technical (hitboxes) more than designed wave
+3.2,4,2,celeste: instant respawn at close checkpoints, no lives system, near-zero setback cost — a genre reference point
+3.3,4,1,"celeste: renowned for precise, deterministic, well-buffered controls (documented input buffering/coyote time); mn9: control feel widely reported as inconsistent — dash-absorb hit detection and momentum unreliability, this is the game's core shipped weakness, not ""broken"" but weak"
+3.4,4,2,celeste: near-continuous engagement, little dead time; mn9: some forced slow-walk/escort-style segments create dead time
+3.5,4,3,
+4.1,4,1,celeste: extensively tuned input buffering/coyote-time per devs' own talks; mn9: input lag and unresponsive dash-absorb windows widely reported at launch
+4.2,4,2,celeste: every input clearly acknowledged before any juice layer, calibrated screen effects; mn9: lacks meaningful hit-stop/impact feedback, dash-absorb animation interrupts momentum rather than layering onto it
+4.3,4,2,celeste: movement itself passes the toy test — free-movement/tech videos are a whole community subgenre; mn9: floaty, low sense of mass
+4.4,4,3,
+4.5,4,1,celeste: acclaimed, mood-carrying soundtrack, coherent pixel art, no chrome clash; mn9: art direction inconsistency between in-game models and cutscenes plus widely-noted weak voice acting/dubbing is a shipped coherence failure
+5.1,4,3,celeste: screen/chapter/full-game goals run simultaneously and visibly
+5.2,3,2,
+5.3,4,3,celeste: two-dash upgrade and new per-chapter mechanics materially change the core loop; mn9: absorbed powers change approach similarly to Mega Man but less dramatically
+5.4,4,2,
+5.5,4,2,celeste: golden-strawberry and chapter-summit moments are widely designed, earned fiero peaks
+6.1,4,2,celeste: new mechanic nearly every chapter through to the end (incl. Farewell epilogue); mn9: front-loaded core mechanic, stage gimmicks don't meaningfully escalate
+6.2,4,2,celeste: mechanics combine into emergent, community-discovered tech (dash+wind, dash+ice, wavedash across contexts); mn9: combos are mostly scripted/single-mechanic
+6.3,3,2?,"low confidence on mn9's exact hidden-content/medal density"
+6.4,4,2,celeste: experimentation with dash timing is directly rewarded, crystal hearts often require creative movement
+6.5,4,2?,"celeste: unsignposted secret rooms/crystal hearts are a known design pillar; low confidence on the extent of mn9's unsignposted secrets"
+7.1,4,1,"celeste: distinctive, mechanically-reinforced fantasy (dash-through-struggle as literal and metaphorical climb); mn9: generic robot-hero-vs-AI fantasy, derivative of Mega Man without a distinctive twist"
+7.2,4,1,celeste: genuine designed negative-valence peaks (anxiety/panic-attack sequences) integrated with mechanics; mn9: largely one-note action-adventure tone
+7.3,4,2,celeste: skill and fantasy are inseparable in both directions (climbing-as-struggle is literally the mechanic); mn9: fantasy is looser/bolted-on relative to the dash-absorb mechanic
+7.4,2,1,
+7.5,4,1,celeste: explicitly designed to linger (anxiety/self-doubt narrative delivered through mechanics, not just cutscenes); mn9: forgettable narrative, little afterglow
+8.1,4,2,celeste: chapter 1 teaches dash/climb by doing with no forced text, assist mode is on-demand not forced
+8.2,4,3,
+8.3,4,2,celeste: consistent, predictable physics rules once learned; mn9: inconsistent hit detection undermines a stable mental model
+8.4,4,2,
+8.5,4,1,celeste: assist mode (game speed, invincibility, infinite stamina, individually toggleable) is one of the most extensive accessibility implementations in the genre, opt-in; mn9: only basic difficulty tiers, no assist-style tools
+8.6,4,2,celeste: B-side/C-side labeling and per-chapter identity clearly signal upcoming challenge kind

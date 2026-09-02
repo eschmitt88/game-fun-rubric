@@ -1,0 +1,45 @@
+id,celeste,mightyno9,notes
+G1,4,2,"Celeste=4: dash/climb/wall-jump loop is worth repeating stripped of juice, widely design-analyzed as tight core loop. MN9=2: run/jump/shoot/absorb loop is functional but unremarkable stripped of polish."
+G2,3,2,
+1.1,4,2,"Celeste=4: multiple systems (dash, climb, dream blocks, wind, feathers, springs) each chapter, late-game tech still discovered (Farewell chapter)."
+1.2,4,2,"Celeste=4: deep branching skill graph, community-discovered chained tech (wavedash/hyperdash) not officially taught."
+1.3,4,1?,"Celeste=4: instant clear death/respawn, failure reads as deserved, core design pillar. MN9=1?: documented hit-detection/hitbox inconsistency undermines legible failure attribution; low confidence on exact severity."
+1.4,4,2,"Celeste=4: advanced tech (wavedash etc.) visibly distinguishes skilled play, spectatable."
+1.5,3,2,
+2.1,3,2,
+2.2,2,1,
+2.3,1,1,
+2.4,3,1,
+2.5,4,2,"Celeste=4: strawberries, B-sides, C-sides, golden strawberries give rich optional self-directed goals matching Mastery/Action profile."
+2.6,4,2,"Celeste=4: dash+climb momentum system is iconic, recognizably distinctive ('Celeste movement')."
+3.1,4,2,
+3.2,4,2,
+3.3,4,1?,"Celeste=4: deterministic precise physics, no random death, widely cited as best-in-class precision-platformer control. MN9=1?: documented hitbox/hit-detection and dash-cancel inconsistency undermine reliable input-outcome mapping; some uncertainty on exact frame-level severity."
+3.4,4,1,"Celeste=4: near-zero dead time, tightly designed screens. MN9=1: cutscenes/dialogue and reported load-time gaps between attempts break concentration."
+3.5,4,2,"Celeste=4: strong 'one more room/chapter' pull plus B-side/golden-strawberry replay hooks alongside high competence/autonomy satisfaction (mastery signature, not compulsion)."
+4.1,4,1,"Celeste=4: renowned input buffering/coyote-time tuning, feels like an extension of the hand. MN9=1: input lag/dash responsiveness widely documented as a shipped design flaw."
+4.2,4,2,
+4.3,4,1,"Celeste=4: dash has real weight/hang-time, satisfying momentum, passes toy test. MN9=1: movement widely documented as floaty, momentum feel criticized."
+4.4,3,3,
+4.5,4,1,"Celeste=4: acclaimed coherent pixel art + Lena Raine score integral to mood. MN9=1: documented incoherence between 3D character models and backdrop/art style; weak voice acting."
+5.1,4,2,"Celeste=4: short/medium/long goals all visible simultaneously via chapter map, strawberry counter, B-side unlocks."
+5.2,3,2,
+5.3,2,3,
+5.4,4,1,"Celeste=4: deliberate tension/release rhythm across chapters, narrative breathers between hard sections. MN9=1: repetitive stage structure and reported load-screen interruptions break rhythm."
+5.5,4,2,"Celeste=4: earned-triumph moments (hard screens, golden strawberry runs) are a core design pillar."
+6.1,4,2,"Celeste=4: new mechanics introduced through the final chapter (Farewell is mechanic-dense)."
+6.2,4,1,"Celeste=4: dash/wall/momentum interactions produce emergent, community-discovered tech beyond designed intent. MN9=1: mechanics are largely scripted per encounter, little emergence."
+6.3,3,2,
+6.4,4,2,"Celeste=4: movement-tech experimentation is core to mastery and speedrun culture, strongly rewarded."
+6.5,4,1,"Celeste=4: advanced tech (wavedash/hyperdash) is entirely player-discovered, not signposted. MN9=1: mechanics are mostly signposted, little room for player-authored discovery."
+7.1,3,2,
+7.2,4,1,"Celeste=4: acclaimed handling of anxiety/self-doubt with mechanical tie-in (Ch.6), genuine range including sadness/relief. MN9=1: minimal emotional range, generic plot."
+7.3,4,1,"Celeste=4: dash/climb mechanics are thematically fused with the self-assertion narrative (Malone two-way test passes). MN9=1: absorb mechanic loosely tied to fantasy, not deeply intrinsic."
+7.4,2,1,
+7.5,4,1,"Celeste=4: widely discussed as a lingering, meaningful narrative (mental health themes). MN9=1: little lasting afterglow beyond Mega Man nostalgia."
+8.1,4,2,"Celeste=4: teaches entirely by doing from the first screen, no forced text, assist mode available."
+8.2,4,2,
+8.3,4,2,
+8.4,4,1,"Celeste=4: instant respawn at checkpoint, near-zero loading, iconic minimal setback design. MN9=1: documented long load times on death at launch (score what shipped)."
+8.5,4,1,"Celeste=4: full Assist Mode (game speed, infinite stamina, dash assist, invincibility toggles) is a genuinely broad, celebrated accessibility suite. MN9=1: only basic difficulty select, no broader accessibility options."
+8.6,3,2,
