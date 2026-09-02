@@ -58,3 +58,5 @@ skills; read by `/lint`.
 2026-09-02 04:25 discover agency-and-retention n=12
 2026-09-02 04:27 fetch-paper https://tmb.apaopen.org/pub/k8ra4n36/release/1 → raw/papers/ballou2024registered.pdf
 2026-09-02 04:28 fetch-paper https://royalsocietypublishing.org/doi/10.1098/rsos.241174 → raw/papers/ballou2025perceived.pdf
+2026-09-02 04:30 fetch-paper https://cdn.aaai.org/ojs/12753/12753-52-16270-1-2-20201228.pdf → raw/papers/cardonarivera2014games.pdf
+2026-09-02 04:30 ingest cardonarivera2014games

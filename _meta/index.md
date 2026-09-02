@@ -12,7 +12,10 @@ and `/new-experiment`.
 
 - [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.4, 44 sources, evidence-tiered, 42 rows)
 
-## Literature (44 notes, 2026-08-25)
+## Literature (45 notes, 2026-09-02)
+
+Round 4: cardonarivera2014games (Games as Conversation — Gricean maxims/
+speech-act framing for 4.4, 8.3, 8.6, 2.6).
 
 Round 3 (targeted gaps): hicks2019juicy, ballou2024basic (BANGS), abuhamdeh2012importance, zhang2021effect, denisova2015adaptation, andersen2012impact, sweetser2012revisiting, sweetser2020gameflow, nacke2008flow, kelly2014dont, hopson2001behavioral, rigby2007rethinking, nguyen2019games.
 
@@ -22,7 +25,7 @@ Round 1
 
 Empirical layer: caroux2023player, vandenabeele2020development (PXI), tyack2020self, ryan2006motivational (PENS), sweetser2005gameflow, malone1981toward, juul2013art. Theory/practitioner: koster2012theory, hunicke2004mda, lazzaro2004why, chen2007flow, cook2007chemistry, jonasson2012juice, yee2015handy, burgun2015why.
 
-## Concepts (39)
+## Concepts (40)
 
 Hubs (round 1+2): design-evidence-quality, player-experience-measurement, flow-challenge-skill-balance, need-satisfaction-sdt-pens, meaningful-decisions, player-experience-measurement (9), flow-challenge-skill-balance (7), player-motivation-profiles (5). MoC candidate: **evidence & measurement** cluster is ripe.
 
