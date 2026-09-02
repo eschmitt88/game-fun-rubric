@@ -1,0 +1,9 @@
+raters: 3
+rater_model: sonnet
+games:
+  high: {title: "Celeste", year: 2018, metacritic: 94, genre: "2D action platformer"}
+  low: {title: "Mighty No. 9", year: 2016, metacritic: 52, genre: "2D action platformer"}
+rubric_version: 0.4
+worksheet: tools/rubric_worksheet.csv
+instructions: raters score all 44 rows 0-4 from the anchors in docs/rubric.md; S1 profile fixed to "Mastery/Action (challenge, precision)"; no consulting reviews or scores; independent
+analysis: per-criterion mean/delta, dimension means, weighted totals, % rows delta>=2, gate checks
