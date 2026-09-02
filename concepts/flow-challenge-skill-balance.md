@@ -3,7 +3,7 @@ kind: concept
 name: "flow-challenge-skill-balance"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [burgun2015why, caroux2023player, chen2007flow, juul2013art, koster2012theory10yearslater, sweetser2005gameflow, vandenabeele2020development, denisova2020measuring, haider2022minipxi, jennett2008measuring, klarkowski2015operationalising, meier2012interesting, abuhamdeh2012importance, denisova2015adaptation, nacke2008flow, sweetser2012revisiting, sweetser2020gameflow, zhang2021effect]
+sources: [burgun2015why, caroux2023player, chen2007flow, juul2013art, koster2012theory10yearslater, sweetser2005gameflow, vandenabeele2020development, denisova2020measuring, haider2022minipxi, jennett2008measuring, klarkowski2015operationalising, meier2012interesting, abuhamdeh2012importance, denisova2015adaptation, nacke2008flow, sweetser2012revisiting, sweetser2020gameflow, zhang2021effect, sweetser2012gameflowace]
 related_concepts: [design-evidence-quality, failure-and-difficulty, fun-as-pattern-learning, functional-vs-psychosocial-consequences, game-feel-and-juice, intuitive-controls-price-of-admission]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -37,6 +37,7 @@ Enjoyable engagement arises when challenge tracks skill, bounded by boredom and 
 - **sweetser2012revisiting** — Skills-vs-Challenge split precedent for dims 1/3.
 - **sweetser2020gameflow** — Social Interaction and Immersion contested as flow elements.
 - **zhang2021effect** — Illusion-of-control framing → 3.3.
+- **sweetser2012gameflowace** — Companion ACE 2012 paper covering GameFlow's Concentration and Control elements for RTS (3.4, 3.3) — text unretrieved this session (WAF + Wayback block), so its own heuristics cannot yet be cited; see the note's Rubric implications for the 2005-baseline placeholder in the meantime.
 
 ## Connections
 

@@ -3,7 +3,7 @@ kind: concept
 name: "intuitive-controls-price-of-admission"
 status: growing    # seedling | growing | mature
 added: "2026-08-25"
-sources: [ryan2006motivational, sweetser2005gameflow, rigby2007rethinking, sweetser2012revisiting]
+sources: [ryan2006motivational, sweetser2005gameflow, rigby2007rethinking, sweetser2012revisiting, sweetser2012gameflowace]
 related_concepts: [design-evidence-quality, flow-challenge-skill-balance, need-satisfaction-sdt-pens, player-experience-measurement, player-motivation-profiles, accessibility-as-gate-on-joy]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -22,6 +22,7 @@ Intuitive controls are a necessary-but-not-sufficient gate: their effect on enjo
 
 - **rigby2007rethinking** — Reiterates Dim 8 framing.
 - **sweetser2012revisiting** — Interface heuristics as hygiene layer.
+- **sweetser2012gameflowace** — Companion ACE 2012 paper's Control/Clear-Goals heuristics border Dim 8's clarity framing; text unretrieved this session, so no specific claim added yet.
 
 ## Connections
 

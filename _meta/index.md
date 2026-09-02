@@ -12,7 +12,19 @@ and `/new-experiment`.
 
 - [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.4, 44 sources, evidence-tiered, 42 rows)
 
-## Literature (57 notes, 2026-09-02)
+## Literature (56 notes, 2026-09-02)
+
+Round 7 (concurrent with an in-flight ridge2021fun ingest not yet reflected
+here): sweetser2012gameflowace (companion ACE 2012 conference paper to
+sweetser2012revisiting, covering GameFlow's Concentration/Control/Clear
+Goals/Feedback elements — the other 4 of 8 — for RTS; abstract+metadata
+only, status=skimmed: QUT ePrints WAF-blocks the PDF path and the one
+confirmed Wayback snapshot was rate-limited across ~20min/8+ tries; ANU's
+parallel repository deposit is citation-only with zero bitstreams. Grounds
+3.4, 3.3, 5.1, 1.3, 4.4, 8.x via the 2005 GameFlow baseline as an explicit
+placeholder pending re-fetch; links flow-challenge-skill-balance,
+intuitive-controls-price-of-admission, feedback-coherence-vs-legibility,
+design-evidence-quality).
 
 Round 6: carstensdottir2021naked (CHI '21, N=28 interview study, 118 games
 — first phenomenological study of *perceived* narrative agency; 17-factor
