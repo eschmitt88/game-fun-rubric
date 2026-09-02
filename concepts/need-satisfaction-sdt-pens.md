@@ -3,7 +3,7 @@ kind: concept
 name: "need-satisfaction-sdt-pens"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [ryan2006motivational, tyack2020self, vandenabeele2020development, ballou2023just, bopp2016negative, bowey2015manipulating, deterding2015joys, deterding2015lens, haider2022minipxi, kumari2019role, oliver2016video, vandenberghe2016engines, ballou2024basic, rigby2007rethinking]
+sources: [ryan2006motivational, tyack2020self, vandenabeele2020development, ballou2023just, bopp2016negative, bowey2015manipulating, deterding2015joys, deterding2015lens, haider2022minipxi, kumari2019role, oliver2016video, vandenberghe2016engines, ballou2024basic, rigby2007rethinking, johannes2021video]
 related_concepts: [design-evidence-quality, flow-challenge-skill-balance, functional-vs-psychosocial-consequences, intuitive-controls-price-of-admission, mda-framework, meaningful-decisions]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -33,6 +33,7 @@ Self-Determination Theory's claim that in-game satisfaction of autonomy, compete
 
 - **ballou2024basic** — BANGS: newest validated games-specific instrument (5 studies, N=1,246).
 - **rigby2007rethinking** — Trade-press companion to ryan2006motivational.
+- **johannes2021video** — Largest telemetry-linked sample (N=3,274, EA+Nintendo): PENS autonomy/relatedness/extrinsic motivation predict well-being independent of objective play time, no play-time×PENS interaction.
 
 ## Connections
 
