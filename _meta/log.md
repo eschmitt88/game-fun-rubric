@@ -55,3 +55,4 @@ skills; read by `/lint`.
 2026-08-25 05:38 ingest nguyen2019games
 2026-08-25 05:38 curate 2026-08-25-targeted-gaps.md ingested=13 declined=2 dup=0
 2026-08-25 05:41 rubric v0.4; ADR 0005; synthesis round-3 addendum; worksheet 42 rows
+2026-09-02 04:25 discover agency-and-retention n=12
