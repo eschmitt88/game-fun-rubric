@@ -57,3 +57,4 @@ skills; read by `/lint`.
 2026-08-25 05:41 rubric v0.4; ADR 0005; synthesis round-3 addendum; worksheet 42 rows
 2026-09-02 04:25 discover agency-and-retention n=12
 2026-09-02 04:27 fetch-paper https://tmb.apaopen.org/pub/k8ra4n36/release/1 → raw/papers/ballou2024registered.pdf
+2026-09-02 04:28 fetch-paper https://royalsocietypublishing.org/doi/10.1098/rsos.241174 → raw/papers/ballou2025perceived.pdf
