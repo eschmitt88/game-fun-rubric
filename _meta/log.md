@@ -60,3 +60,12 @@ skills; read by `/lint`.
 2026-09-02 04:28 fetch-paper https://royalsocietypublishing.org/doi/10.1098/rsos.241174 → raw/papers/ballou2025perceived.pdf
 2026-09-02 04:30 fetch-paper https://cdn.aaai.org/ojs/12753/12753-52-16270-1-2-20201228.pdf → raw/papers/cardonarivera2014games.pdf
 2026-09-02 04:30 ingest cardonarivera2014games
+2026-09-02 04:31 fetch-paper https://royalsocietypublishing.org/doi/10.1098/rsos.202049 → raw/papers/johannes2021video.pdf
+2026-09-02 04:31 ingest johannes2021video
+2026-09-02 04:32 fetch-paper https://www.sciencedirect.com/science/article/pii/S1071581925001326 (403; fetched via White Rose eprints) → raw/papers/tang2025designing.pdf
+2026-09-02 04:32 ingest tang2025designing
+2026-09-02 04:32 fetch-paper https://www.jesperjuul.net/text/openandtheclosed.html → raw/web/jesperjuul.net-openandtheclosed.md
+2026-09-02 04:32 ingest juul2002open
+2026-09-02 04:35 fetch-paper https://dl.acm.org/doi/fullHtml/10.1145/3649921.3650023 (403; fetched via author site marjcuerdo.github.io Google Drive link) → raw/papers/cuerdo2024exploring.pdf
+2026-09-02 04:35 ingest cuerdo2024exploring
+2026-09-02 04:32 ingest ballou2024registered

@@ -3,8 +3,8 @@ kind: concept
 name: "player-experience-measurement"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [caroux2023player, hunicke2004mda, juul2013art, lazzaro2004why, ryan2006motivational, sweetser2005gameflow, tyack2020self, vandenabeele2020development, gamer-motivation-model-handy-reference, ballou2023just, bopp2016negative, bowey2015manipulating, denisova2020measuring, deterding2015joys, haider2022minipxi, hicks2018good, jennett2008measuring, kao2020effects, klarkowski2015operationalising, oliver2016video, abuhamdeh2012importance, ballou2024basic, denisova2015adaptation, hicks2019juicy, nacke2008flow, rigby2007rethinking, sweetser2020gameflow]
-related_concepts: [design-evidence-quality, failure-and-difficulty, flow-challenge-skill-balance, four-keys-to-fun, functional-vs-psychosocial-consequences, game-feel-and-juice]
+sources: [caroux2023player, hunicke2004mda, juul2013art, lazzaro2004why, ryan2006motivational, sweetser2005gameflow, tyack2020self, vandenabeele2020development, gamer-motivation-model-handy-reference, ballou2023just, bopp2016negative, bowey2015manipulating, denisova2020measuring, deterding2015joys, haider2022minipxi, hicks2018good, jennett2008measuring, kao2020effects, klarkowski2015operationalising, oliver2016video, abuhamdeh2012importance, ballou2024basic, denisova2015adaptation, hicks2019juicy, nacke2008flow, rigby2007rethinking, sweetser2020gameflow, johannes2021video, martinez2024playing, ballou2024registered, cuerdo2024exploring, ballou2025perceived]
+related_concepts: [design-evidence-quality, failure-and-difficulty, flow-challenge-skill-balance, four-keys-to-fun, functional-vs-psychosocial-consequences, game-feel-and-juice, accessibility-as-gate-on-joy]
 related_experiments: []
 tags: [game-fun, rubric]
 ---
@@ -46,6 +46,14 @@ Instruments and methods for quantifying subjective player experience — PENS, I
 - **nacke2008flow** — EMG valence + GSR arousal discriminated flow from boredom; GEQ Flow/Immersion self-report did not.
 - **rigby2007rethinking** — PENS beats fun ratings — vendor-asserted.
 - **sweetser2020gameflow** — Positions GameFlow vs PXI/PENS/GEQ/IEQ; two unrelated 'GEQ's exist.
+- **johannes2021video** — Industry-telemetry-linked play time (N=3,274) vs self-report: self-report explains only R²=.15-.16 of logged time, systematic overestimation.
+- **martinez2024playing** — No validated instrument for accessibility-satisfaction exists in this graph; qualitative interview coding (N=13, reflexive TA) is the only available measurement of access difficulty and its gate effect on joy.
+- **cuerdo2024exploring** — Reuses CORGIS's Emotional-challenge subscale
+  (α=.84 cited) as the sole quantitative measure, deductively cross-coded
+  against a 5-level reflection-depth framework and a ~20-pattern affective
+  design-pattern codebook, N=53, mean interrater κ=.794.
+- **ballou2024registered** — Preregistered Registered Report, N=414, whole-account Xbox telemetry (5-min polling) vs single-game industry data; self-report playtime replicates the objective-telemetry null (r=.60-.64 objective↔self-report), showing this project's usual self-report caveat isn't what's driving the result here.
+- **ballou2025perceived** — Introduces "gaming life fit," an unvalidated 5-item formative self-report of gaming's perceived contribution to 5 life domains (work/school, social, cognitive, emotion regulation, routines); predicts well-being an order of magnitude more strongly than logged playtime across 48 models (N=703, 140k+ Nintendo Switch hours), but the authors flag it as formative not latent, and a plausible reverse-appraisal confound.
 
 ## Connections
 
@@ -55,3 +63,4 @@ Instruments and methods for quantifying subjective player experience — PENS, I
 - [[four-keys-to-fun]]
 - [[functional-vs-psychosocial-consequences]]
 - [[game-feel-and-juice]]
+- [[player-reflection-depth]]
