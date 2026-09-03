@@ -128,5 +128,5 @@ your own taste.
 
 ---
 
-*Statement count: 68. Aggregation, weights, gates, subtotals, cross-reads
+*Statement count: 82. Aggregation, weights, gates, subtotals, cross-reads
 and all evidence citations live in `docs/rubric.md` v0.5.*
