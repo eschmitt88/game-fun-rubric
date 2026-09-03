@@ -1,0 +1,5 @@
+raters: 3
+rater_model: sonnet
+games: {high: Celeste, low: "Mighty No. 9"}
+instrument: docs/rubric-statements.md v0.6 (82 statements)
+baseline: experiments/2026-08-25-rubric-pilot-irr (v0.4 rows)

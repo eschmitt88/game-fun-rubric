@@ -83,3 +83,4 @@ skills; read by `/lint`.
 2026-09-02 04:51 curate 2026-09-02-agency-and-retention.md ingested=12 declined=0 dup=0
 2026-09-02 04:51 rubric v0.5; ADR 0006
 2026-09-03 04:10 v0.6 rater instrument: docs/rubric-statements.md (68 statements); worksheet regenerated; score.py aggregates statements+NA
+2026-09-03 04:14 discover curiosity-and-agency-measures n=10
