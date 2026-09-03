@@ -95,6 +95,7 @@ Hubs (round 1+2): design-evidence-quality, player-experience-measurement, flow-c
 
 ## Tools
 
+- [docs/rubric-statements.md](../docs/rubric-statements.md) — v0.6 rater instrument (68 single-idea statements)
 - `tools/rubric_worksheet.csv` + `tools/score.py` — fill rater columns, run `python tools/score.py tools/rubric_worksheet.csv --profile <S1>`
 
 ## Maps of Content

@@ -82,3 +82,4 @@ skills; read by `/lint`.
 2026-09-02 04:47 ingest sweetser2012gameflowace (abstract-only, status=skimmed) → literature/papers/sweetser2012gameflowace.md; companion to sweetser2012revisiting, covers GameFlow's Concentration/Control/Clear Goals/Feedback elements (rubric 3.4/3.3/5.1/1.3/4.4/8.x) — heuristic text unretrieved, Rubric implications sourced to 2005 baseline as explicit placeholder; updated design-evidence-quality, flow-challenge-skill-balance, intuitive-controls-price-of-admission, feedback-coherence-vs-legibility
 2026-09-02 04:51 curate 2026-09-02-agency-and-retention.md ingested=12 declined=0 dup=0
 2026-09-02 04:51 rubric v0.5; ADR 0006
+2026-09-03 04:10 v0.6 rater instrument: docs/rubric-statements.md (68 statements); worksheet regenerated; score.py aggregates statements+NA

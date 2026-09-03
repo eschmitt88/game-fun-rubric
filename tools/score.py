@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Score a filled rubric worksheet (docs/rubric.md v0.3 semantics).
+"""Score a filled statements worksheet (docs/rubric-statements.md v0.6).
+
+Statement ids (e.g. 3.1a) aggregate by mean to rubric rows (3.1), then to
+dimensions per docs/rubric.md v0.5. "NA"/"n/a" cells are skipped.
 
 usage: python tools/score.py tools/rubric_worksheet.csv [--profile "Mastery"]
 
@@ -15,15 +18,25 @@ profile = sys.argv[sys.argv.index("--profile")+1] if "--profile" in sys.argv els
 rows = list(csv.DictReader(open(path)))
 
 def scores(r):
-    return [float(r[k]) for k in ("rater1","rater2","rater3") if r[k].strip()]
+    out=[]
+    for k in ("rater1","rater2","rater3"):
+        v=r[k].strip().rstrip("?").lower()
+        if v and v not in ("na","n/a"): out.append(float(v))
+    return out
 
+import re as _re
 gates, crit = {}, []
+parent = defaultdict(list)  # rubric row id -> statement means
 for r in rows:
     s = scores(r)
     if not s: continue
     mean = st.mean(s); delta = (max(s)-min(s)) if len(s) > 1 else 0
-    if r["tier"] == "gate": gates[r["id"]] = mean
-    else: crit.append((r, mean, delta))
+    rowid = _re.sub(r"[a-z]$","", r["id"])
+    if r["tier"] == "gate":
+        parent[rowid].append(mean)
+        gates[rowid] = st.mean(parent[rowid])
+    else:
+        crit.append((r, mean, delta))
 
 print(f"Target motivation profile (S1): {profile}\n")
 capped = any(v == 0 for v in gates.values())
