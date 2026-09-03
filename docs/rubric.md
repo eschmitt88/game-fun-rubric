@@ -1,7 +1,7 @@
 ---
 kind: rubric
 name: "Game Fun Rubric"
-version: 0.5
+version: 0.5.1
 status: draft
 scope: digital single-player, genre-agnostic
 updated: "2026-08-25"
@@ -192,7 +192,7 @@ link (~.50, rigby2007rethinking, vendor-reported).
 | 2.3 **Consequences persist and are legible** — with enough *foresight* that an early persistent choice can't silently ruin the run; morally weighted, consequence-legible choices raise autonomy and evoke guilt | choices cosmetic, or illusory (branches converge — ballou2023just's Outer Worlds) | some persist | choices shape the run; cause→effect traceable; foresight adequate | E2 (bopp2016negative) / E5 (meier2012interesting) |
 | 2.4 **Multiple valid approaches** — free to play their way, not just discover the developer's plan; optional/post-game routes (B-sides, assist modes, unlockable styles) count when aimed at the S1 profile | one intended path | 2 paths | approaches the designer didn't anticipate work | E3 (sweetser2005gameflow Control); scope note from pilot IRR |
 | 2.5 **Self-directed play** — room for the *target* motivation profile to set its own goals; solitary play's freedom from emotion-display labour is part of this autonomy (deterding2015joys) | strictly on rails; "forced to take certain actions" | optional side goals | sandbox-level self-direction inside structure, aimed at the S1 profile | E2 (PXI Autonomy; BANGS; yee2015handy Discovery) / E3 (deterding2015joys) |
-| 2.6 **Distinctive, coherent agency** — goals + permitted abilities + constraints form a recognizable *mode of being* (Portal's portal gun, chess's piece moves), not a generic decision tree; mechanical/customization freedom lifts felt agency even in fully linear narratives | generic verbs, interchangeable with other games | some signature ability | the sculpted agency is the pitch; players describe the game by what it lets them *be able to do* | E4-multi (nguyen2019games; ridge2021fun affirms with boundary conditions; cardonarivera2014games; juul2002open) / E3 (carstensdottir2021naked). Kept per ADR 0006; Vella's "beyond agency" challenge open. Coherence without a playful stance curdles into obsession — see the 3.5 cross-read |
+| 2.6 **Distinctive, coherent agency** — goals + permitted abilities + constraints form a recognizable *mode of being* (Portal's portal gun, chess's piece moves), not a generic decision tree; mechanical/customization freedom lifts felt agency even in fully linear narratives | generic verbs, interchangeable with other games | some signature ability | the sculpted agency is the pitch; players describe the game by what it lets them *be able to do* | E4-multi (nguyen2019games; ridge2021fun affirms with boundary conditions; cardonarivera2014games; juul2002open) / E3 (carstensdottir2021naked). Kept per ADR 0006; Vella's "beyond agency" challenge softened — Nguyen's reply reads it as compatible ("agency is the medium, aesthetics-of-being one product"), though Vella's full text remains embargoed. Coherence without a playful stance curdles into obsession — see the 3.5 cross-read |
 
 ## 3. Challenge–skill balance & flow (15%) — functional
 
@@ -252,7 +252,7 @@ E5) — remain untested against each other.
 | Criterion | 0 | 2 | 4 | Tier |
 |---|---|---|---|---|
 | 4.1 **Input responsiveness** — latency, buffering, cancel windows (speeding up pace alone does *not* raise immersion — jennett2008measuring) | sluggish | fine | tuned; feels like an extension of the hand | E1-trend (g=.52 p=.08) / E2 (PXI Ease of Control, weak AVE .46) |
-| 4.2 **Acknowledged, legible, then juicy** — every input is acknowledged ("I heard you" — meier2012interesting); the state change is readable *before* the screenshake; then layered hit-stop, particles, squash-stretch, sound, numbers, proportional, *success-dependent* (feedback tied to actual accomplishment drives competence, β=.45), and tied to the action that matters — with a ceiling and now a mechanism: amplified feedback *reduced* competence (β=−.43) and effectance by impeding outcome binding — the player can no longer tell which outcomes their action caused (kao2024how, N=1,699 pre-registered) | silent, dry — or overwhelming | some effects | acknowledgment + goal legibility unmistakable + layered juice at medium/high, toggleable for testing | **E1** (malone1981toward; hicks2019juicy; kao2020effects) / E3 (hicks2018good) / E4 (jonasson2012juice) |
+| 4.2 **Acknowledged, legible, then juicy** — every input is acknowledged ("I heard you" — meier2012interesting); the state change is readable *before* the screenshake; then layered hit-stop, particles, squash-stretch, sound, numbers, proportional, *success-dependent* (feedback tied to actual accomplishment drives competence, β=.45), and tied to the action that matters — with a ceiling and a *plausible but not settled* mechanism: amplified feedback reduced competence (β=−.43) and effectance, interpreted as impeded outcome binding (kao2024how); the interpretation carries a known confound — implicit and explicit agency measures dissociate exactly where objective performance differs between conditions (bergstrom2022sense) — while intentional binding itself is well-grounded (coyle2012did: assistance destroys agency in a sharp step at medium level, not gradually) and a games-specific SoA instrument exists (guo2023empirical, abstract-only) | silent, dry — or overwhelming | some effects | acknowledgment + goal legibility unmistakable + layered juice at medium/high, toggleable for testing | **E1** (malone1981toward; hicks2019juicy; kao2020effects) / E3 (hicks2018good) / E4 (jonasson2012juice) |
 | 4.3 **Weight and physicality** — believable mass/momentum; passes the "toy test" (fun with no goals) — necessary, not sufficient | floaty | consistent | movement itself is pleasurable | E4 / E5 caution (burgun2015why) |
 | 4.4 **State legibility** — HP, resources, threats readable at a glance; detail inspectable on demand (click-to-inspect, tooltips); juice directs attention rather than dividing it ("Glanceable", "Focus of Attention") | must read menus, or juice obscures state | mostly | diegetic or instant, with depth on demand | E3 (hicks2018good; sweetser2012revisiting) / E4 (deterding2015lens); quantitative trade-off still unresolved |
 | 4.5 **Audio and aesthetic coherence** — *has music*, not only SFX; every effect passes a per-effect coherence check against the world's physics and art style; UI chrome is themed to the world; sound and voice are varied, not repetitive | no music; clashing; effects contradict the fiction | coherent, music present | distinctive style; music carries mood; no effect is out of place | **E1** (music g=.60) / E2 (PXI Audiovisual Appeal) / E3 (hicks2018good; sweetser2012revisiting) / E5 (kelly2014dont) |
@@ -289,8 +289,13 @@ an empirically separable motivation (yee2015handy) and a PXI construct.
 pre-registered SEM (N=1,699), curiosity was the strongest predictor of
 enjoyment (β≈.75) and the *only* significant predictor of free-choice
 playtime (β≈.87 min) — ahead of competence. Only *reducible/epistemic*
-uncertainty recruits curiosity; pure aleatoric randomness does not. One
-game, one study: weights unchanged until replicated (ADR 0006).
+uncertainty recruits curiosity; pure aleatoric randomness does not. Two
+new cross-reads (gomezmaureira2021level, E1): an explicit stated goal
+*defers* curiosity-driven exploration until it is met — so 5.1's
+always-visible goals and 6.5's discovery compete for the same moment and
+must be sequenced, not just both present — and extrinsic rewards crowd
+exploration out (in-game overjustification). Weights unchanged (trigger
+evaluated 2026-09-03: not fired).
 
 | Criterion | 0 | 2 | 4 | Tier |
 |---|---|---|---|---|
@@ -354,7 +359,7 @@ forced-practice tutorials never helped anywhere, and on-demand help
 | 8.2 **Interface cost** — time in menus vs play; no forced interruptive choices | menus dominate | acceptable | menus near-absent or pleasant | E4 |
 | 8.3 **Rules are learnable** — correct mental model is buildable; adjustive-reactive curiosity ("does it work like I think?") is rewarded (overlaps PXI Goals & Rules with 5.1) | hidden/inconsistent | mostly | fully legible; surprise from combination, not obscurity | E2 partial / E3 (to2016integrating) |
 | 8.4 **Setback punishment is minimal** — checkpoints/load times don't force mechanical replay (narrative permanence is 7's business) | slow, replays forced | ok | instant; errors recoverable | E3 (juul2013art) |
-| 8.5 **Accessibility of difficulty/controls** — options broaden who reaches flow (AI aggressiveness/efficiency settings, not just multipliers); for disabled players access is a *gate*: below an ability-mismatch threshold the designed joy is unreachable at any difficulty, while above it the mismatch can itself be a chosen hard mode (martinez2024playing, E3); redundant multimodal feedback doubles as accessibility; DDA's pooled effect on *enjoyment* is null (g=.19) but hidden pacing-DDA raised *immersion* — outcome construct and covertness are moderators | none | basic | options broaden reach without menu friction | E1 mixed (caroux2023player; denisova2015adaptation) / E3 (hicks2018good; sweetser2012revisiting) |
+| 8.5 **Accessibility of difficulty/controls** — options broaden who reaches flow (AI aggressiveness/efficiency settings, not just multipliers); for disabled players access is a *gate*: below an ability-mismatch threshold the designed joy is unreachable at any difficulty, while above it the mismatch can itself be a chosen hard mode (martinez2024playing, E3); assist design note: computer assistance preserves sense of agency at mild levels and destroys it in a sharp step at medium (coyle2012did, E1) — prefer many small assists over one large one; redundant multimodal feedback doubles as accessibility; DDA's pooled effect on *enjoyment* is null (g=.19) but hidden pacing-DDA raised *immersion* — outcome construct and covertness are moderators | none | basic | options broaden reach without menu friction | E1 mixed (caroux2023player; denisova2015adaptation) / E3 (hicks2018good; sweetser2012revisiting) |
 | 8.6 **Expectation calibration** — the game signals upcoming difficulty, constraint and randomness so expectations track what the mechanic will do (Candy Crush's up-front "hard level" labels); surprises are designed, not accidental | expectations routinely violated; players report "unfair" | mostly signposted | players are never blindsided by the *kind* of challenge, only by its content | E3 (ballou2023just) / E4 (hopson2001behavioral, convergent) |
 
 ---
@@ -409,10 +414,13 @@ only.
 
 ## Known gaps (updated v0.5)
 
-- **Weights**: one relative-importance signal now exists — curiosity beat
-  competence for both enjoyment and free-choice playtime in a single
-  pre-registered experiment (kao2024how). If replicated in a second game,
-  raise dimension 6 relative to 1/3 in v0.6. Otherwise still unconfirmed. The factorial study (≥3 design
+- **Weights**: the ADR 0006 trigger was evaluated on 2026-09-03 and **does
+  not fire**. Two candidate studies are adjacent, not replications:
+  gomezmaureira2021level (curiosity patterns causally raise behavioural
+  exploration, N=254, but no competing-mediator test) and yow2024thrill
+  (trait curiosity vs self-reported playtime, R²=.02, joyous-exploration
+  ns). Dimension 6 stays at 10%; the trigger stays armed for a true
+  competing-mediators replication in a second game. The factorial study (≥3 design
   factors × PXI/BANGS × behavioural retention × player profile) is still
   the only route.
 - **Why extreme juice hurts**: mechanism now evidenced — impeded outcome
@@ -446,10 +454,16 @@ only.
 - **Flow and affect**: IEQ finds immersion with anxiety under external
   pacing; nacke2008flow finds no negative valence in skill-matched flow.
   Open; do not generalise either way.
-- **Abstract-only or partial sources**: kao2020effects, bowey2015manipulating,
-  abuhamdeh2012importance, deterding2015lens main text, and
-  sweetser2012gameflowace (QUT WAF + Wayback rate-limit; retry later).
-  Tiers provisional until re-fetched.
+- **Sources needing a human/institutional fetch** (exhausted from this
+  network): kao2020effects (ScienceDirect bot-wall; effect sizes still
+  unverified), vella2021beyond (UM embargo), flint2023comparing and
+  guo2023empirical (abstract-only), bowey2015manipulating,
+  abuhamdeh2012importance, deterding2015lens main text.
+  sweetser2012gameflowace was recovered 2026-09-03 (full 165-heuristic
+  detail now in the note).
+- **8.6 tension to resolve**: tang2024exploring finds opacity can
+  *sustain* engagement (Honor of Kings) where 8.6 prescribes calibration —
+  probably scoped by fun-vs-compulsion, but unresolved.
 - **Criterion wording pass (deferred to v0.6)**: several rows now carry
   multiple ratable ideas (notably 3.1, 4.2, 8.5); apply Sweetser 2020's
   checklist — one idea per row, statement form, explicit N/A, consistent

@@ -391,3 +391,60 @@ cleaned up between sessions), producing some mislabeled commits (one
 `git add -A` swept siblings' files into `3e03761`). All content verified
 intact; future batches should re-write the brief per session and restate
 the no-git rule inline in each prompt.
+
+---
+
+# Round 5 addendum (7 sources + 2 refetches + instrument experiment → rubric v0.5.1)
+
+## Weight trigger evaluated: does not fire
+
+ADR 0006 armed a pre-registered condition — raise dimension 6 if
+kao2024how's curiosity dominance replicated in a second game. Verdict on
+2026-09-03: **not fired**. gomezmaureira2021level (N=254, Bayesian
+factorial) shows curiosity *design patterns* causally raise behavioural
+exploration but runs no competing-mediator test; yow2024thrill (N=398)
+uses trait curiosity against self-reported playtime and finds nearly
+nothing (R²=.02). Both adjacent, neither a replication. The trigger stays
+armed. Two genuinely new cross-reads from the Gómez-Maureira factorial:
+explicit goals defer curiosity-driven exploration until met, and
+extrinsic rewards crowd it out — the first in-game overjustification
+evidence in the graph.
+
+## Outcome binding: grounded, then caveated
+
+coyle2012did grounds the mechanism (intentional binding is real,
+manipulable by interaction design, and assistance destroys agency in a
+sharp step at medium level — mild assists are agency-safe, which is a
+concrete assist-mode design rule for 8.5). bergstrom2022sense then shows
+implicit and explicit agency measures dissociate precisely where
+objective performance differs between conditions — the confound inside
+kao2024how's success-dependence manipulation. 4.2d's mechanism is now
+annotated *plausible, not settled*. guo2023empirical's 12-item Game SoA
+questionnaire (abstract-only) is the candidate instrument to settle it.
+
+## Instrument experiment: the wording pass failed
+
+experiments/2026-09-03-statements-irr: converting rubric rows to 82
+single-idea statements (Sweetser 2020's checklist) *worsened* agreement
+(mean rater range 0.43 vs 0.35; 3.7% vs 2.3% cells ≥Δ2) and halved
+Celeste's G2 by stripping the context that let raters credit
+performative-challenge decisions. NA handling worked (identical
+independent NA calls). Lesson recorded: cross-row context is load-bearing
+exactly where the rubric distinguishes challenge types; statements stay a
+clarification aid; revise the six flagged statements and test on a fresh
+game pair.
+
+## Also folded in
+
+- flint2023comparing (N=1,101): performative + decision-making challenge
+  survive across instruments; cognitive/emotional merge with demand — 3.1
+  per-type note reweighted toward the two robust types.
+- tang2024exploring (N=482): 13 largely-independent curiosity dimensions
+  support scoring dimension 6's criteria independently; flags the
+  opacity-sustains-engagement tension with 8.6.
+- Refetches: sweetser2012gameflowace recovered (Control = 34 of 165
+  heuristics, Clear Goals = 3 — the field's own emphasis map);
+  nguyen2021opacity recovered — Nguyen rejects Ridge's playful-stance
+  mechanism, endorses Ryall's grind point, and reads Vella as compatible,
+  softening 2.6's one open challenge. kao2020effects and vella2021beyond
+  are unreachable from this network and need a human fetch.

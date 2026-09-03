@@ -3,7 +3,7 @@ kind: concept
 name: "design-evidence-quality"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [burgun2015why, caroux2023player, cook2007chemistry, hunicke2004mda, jonasson2012juice, juul2013art, koster2012theory10yearslater, lazzaro2004why, malone1981toward, sweetser2005gameflow, tyack2020self, gamer-motivation-model-handy-reference, bopp2016negative, bowey2015manipulating, deterding2015joys, deterding2015lens, haider2022minipxi, hicks2018good, jennett2008measuring, klarkowski2015operationalising, kumari2019role, meier2012interesting, vandenberghe2016engines, andersen2012impact, hicks2019juicy, hopson2001behavioral, kelly2014dont, nacke2008flow, rigby2007rethinking, sweetser2012revisiting, sweetser2020gameflow, zhang2021effect, tang2025designing, martinez2024playing, ballou2025perceived, kao2024how, sweetser2012gameflowace]
+sources: [burgun2015why, caroux2023player, cook2007chemistry, hunicke2004mda, jonasson2012juice, juul2013art, koster2012theory10yearslater, lazzaro2004why, malone1981toward, sweetser2005gameflow, tyack2020self, gamer-motivation-model-handy-reference, bopp2016negative, bowey2015manipulating, deterding2015joys, deterding2015lens, haider2022minipxi, hicks2018good, jennett2008measuring, klarkowski2015operationalising, kumari2019role, meier2012interesting, vandenberghe2016engines, andersen2012impact, hicks2019juicy, hopson2001behavioral, kelly2014dont, nacke2008flow, rigby2007rethinking, sweetser2012revisiting, sweetser2020gameflow, zhang2021effect, tang2025designing, martinez2024playing, ballou2025perceived, kao2024how, sweetser2012gameflowace, tang2024exploring, flint2023comparing]
 related_concepts: [failure-and-difficulty, flow-challenge-skill-balance, four-keys-to-fun, fun-as-pattern-learning, game-feel-and-juice, intrinsic-motivation-challenge-fantasy-curiosity, accessibility-as-gate-on-joy]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -56,6 +56,19 @@ A standard for weighing design claims by their evidence — controlled ablation 
 - **kao2024how** — E1 exemplar: pre-registered (confirmatory vs exploratory paths visually distinguished), N=1,699, data+analysis code released on OSF, external construct-validity check by the source framework's own authors — the strongest single trust-signal bundle in this graph; one unresolved n discrepancy between Model B's reported n and its stated "all amplified conditions" subset.
 - **ballou2025perceived** — E2, but an unusually rigorous one: preregistered, N=703/140k+ hours of objective session-level trace data, equivalence-tested (not bare NHST) across 12 timescales, plus a confound-sensitivity simulation bounding how implausible a suppressing confound would need to be. The one soft spot: the headline "life fit" predictor is an unvalidated formative self-report the authors themselves caution against over-reading causally.
 - **sweetser2012gameflowace** — Companion to sweetser2012revisiting (same E3 grounded-theory method, same author group), but this ingest is worse than E3: the paper's own text could not be retrieved at all (WAF block + Wayback rate-limit) — an abstract/metadata-only capture, one rung below even a normal E3 citation, since not even the heuristic-presence claims are independently verified from primary text.
+- **tang2024exploring** — E2 exemplar with real caveats: N=482 after rigorous 3-tier response screening (643→482), KMO/Bartlett-gated EFA, rotation-robustness check, CFA with reported fit indices — but the sample is severely skewed (47.7% one game, 68% mobile, partly Chinese-platform-recruited) with zero demographic disaggregation to check confounds the authors themselves flag; the CFA validates on the same sample that generated the EFA (no holdout); and the authors explicitly state their own cross-game comparative analysis "could not reach a persuasive overall conclusion" — a stated limit on the instrument's practical discriminative power, not just caution.
+- **flint2023comparing** — E2, N=1,101, CHI (harder acceptance bar than
+  `denisova2020measuring`'s IJHCS venue), pre-specified competing CFA
+  models tested and honestly reported as both failing before falling back
+  to EFA rather than fishing for a fit — but Denisova co-authoring a paper
+  that tests her own CORGIS instrument against a rival one is a mild
+  double-edged trust signal (deep domain expertise, not a fully
+  independent adversarial test), and this ingest could verify only the
+  abstract: no fit statistics, loadings, or sample composition were
+  retrievable this session (ACM paywall on every route, including the one
+  Wayback snapshot, which itself only captured ACM's access-denial page) —
+  one rung below a normal E2 citation for that reason, similar in kind to
+  `sweetser2012gameflowace`'s abstract-only capture.
 
 ## Connections
 

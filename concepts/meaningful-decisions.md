@@ -3,7 +3,7 @@ kind: concept
 name: "meaningful-decisions"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [burgun2015why, chen2007flow, tyack2020self, ballou2023just, bopp2016negative, denisova2020measuring, kumari2019role, meier2012interesting, to2016integrating, nguyen2019games, zhang2021effect, cardonarivera2014games, tang2025designing, carstensdottir2021naked]
+sources: [burgun2015why, chen2007flow, tyack2020self, ballou2023just, bopp2016negative, denisova2020measuring, kumari2019role, meier2012interesting, to2016integrating, nguyen2019games, zhang2021effect, cardonarivera2014games, tang2025designing, carstensdottir2021naked, tang2024exploring]
 related_concepts: [design-evidence-quality, flow-challenge-skill-balance, need-satisfaction-sdt-pens, player-driven-dynamic-difficulty, player-experience-measurement, player-motivation-profiles, games-as-conversation]
 related_experiments: []
 tags: [game-fun, rubric]
@@ -33,6 +33,7 @@ A choice counts only if it is perceived, consequential, involves a real trade-of
 - **cardonarivera2014games** — Searle's illocutionary-goal taxonomy (commissives, directives) frames what makes a choice legible/real as a speech act; commissives (accepting a quest) parallel G2's persistent-consequence criterion.
 - **tang2025designing** — Late-game chest-opening strategy shifts from exhaustive to selective/value-calibrated as players build a personal reward-pattern model (FRMC); consistent internal reward-difficulty logic, not full predictability, is what players demand — minor corroboration, not a new mechanism.
 - **carstensdottir2021naked** — N=28 interview study, 17-factor taxonomy of perceived narrative agency: Choices and Mechanical Experience are conflated by players (broadens 2.1/2.2 beyond dialogue/plot branches to systemic/build choice); the Wolf Among Us case shows two raters can legitimately score the same foldback structure at opposite 2.3 extremes depending on which time-scale of consequence they weight — a real, not just methodological, source of inter-rater variance.
+- **tang2024exploring** — N=482 survey; introduces Future Rewards Maximization Curiosity (Dubey & Griffiths 2020) — a choice is engaging when its future payoff is uncertain but evaluable, functionally the same "blind guess vs. solved line" test G2 already uses, reached independently from a curiosity rather than decision-theory framing. Caution: Honor of Kings players were less likely to report understanding their choices' consequences than other players (31.1% vs 50.6%), and the authors read this *opacity* as what sustains FRMC/engagement — in tension with 2.3's "consequences... legible" and 8.6's expectation-calibration doctrine; flagged as an open question, not resolved here.
 
 ## Connections
 

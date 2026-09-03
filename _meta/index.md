@@ -10,7 +10,7 @@ and `/new-experiment`.
 
 ## Deliverables
 
-- [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.5, 57 sources, fun-vs-retention doctrine, pilot IRR run)
+- [docs/rubric.md](../docs/rubric.md) — the game-fun rubric (v0.5.1, 63 sources, trigger evaluated: not fired)
 
 ## Literature (56 notes, 2026-09-02)
 

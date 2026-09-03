@@ -3,8 +3,8 @@ kind: concept
 name: "player-experience-measurement"
 status: mature    # seedling | growing | mature
 added: "2026-08-25"
-sources: [caroux2023player, hunicke2004mda, juul2013art, lazzaro2004why, ryan2006motivational, sweetser2005gameflow, tyack2020self, vandenabeele2020development, gamer-motivation-model-handy-reference, ballou2023just, bopp2016negative, bowey2015manipulating, denisova2020measuring, deterding2015joys, haider2022minipxi, hicks2018good, jennett2008measuring, kao2020effects, klarkowski2015operationalising, oliver2016video, abuhamdeh2012importance, ballou2024basic, denisova2015adaptation, hicks2019juicy, nacke2008flow, rigby2007rethinking, sweetser2020gameflow, johannes2021video, martinez2024playing, ballou2024registered, cuerdo2024exploring, ballou2025perceived]
-related_concepts: [design-evidence-quality, failure-and-difficulty, flow-challenge-skill-balance, four-keys-to-fun, functional-vs-psychosocial-consequences, game-feel-and-juice, accessibility-as-gate-on-joy]
+sources: [caroux2023player, hunicke2004mda, juul2013art, lazzaro2004why, ryan2006motivational, sweetser2005gameflow, tyack2020self, vandenabeele2020development, gamer-motivation-model-handy-reference, ballou2023just, bopp2016negative, bowey2015manipulating, denisova2020measuring, deterding2015joys, haider2022minipxi, hicks2018good, jennett2008measuring, kao2020effects, klarkowski2015operationalising, oliver2016video, abuhamdeh2012importance, ballou2024basic, denisova2015adaptation, hicks2019juicy, nacke2008flow, rigby2007rethinking, sweetser2020gameflow, johannes2021video, martinez2024playing, ballou2024registered, cuerdo2024exploring, ballou2025perceived, coyle2012did, bergstrom2022sense, flint2023comparing]
+related_concepts: [design-evidence-quality, failure-and-difficulty, flow-challenge-skill-balance, four-keys-to-fun, functional-vs-psychosocial-consequences, game-feel-and-juice, accessibility-as-gate-on-joy, outcome-binding-sense-of-agency]
 related_experiments: []
 tags: [game-fun, rubric]
 ---
@@ -54,6 +54,47 @@ Instruments and methods for quantifying subjective player experience — PENS, I
   design-pattern codebook, N=53, mean interrater κ=.794.
 - **ballou2024registered** — Preregistered Registered Report, N=414, whole-account Xbox telemetry (5-min polling) vs single-game industry data; self-report playtime replicates the objective-telemetry null (r=.60-.64 objective↔self-report), showing this project's usual self-report caveat isn't what's driving the result here.
 - **ballou2025perceived** — Introduces "gaming life fit," an unvalidated 5-item formative self-report of gaming's perceived contribution to 5 life domains (work/school, social, cognitive, emotion regulation, routines); predicts well-being an order of magnitude more strongly than logged playtime across 48 models (N=703, 140k+ Nintendo Switch hours), but the authors flag it as formative not latent, and a plausible reverse-appraisal confound.
+- **coyle2012did** — Not a games paper, but the clearest *implicit/
+  behavioural* (non-self-report) measurement source in this graph besides
+  nacke2008flow's EMG/GSR: intentional binding (perceived-time distortion
+  between a voluntary action and its outcome) via the Libet clock method
+  (separates action vs. outcome binding, 4 measurement blocks/condition,
+  incompatible with visually-loaded tasks) or interval estimation (single
+  post-trial numeric estimate, coarser but scales to many conditions and
+  works alongside visual tasks). Demonstrates the method by showing
+  measurable binding differences from input modality (skin-based input vs.
+  button press, N=18) and from computer-assistance level (N=24), giving
+  concrete effect sizes (tens-of-ms binding, statistically significant
+  step-changes) for a measurement family this graph otherwise lacks.
+- **bergstrom2022sense** — Not a games paper either, but the graph's first
+  *direct empirical test* of whether an implicit/behavioural agency measure
+  (coyle2012did's own intentional-binding paradigm, replicated here with a
+  medium effect, combined d=0.71 across the two studies) and explicit/
+  self-report control ratings actually agree. Two experiments, N=24 then
+  N=42, same three input interfaces (button/skin/touchpad): the implicit→
+  explicit link holds where objective task performance is matched (skin ≈
+  touchpad) but breaks — and partially reverses on one item — where
+  performance differs (button > skin), with hit rate (not raw reaction
+  time) correlating with the affected subjective measures. Direct
+  methodological caution for this graph's general practice of "pair
+  self-report with a behavioural/objective measure" (rubric step 4): an
+  *implicit* objective agency measure is not interchangeable with a
+  *behavioural outcome* measure (retry counts, win margin) for this
+  purpose — the two can dissociate from subjective ratings in different
+  ways and for different reasons (performance confound vs. attention/
+  demand confound). See `outcome-binding-sense-of-agency` for the specific
+  caveat this raises against `kao2024how`'s outcome-binding mechanism.
+- **flint2023comparing** — First direct cross-instrument test of two
+  independently developed self-report scales against each other (CORGIS
+  vs. the Video Game Demand Scale, VGDS), N=1,101: neither a
+  complete-overlap nor a no-overlap model fits; EFA resolves to seven
+  dimensions. Methodologically useful precedent for this graph beyond its
+  substantive challenge/demand finding — it demonstrates *how* to test
+  whether two validated instruments are secretly measuring the same
+  construct (run both together, CFA the competing overlap hypotheses,
+  fall back to EFA honestly when both fail) rather than assuming
+  discriminant validity from each instrument's own solo validation paper.
+  Abstract-only capture this session (see `design-evidence-quality`).
 
 ## Connections
 
@@ -64,3 +105,4 @@ Instruments and methods for quantifying subjective player experience — PENS, I
 - [[functional-vs-psychosocial-consequences]]
 - [[game-feel-and-juice]]
 - [[player-reflection-depth]]
+- [[outcome-binding-sense-of-agency]]

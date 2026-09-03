@@ -125,3 +125,39 @@ SessionEnd hook backstops this if you forget.
 - Retry fetches: sweetser2012gameflowace, kao2020effects, vella2021beyond,
   nguyen2021opacity (Wayback rate-limited).
 - Human-rater calibration on lesser-known games remains the open validity test.
+
+## 2026-09-03 (session 5, agency: max — round 5 + instrument test)
+
+### Did
+- v0.6 statements instrument built (82 single-idea statements) and TESTED:
+  experiments/2026-09-03-statements-irr — DISCONFIRMED (agreement worsened
+  0.35→0.43; G2 context loss). Demoted to clarification aid; 6 statements
+  flagged for v0.6.1 rewording, test on a fresh game pair.
+- Round 5: 7 ingested (curiosity replication check, SoA measurement,
+  CORGIS×VGDS), 3 declined; refetch recovered sweetser2012gameflowace +
+  nguyen2021opacity; kao2020effects/vella2021beyond need human fetch.
+- Rubric v0.5.1: dim-6 weight trigger evaluated — NOT fired (both
+  candidates adjacent, not replications); outcome-binding annotated
+  plausible-not-settled (Bergström confound); goal-defers-exploration and
+  reward-crowding cross-reads added; assist-mode step-change rule in 8.5;
+  Vella challenge softened via Nguyen's reply.
+- 66 literature notes, ~46 concepts.
+
+### Findings
+- Explicit goals defer curiosity-driven exploration until met; extrinsic
+  rewards crowd it out (first in-game overjustification evidence).
+- Mild computer assistance preserves sense of agency; medium destroys it
+  in a step — many small assists beat one large one.
+- Performative and decision-making challenge are the two cross-instrument
+  robust challenge types.
+- One-idea-per-statement instruments lose load-bearing context; Sweetser's
+  checklist is not a free win.
+
+### Next
+- v0.6.1: reword G2a/G2b, 2.1a, 2.2a, 3.4c with challenge-type scope; test
+  IRR on a fresh, less-famous game pair.
+- Human fetches: kao2020effects (effect sizes), vella2021beyond,
+  flint2023comparing, guo2023empirical full texts.
+- Trigger stays armed: watch for a competing-mediators curiosity
+  replication (Kao's non-juice line is the likely source).
+- The human-rater calibration remains the open validity test.
