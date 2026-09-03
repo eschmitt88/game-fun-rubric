@@ -9,226 +9,273 @@ peer_reviewed: true
 url: https://eprints.qut.edu.au/58220/
 code_url: null
 citations: null
-source: "raw/papers/sweetser2012gameflowace.md (abstract + metadata only — see note below)"
+source: "raw/papers/sweetser2012gameflowace.pdf"
 added: "2026-09-02"
-relevance: 4
+relevance: 5
 credibility: 3
-status: skimmed
+status: read
 related_experiments: []
 related_concepts: [flow-challenge-skill-balance, intuitive-controls-price-of-admission, design-evidence-quality, feedback-coherence-vs-legibility]
-tags: [flow, enjoyment-model, heuristics, rts, genre-specific, concentration, control, clear-goals, feedback, unretrieved]
+tags: [flow, enjoyment-model, heuristics, rts, genre-specific, concentration, control, clear-goals, feedback]
 ---
 
 # GameFlow heuristics for designing and evaluating real-time strategy games
 
-**Retrieval note (read before trusting anything below as this paper's own
-words):** this is the companion conference paper to `sweetser2012revisiting`
-(already ingested), and the primary — likely only — source for the 165-item
-GameFlow/RTS heuristic list's remaining ~60 heuristics: **Concentration,
-Control, Clear Goals, and Feedback** (the JCT journal companion covers the
-other four elements — Social Interaction, Immersion, Challenge, Player
-Skills). Despite this being a confirmed green-OA, `free_to_read` repository
-deposit (QUT ePrints item 58220, per Unpaywall/OpenAlex/CORE.ac.uk and the
-item's own OAI-PMH rights statement), **the full text could not be
-retrieved in this session**: the QUT ePrints PDF path returns a consistent
-403 (WAF/bot-protection, same behaviour already logged against this paper's
-sibling — no equivalent OJS-style independent mirror exists for this ACM
-conference paper), and the one confirmed Wayback Machine snapshot could not
-be downloaded despite ~20 minutes and 8+ spaced attempts (429 / connection
-timeout throughout — see `raw/papers/sweetser2012gameflowace.md` for the
-full list of ~12 routes attempted, including ANU's parallel repository
-deposit, which turned out to be citation-only with zero bitstreams).
-
-**Consequently, no heuristic-level text specific to this 2012 paper is
-quoted anywhere below.** What follows is built from (a) the verbatim
-abstract, confirmed identical across three independent metadata sources,
-(b) full bibliographic metadata, and (c) this project's own prior knowledge
-of the shared method and corpus from `sweetser2012revisiting`, which
-explicitly describes this paper's scope. Everything under "Rubric
-implications" that discusses Concentration/Control/Clear Goals/Feedback
-content is explicitly sourced to the **2005 GameFlow model's abstract
-checklist criteria for these same four elements** (`sweetser2005gameflow`,
-already ingested) — the known 2005 baseline this 2012 paper elaborates into
-concrete heuristics, per its own abstract's framing ("more specific,
-low-level, and implementable criteria") — not to this paper's own text,
-which remains unverified. Treat every implication below as "what the 2005
-checklist already licenses for these rows," not as new evidence from this
-citation. **Do not cite `sweetser2012gameflowace` for any specific
-heuristic wording until a full-text re-fetch succeeds.**
+**Retrieval note (updated 2026-09-03):** the full text was previously
+unretrievable (QUT ePrints' WAF returned a 403 on the PDF path directly,
+and the confirmed Wayback Machine snapshot was rate-limited, HTTP 429,
+across ~20 minutes and 8+ tries). On retry, the direct QUT ePrints route
+still 403'd, but the Wayback Machine snapshot succeeded on the first
+attempt this session
+(`web.archive.org/web/20240430061737/https://eprints.qut.edu.au/58220/1/IE2012-GameFlow-web.pdf`),
+downloading the full 11-page author-manuscript PDF (330KB, QUT ePrints
+cover-sheet + paper, `pp. 1-10` per the ACM-published pagination). Saved to
+`raw/papers/sweetser2012gameflowace.pdf`; verified by reading the extracted
+text (`pdftotext -layout`) — title, all four authors, abstract, and the
+Concentration/Control/Clear Goals/Feedback heuristic tables all confirmed
+present and matching the QUT/Unpaywall/OpenAlex metadata already recorded.
+This note now supersedes the abstract-only capture; every claim below is
+sourced to the paper's own text, not to the 2005 GameFlow baseline
+placeholder used previously.
 
 ## TL;DR
 
 Companion to `sweetser2012revisiting` (same author group, same year, same
-40-review/4-RTS-game grounded-theory corpus): together the two papers
-report 165 concrete, RTS-specific heuristics structured by the 8-element
-GameFlow model. This ACE 2012 conference paper is the source for the
-Concentration, Control, Clear Goals, and Feedback heuristics; the JCT
-journal companion covers Social Interaction, Immersion, Challenge, and
-Player Skills. The paper's actual heuristic text could not be retrieved in
-this session (WAF block + Wayback rate-limiting); this note captures the
-confirmed abstract, bibliographic record, and the explicit cross-reference
-to what's already known from the sibling paper and the 2005 GameFlow
-baseline.
+40-review/4-RTS-game grounded-theory corpus, same two-paper split of one
+underlying study): together the two papers report **165 concrete,
+RTS-specific heuristics** structured by the 8-element GameFlow model. This
+ACE 2012 conference paper is the primary source for four of those eight
+elements — **Concentration (14 heuristics), Control (34), Clear Goals (3),
+and Feedback (9)** — 60 heuristics total; the JCT journal companion
+(`sweetser2012revisiting`) covers the other four (Social Interaction 12,
+Immersion 17, Challenge 50, Player Skills 26 — 105 heuristics), summing to
+165. No player-facing validation in either paper — heuristic-generation via
+grounded-theory coding of critic reviews plus 3-expert refinement, not an
+empirical playtest study.
 
 ## Claims
 
-- Per abstract: the original GameFlow model's criteria, while broadly
-  applicable, are less useful than "more specific, low-level, and
-  implementable criteria" for actually designing and evaluating games —
-  the same premise as the JCT companion paper (both papers share this
-  framing verbatim in overlapping abstract language).
-- 165 total heuristics were derived via grounded theoretical analysis of
-  professional game reviews, structured by the 8 GameFlow elements — this
-  paper reports the heuristics for Concentration, Control, Clear Goals, and
-  Feedback specifically (inferred from the companion paper's explicit
-  statement that those four elements are "not in" the JCT article and live
-  in this ACE paper instead — not independently confirmed from this paper's
-  own text, since that text was not retrieved).
-- All other methodological claims (grounded-theory coding, review corpus,
-  expert refinement) are shared with `sweetser2012revisiting` by design —
-  see that note's Claims/Methods sections rather than duplicating here.
+- **Same corpus and method as the sibling paper**, confirmed directly from
+  this paper's own §3.1 (not inferred): grounded theoretical analysis
+  (content-category × GameFlow-element coding) of 10 professional reviews
+  each (40 total) for 4 RTS games matched on platform (PC), genre
+  (fantasy), and release window (2002-2003), split by Metacritic score
+  (10 reviews analyzed per game): WarCraft III (92%), Age of Mythology
+  (89%), The Lord of the Rings: War of the Ring (67%), Lords of EverQuest
+  (62%). Positive review comments became
+  heuristics as stated; negative comments were reversed and added. The
+  combined list was deduplicated/refined in a second pass, then reviewed by
+  3 external games design/evaluation experts.
+- **Four-element heuristic counts, from the paper's own section headers**:
+  Concentration 14 (§3.1.1: missions, AI, gameplay, sound-and-graphics
+  categories), Control 34 (§3.1.4: campaign, missions, races, AI, gameplay,
+  interface-and-controls, sound-and-graphics, editor — by far the largest
+  of the four, and the largest single element in the whole 165-item corpus
+  after Challenge's 50), Clear Goals 3 (§3.1.5: campaign category only — by
+  far the *smallest* element in the entire 165-item corpus), Feedback 9
+  (§3.1.6: missions, gameplay, interface-and-controls).
+- **§4 Discussion explicitly reconciles this study against the original
+  2005 GameFlow paper** (`sweetser2005gameflow`, cited as [21] throughout):
+  Challenge, Clear Goals, Feedback, and Social Interaction findings from
+  the 2005 expert-review validation were "confirmed" here with substantial
+  added detail; Concentration, Immersion, Player Skills, and Control showed
+  "key differences and clarifications" from 2005. Specifically for
+  **Concentration**: the 2005 paper's discussion blurred the boundary
+  between Concentration and Immersion; this 2012 study draws a much
+  cleaner line — narrative/graphics/sound heuristics go to Immersion,
+  gameplay/pacing heuristics go to Concentration — and notably
+  **Concentration's own heuristic list contains no narrative/graphics/sound
+  items**, even though the 2005 paper suggested concentration-via-immersion
+  content was key for RTS. For **Control**: "all the points raised in the
+  original paper... were confirmed and expanded", plus a genuinely new
+  addition — a cluster of heuristics on **player choice and customization**
+  (choosing/customizing strategies, units, races, missions).
 
 ## Methods
 
-Believed identical to `sweetser2012revisiting` (same authors, same year,
-explicitly a two-paper split of one study) — **not independently confirmed
-from this paper's own methods section**, since it was not retrieved:
+Confirmed directly from this paper's own §3.1 text (not inferred from the
+sibling paper, though it is materially identical):
 
-- Grounded theoretical analysis (content category × GameFlow element
-  coding) of 40 professional reviews (10 each) of 4 RTS games matched on
-  platform/genre/release window: WarCraft III (92%, high-rated), Age of
-  Mythology (89%, high-rated), The Lord of the Rings: War of the Ring (67%,
-  low-rated), Lords of EverQuest (62%, low-rated).
-- Positive review comments → heuristics as stated; negative comments →
-  reversed and added. Refined by 3 external games design/evaluation
-  experts.
-- No player-facing validation — heuristic-generation and discussion, not an
-  application/evaluation study.
+- 4 RTS games selected for comparability (PC platform, fantasy genre,
+  2002-2003 release window), split 2 high-rated / 2 low-rated by Metacritic
+  aggregate score: WarCraft III (92%), Age of Mythology (89%), The Lord of
+  the Rings: War of the Ring (67%), Lords of EverQuest (62%).
+- 10 professional reviews analyzed per game (Table 3 lists the named
+  outlets per game — GameSpy, GameSpot, IGN, PC Gamer, etc.), 40 reviews
+  total.
+- Each distinct review comment coded into a content category (e.g.
+  campaign, missions, races), then each resulting heuristic coded into a
+  GameFlow element (e.g. Concentration, Control). Positive comments →
+  heuristic as stated; negative comments → reversed and added.
+- Combined list deduplicated/refined in a second iteration, then reviewed
+  and further refined by 3 external games design/evaluation experts.
+- No player-facing validation — this is heuristic generation and expert
+  refinement, not an application/evaluation study with real players.
 
 ## Results
 
-Not retrievable. The companion paper's own count table only covers its own
-four elements (Social Interaction 12, Immersion 17, Challenge ~50, Player
-Skills ~26 — summing to 105); this paper's four elements (Concentration,
-Control, Clear Goals, Feedback) must account for the remaining ~60 of the
-165 total, but no per-element breakdown for *this* paper's elements is
-available from any metadata source consulted.
+- **165 heuristics total**, confirmed exactly: Concentration 14 + Challenge
+  50 + Player Skills 26 + Control 34 + Clear Goals 3 + Feedback 9 +
+  Immersion 17 + Social Interaction 12 = 165. This paper reports
+  Concentration/Control/Clear Goals/Feedback (60 heuristics); the JCT
+  companion (`sweetser2012revisiting`) reports the other four elements'
+  105 heuristics — the two papers are a complete, non-overlapping split of
+  one 165-item corpus.
+- **Concentration (14)**: driven by detailed worlds/units/buildings,
+  compelling campaign narrative, good automation, simple gameplay/interface,
+  and "numerous tasks and objects to monitor." Concrete heuristics include:
+  campaigns should include optional side quests; players shouldn't spend a
+  mission "expanding their forces or performing tasks that feel like a slow
+  grind"; missions should require multiple simultaneous tasks; players
+  shouldn't be required to micromanage unit movement/combat/abilities;
+  micromanagement should be minimized via automatic formations, attitude
+  settings, pathfinding, production/research queues; production/resource
+  gathering shouldn't be so slow the player waits with nothing to do;
+  battles should be busy; sound effects/voice responses should vary and not
+  repeat; environment should be visually rich.
+- **Control (34, the largest of the four)**: spans campaign (player's
+  actions should progress the story, more than one path through campaign),
+  missions (creative, offer choices, be inventive about achieving
+  objectives, bug-free), races (race choice suits play style, races have
+  distinguishing units, player can customize/develop chosen race rather
+  than fixed strengths/weaknesses), AI (player customizes unit
+  behavior/stance/formations; units move where ordered without requiring
+  intervention; units feel responsive by immediately carrying out orders;
+  units shouldn't aggressively over-pursue), gameplay (player shouldn't
+  feel overwhelmed by unit count; pace should allow managing forces; player
+  should be able to "play the game in the way that they want"; player can
+  modify game speed; choices affect outcome; wide variety of map/game
+  settings available), interface-and-controls (keyboard hotkeys for
+  important actions; simple attack/move/spell/group controls; customizable
+  hotkeys and interface layout; intuitive custom-match creation; readable
+  fonts/icons; multiple paths to the same goal via UI; smooth/intuitive
+  camera control; clear feedback on where building is/isn't allowed and
+  why; clear feedback when a unit gains XP/stat increases; quick-jump to
+  important events; easy unit grouping/cycling), sound-and-graphics (mute
+  some sounds without muting all), and editor (map/mission editor for
+  custom content, easy/robust/flexible).
+- **Clear Goals (3, the smallest element in the whole 165-item corpus, all
+  in the campaign category)**: opening cinematic should clearly give
+  overall goals; in-game cinematics should clearly give intermediate goals;
+  the campaign should give the player "more drive and direction."
+- **Feedback (9)**: missions (score + statistical info on mission
+  performance; immediate notification of mission failure/impossibility),
+  gameplay (immediately see the effect of attacking a unit, e.g. hit-point
+  meter reduces), interface-and-controls (mini-map clearly displays
+  surroundings; clear notification when something needs attention, e.g.
+  events/idle units; clearly see contents of unit groups; memorable audio
+  cues for in-game events).
 
 ## Critique / open questions
 
-- **This entire note is a metadata-level capture, not a read.** Unlike
-  every other paper in this project's literature graph, no claim here is
-  sourced to this paper's own body text. This is a materially weaker
-  ingest than the project's normal standard and should not be treated as
-  equivalent to a full read when this citekey appears elsewhere.
-- **The block is access-friction, not a genuine paywall.** Three
-  independent OA aggregators (Unpaywall, OpenAlex, CORE.ac.uk) agree this
-  is a legitimately free-to-read green-OA deposit; the obstacle is a WAF
-  rule at QUT ePrints plus IA rate-limiting during this session, not
-  publisher restriction. A retry from a different network context, or at a
-  quieter time for shared Wayback traffic, should succeed where this
-  session did not.
-- **Genre-boundedness caution carries over from the sibling paper.**
-  Whatever this paper's Concentration/Control/Clear Goals/Feedback
-  heuristics turn out to say, `sweetser2012revisiting` found ~140 of the
-  full 165 heuristics are stated in RTS-specific vocabulary requiring
-  deliberate translation — there is no reason to expect this paper's
-  heuristics are less genre-bound.
-- **Still not player-validated**, per the shared method (grounded theory on
-  critic reviews + 3-expert refinement) — same E3-tier caution already
-  applied to `sweetser2012revisiting` and `sweetser2005gameflow`.
+- **Genre-boundedness, confirmed directly (not inferred from the sibling
+  paper)**: essentially every heuristic above is stated in RTS-specific
+  vocabulary (base building, unit formations, hotkeys, mini-maps, races,
+  campaigns) — deliberate translation to other genres is required before
+  any of these heuristics can be applied outside RTS, consistent with the
+  same caution already logged for `sweetser2012revisiting`.
+- **Still not player-validated.** Grounded theory on professional critic
+  reviews plus 3-expert refinement is E3-tier evidence (design-consensus
+  criteria, not measured player response) — same caution already applied
+  to the sibling paper and to `sweetser2005gameflow`.
+- **Control's heavy weighting (34/165, ~21% of the whole corpus) is itself
+  a finding worth flagging**: across all 8 GameFlow elements in this
+  two-paper corpus, only Challenge (50) has more heuristics than Control.
+  Clear Goals, by contrast, is the thinnest element by a wide margin (3
+  heuristics, one content category). This is a strong signal from the
+  reviewer-derived corpus about where RTS critics locate the bulk of
+  design-relevant complaints/praise — worth noting when weighting rubric
+  rows drawing on this paper (3.3 Control-heavy; 5.1 Clear-Goals-thin).
+- **The paper's own §4 discussion is explicit that this 2012 study
+  *revises*, not just elaborates, some 2005 findings** — most notably
+  decoupling Concentration from Immersion more cleanly than the original
+  GameFlow paper did. Any future citation of `sweetser2005gameflow`'s
+  Concentration criteria alongside this paper should flag that this later,
+  more detailed study found the boundary drawn differently.
 
 ## Trust signals
 
 - **Credibility: 3** — same author group and peer-reviewed venue tier as
   `sweetser2012revisiting` (ACM conference full-paper track vs. that
-  paper's peer-reviewed journal), same underlying grounded-theory method
-  (E3). Held at 3, matching the sibling paper's score, as a judgment about
-  the paper *as indexed* — this session could not verify the paper's actual
-  content against that score, only its bibliographic and peer-review
-  standing.
+  paper's peer-reviewed journal), same grounded-theory method (E3),
+  content now independently verified by a direct read rather than taken on
+  faith from bibliographic metadata.
 
 ## Rubric implications
 
-**Everything below is sourced to the 2005 GameFlow checklist
-(`sweetser2005gameflow`) for these same four elements, explicitly as
-placeholder/baseline context — not to this 2012 paper's own unretrieved
-heuristic text.** Re-derive this section once a full-text fetch succeeds.
-
-- **3.4 Concentration and workload.** The 2005 baseline: "high workload
-  within perceptual/cognitive limits," "no unimportant tasks," "no
-  distraction from tasks you want to focus on" — and GameFlow's authors
-  specifically flag Concentration as the element that "seemed to be
-  particularly important" for RTS enjoyment (`sweetser2005gameflow` §5), a
-  genre-dependent weighting note directly relevant to this rubric's
-  genre-agnostic-by-default stance (`docs/decisions/0001`). This 2012 paper
-  is expected to turn that abstract checklist into concrete RTS mechanics
-  (e.g., specific workload sources named) — unconfirmed until fetched.
-- **3.3 Sense of control.** 2005 baseline: players should be "free to play
-  the way they want, not just discovering developer-planned strategies,"
-  plus an explicit error-recovery criterion ("players should not be able to
-  make errors detrimental to the game and should be supported in
-  recovering from them"). `sweetser2012revisiting`'s Challenge-section
-  heuristics already contribute a concrete, *retrieved* AI-fairness
-  instance to 3.3 ("unrelenting but not overwhelming" AI) — this paper's
-  own Control-element heuristics (unretrieved) are the more direct source
-  and should supersede this placeholder once available.
-- **5.1 Goal hierarchy.** 2005's Clear Goals element is the most directly
-  relevant unexplored element here — the original criteria (overall goals
-  presented at the start, intermediate goals presented at appropriate
-  times) map to 5.1's short/medium/long goal-visibility anchor almost
-  exactly, and Clear Goals was Lords of EverQuest's *worst*-scoring element
-  in the 2005 validation (1.5/5 vs. WarCraft III's 5/5, `sweetser2005gameflow`
-  Table III) — suggestive that this is a high-variance, design-sensitive
-  element worth the fetch.
-- **1.3 Feedback lets the model update.** 2005's Feedback element criteria
-  (immediate feedback on actions, immediate knowledge of progress toward
-  goals, immediate knowledge of skill improvement) anchor 1.3 already via
-  the 2005 paper; `sweetser2012revisiting`'s own Player-Skills-section
-  heuristics separately contribute a *retrieved* concrete instance (replay
-  review tooling) to 1.3. This paper's own Feedback-element heuristics are
-  expected to sharpen 1.3 further (per its abstract's framing, into "more
-  specific, low-level, implementable" form) but are unconfirmed.
-- **4.4 State legibility.** Not one of GameFlow's eight named elements —
-  the connection is inferred, not sourced: 2005's Feedback criteria overlap
-  with 4.4's "state readable at a glance" anchor, and
-  `sweetser2012revisiting` already contributes two concrete, *retrieved*
-  4.4 instances (click-to-inspect unit stats, contextual tooltips) from its
-  Player-Skills section. Any additional 4.4 material specific to this
-  paper's Feedback heuristics is unconfirmed.
-- **8.x (Clarity, friction & expectation).** Control and Clear Goals both
-  border dimension 8's "rules are learnable" (8.3) and general clarity
-  framing; no specific row can be attributed pending the fetch.
-- **No weight-magnitude or new-criterion evidence, by construction.** Like
-  every other Sweetser-lineage source in this graph, this is (expected to
-  be) a criteria/heuristic-presence source, not a psychometric or
-  experimental one, and in this note's current abstract-only state it
-  cannot even confirm heuristic *presence* — only that the paper exists,
-  is peer-reviewed, and covers these four elements.
+- **3.4 Concentration and workload.** Directly sourced now: "high
+  workload... appropriate for the players' perceptual, cognitive, and
+  memory limits" is elaborated into concrete RTS mechanics — numerous
+  simultaneous tasks (resource-collecting, scouting, expanding,
+  constructing, attacking, defending) that require split attention, no
+  slow-grind busywork, minimized micromanagement via automation
+  (pathfinding, unit formations, production queues), and no idle waiting
+  periods. This gives 3.4 (and the rubric's broader workload framing) a
+  concrete, RTS-specific instance of "no unimportant tasks" and "high
+  workload within limits" beyond the 2005 abstract checklist.
+- **3.3 Sense of control.** Now the best-populated single source for this
+  row in the whole GameFlow lineage: 34 concrete heuristics spanning
+  responsive unit control (immediate order execution, no forced
+  intervention for grouped-unit movement), freedom to "play the game in
+  the way that they want," speed/pace player control, and — the genuinely
+  novel addition over the 2005 baseline — player choice/customization of
+  strategies, units, races, and missions as its own sub-cluster. This
+  supersedes the 2005-baseline placeholder previously used here and
+  reinforces `sweetser2012revisiting`'s "unrelenting but not overwhelming"
+  AI-fairness instance already contributing to 3.3.
+- **5.1 Goal hierarchy.** Now directly confirmed as the *thinnest* GameFlow
+  element in the entire 165-heuristic corpus (3 heuristics total, one
+  content category: campaign). The heuristics themselves map cleanly to
+  5.1's short/medium/long goal-visibility anchor (overall goals via opening
+  cinematic, intermediate goals via in-game cinematics, general
+  "drive/direction"), but the thinness itself is a finding: RTS critic
+  reviews in this corpus generated far less material on Clear Goals than
+  on any other element, which is worth noting as a caution against
+  over-weighting this element's heuristic *count* as a proxy for its
+  importance to enjoyment — thin corpus coverage is not the same as low
+  design importance (the 2005 paper's own validation table separately
+  found Clear Goals highly variable in play, `sweetser2005gameflow` Table
+  III, Lords of EverQuest scoring 1.5/5 vs. WarCraft III's 5/5).
+- **1.3 Feedback lets the model update.** Now directly sourced: immediate
+  visible effect of actions (hit-point meter reduces on attack), immediate
+  notification of mission failure, clear notification of things needing
+  attention (idle units, events), and a mini-map providing constant
+  ambient state feedback — concrete RTS-genre instances of 1.3, alongside
+  `sweetser2012revisiting`'s replay-review-tooling instance.
+- **4.4 State legibility.** Two directly-sourced instances beyond the
+  Player-Skills-section ones already logged for the sibling paper: the
+  mini-map heuristic ("clearly displays the surroundings") and the
+  clear-notification-of-attention-needed heuristic (idle units, events) are
+  both squarely about state readable at a glance — strengthening 4.4's
+  existing GameFlow-lineage support.
+- **8.x (Clarity, friction & expectation).** Control's
+  interface-and-controls sub-cluster (uncomplicated/intuitive interface,
+  straightforward controls, RTS-convention adherence, customizable hotkeys,
+  multiple paths to the same UI goal) directly supports 8.3's
+  "rules/interface are learnable" framing with concrete, retrieved
+  heuristic text rather than the earlier placeholder inference.
+- **No weight-magnitude or new-criterion evidence.** Like every other
+  Sweetser-lineage source in this graph, this is a criteria/heuristic
+  corpus, not a psychometric or experimental study — it establishes
+  heuristic *presence and relative density* (Control >> Clear Goals in
+  corpus size) but not enjoyment magnitude or causal weight. Do not use the
+  14/34/3/9 counts as implied rubric-weight ratios; they reflect what
+  critic reviews discussed, not measured player enjoyment contribution.
 
 ## Follow-up
 
-- **Relevance: 4** — this is the primary, likely sole, source for
-  Concentration/Control/Clear Goals/Feedback heuristics in the 165-item
-  RTS GameFlow corpus this project already draws on heavily via
-  `sweetser2012revisiting`, directly touching rubric rows 1.3, 3.3, 3.4,
-  4.4, 5.1 and 8.x. Held at 4 rather than 5 — matching this project's
-  `kao2020effects` precedent for abstract-only captures — because the
-  actual content that would justify a higher score is not yet in hand.
-- **Concrete next step: re-fetch the PDF.** Two independent blockers were
-  hit, either of which may clear on retry: (1) QUT ePrints' WAF 403 on the
-  PDF path specifically (the OAI-PMH API on the same domain works fine, so
-  this is not a full domain block — worth trying a different client/UA
-  combination, or requesting the file through a QUT-affiliated proxy); (2)
-  Internet Archive's `web.archive.org` rate limit on the one confirmed
-  snapshot (`web.archive.org/web/20240430061737/...`), which may simply
-  need a longer cooldown or a session with less concurrent Wayback traffic
-  than this one had. Once retrieved, replace this file's Claims / Methods /
-  Results / Rubric implications sections with the paper's actual content
-  and re-derive the mappings above from real heuristic text rather than the
-  2005 placeholder.
-- Once fetched, revisit `docs/rubric.md`'s Known Gaps line "sweetser2012revisiting
-  covers 4 of 8 elements (companion ACE 2012 paper unfetched)" — this paper
-  is now *attempted* but still not successfully *fetched*, so that gap
-  should be updated to reflect the specific blocker (WAF + Wayback
-  rate-limit) rather than closed.
+- **Relevance: 5** (raised from 4 now that full text is confirmed) — this
+  is the primary source for Concentration/Control/Clear Goals/Feedback
+  heuristics in the 165-item RTS GameFlow corpus this project already
+  draws on heavily via `sweetser2012revisiting`, directly touching rubric
+  rows 1.3, 3.3, 3.4, 4.4, 5.1 and 8.x with concrete, now-verified
+  heuristic text rather than a 2005-baseline placeholder.
+- **`docs/rubric.md`'s Known Gaps line** ("sweetser2012revisiting covers 4
+  of 8 elements, companion ACE 2012 paper unfetched") should be updated to
+  reflect that this companion paper is now fully fetched and read — left
+  as a flag here since this note may not edit `docs/`.
+- No further fetch needed for this citekey; any future work on this
+  lineage should instead revisit `sweetser2005gameflow`'s Table III
+  per-element validation scores now that this paper's discussion
+  (§4) explicitly flags where the two papers' findings diverge
+  (Concentration/Immersion boundary, Control's customization cluster).

@@ -1,0 +1,83 @@
+id,celeste,mightyno9,notes
+G1a,4,2?,M: floaty/imprecise physics likely undermine bare loop even with juice stripped
+G2a,3,3,
+G2b,3,2,
+1.1a,4,2,M: 8 formulaic robot-master stages vs Celeste's escalating per-chapter mechanics
+1.1b,4,3,
+1.1c,3,1,M: dash-absorb spam stays viable throughout; rote play not punished
+1.2a,4,2,
+1.2b,4,2,
+1.3a,4,2?,M: documented hit-detection/floaty response obscures cause of death
+1.3b,3,2,
+1.3c,3,2,
+1.4a,4,3,
+1.4b,4,3,
+1.5a,3,1,M: dash-absorb combo spam reported as dominant scoring strategy
+2.1a,4,2,
+2.1b,4,3,
+2.2a,3,2,
+2.2b,4,1,M: little documented build/route debate culture for this game
+2.3a,3,3,
+2.3b,4,4,C: no persistent-choice trap; strawberries/routes never block progress. M: linear stage structure, no run-ruining resource choice
+2.4a,3,2,
+2.4b,4,2?,C: speedrun tech (wavedash/hyperdash) well documented. M: some skips found but smaller/less robust community
+2.5a,4,2,
+2.5b,3,2,
+2.6a,4,2,C: precision-dash feel widely recognized as distinct. M: reads as derivative run-and-gun
+2.6b,3,1,M: usually described via genre/Mega Man comparison rather than distinct verbs
+3.1a,4,2,
+3.1b,4,3,
+3.1c,3,1,M: platforming challenge type undercut by floaty jump physics relative to shooting
+3.1d,4,2?,M: documented hitbox complaints suggest illegitimate hits at times
+3.2a,4,2,M: checkpoint spacing reported inconsistent in places, raising retry cost
+3.2b,4,2,M: some stages reported to force replay of mastered sections after death
+3.2c,4,3,
+3.3a,4,1,M: floaty/imprecise controls widely documented; deaths often feel undeserved
+3.3b,NA,NA,Both: core traversal/combat is deterministic; no significant randomness mechanic in either game
+3.4a,3,2,
+3.4b,4,2,M: unclear physics response pushes workload past comfortable limits at times
+3.4c,3,2,
+3.5a,4,3,
+3.5b,4,4,
+3.5c,4,2?,M: pull sustained partly by genre nostalgia/completionism rather than pure competence satisfaction given control jank
+4.1a,4,1,M: documented input lag / floaty response to commands
+4.2a,4,3,
+4.2b,4,3,
+4.2c,4,3,
+4.2d,4,2?,M: absorb/explosion VFX reported to clutter screen at times
+4.3a,3,1,M: "floaty" physics is a signature, widely documented complaint (weightlessness)
+4.3b,4,2,
+4.4a,4,3,
+4.4b,2,2,
+4.5a,4,3,
+4.5b,4,1,M: mixes 2D sprite gameplay with 3D-rendered character models/effects, a documented art-style inconsistency
+4.5c,3,2,
+4.5d,3,0,M: voice acting/lines were among the most criticized elements, repetitive and grating
+5.1a,4,3,
+5.2a,3,3,
+5.2b,3,3,
+5.3a,4,3,
+5.4a,4,2,
+5.5a,4,2,
+6.1a,4,2,
+6.1b,3,2?,M: little discovery-reward design present; low confidence on saturation pacing given sparse collectibles
+6.2a,4,2,C: emergent speedrun tech well documented
+6.2b,4,1,C: strong tech-sharing/speedrun culture. M: little "did you know" culture documented
+6.3a,3,1,M: plot/mystery hooks reported thin/generic
+6.3b,4,2,
+6.4a,3,2?,M: floaty controls make "weird" experimentation more likely to end in unintended death than interesting discovery
+6.5a,4,1,C: hidden strawberries/crystal hearts reward exploration. M: minimal hidden content documented
+7.1a,4,2,
+7.2a,4,2,
+7.2b,4,NA,C: Chapter 6 "Reflection" (Badeline confrontation) is a well-documented designed negative-valence peak. M: tonally light generic hero-vs-villain plot, no documented deliberately-designed negative peak
+7.3a,4,2,
+7.4a,2,2,
+7.5a,4,1,C: strong ongoing fan/speedrun community documented. M: discussed more as a cautionary tale than an object of fond rumination
+8.1a,4,3,
+8.1b,4,3,
+8.1c,3,2,
+8.2a,4,2?,M: load times/menu friction reported more noticeable on some platforms
+8.3a,4,1,M: documented hit-detection/hitbox inconsistency undermines accurate mental-model building
+8.4a,4,2,M: checkpoint placement/load times reported to force longer replay after error in places
+8.5a,4,2,C: extensive, well-documented Assist Mode (game speed, invincibility, infinite stamina) broadens access without altering core design
+8.6a,4,2?,M: hazard/enemy placement and hit-detection surprises reported as unfair rather than telegraphed

@@ -2,9 +2,9 @@
 kind: experiment
 slug: "2026-09-03-statements-irr"
 date: "2026-09-03"
-status: running     # running | done | abandoned
+status: done        # running | done | abandoned
 hypothesis: "The v0.6 single-idea statements instrument yields equal or better inter-rater agreement than the v0.4 row instrument on the same games and rater setup (mean per-statement range <= 0.35; % range>=2 <= 2.3%), with unchanged game separation"
-result: ""
+result: "DISCONFIRMED: statements slightly worsened agreement (mean range 0.43 vs 0.35; 3.7% vs 2.3% cells >=2) and lowered separation (1.64 vs 1.78); splitting G2 into two statements stripped context and halved Celeste's G2 score. Instrument iteration needed, not adoption."
 related_concepts: [player-experience-measurement, single-item-vs-multiitem-measurement, instrument-reuse-beyond-original-scope]
 related_literature: [sweetser2020gameflow, haider2022minipxi]
 tags: [calibration, irr, instrument-comparison]
@@ -26,8 +26,36 @@ Same design as 2026-08-25-rubric-pilot-irr (3 independent Sonnet raters, Celeste
 
 ## Result
 
-Fill in after the run. Point at `metrics.json` (validation split — this
-is the search signal and the file every other skill reads). A separate
+See `metrics.json`. **Hypothesis disconfirmed.** Against the v0.4 baseline
+on identical games and rater setup:
+
+| | v0.4 rows (44) | v0.6 statements (82) |
+|---|---|---|
+| mean per-cell rater range | 0.35 | **0.43** |
+| % cells at range ≥ 2 | 2.3% | **3.7%** |
+| separation | 1.78 | 1.64 |
+
+Weighted totals barely moved (Celeste 3.62→3.62, MN9 1.84→1.98), but the
+disagreements concentrate revealingly: G2a/G2b, 2.1a and 2.2a on
+*Celeste* — a game whose challenge is performative, not decision-making.
+The v0.4 G2 row carried enough surrounding context (Meier's criteria,
+"per challenge type") for raters to credit execution-focused
+micro-decisions; the bare statements read as demanding strategic
+trade-offs and split the raters (G2 for Celeste fell 3.0 → 1.67, range 2).
+NA handling worked cleanly (all three raters independently made identical
+NA calls on 3.3b and 7.2b/MN9 — a genuine wording-pass win).
+
+Interpretation: Sweetser 2020's one-idea-per-statement rule trades
+ambiguity *within* a row for loss of cross-row context, and for this
+rubric the context was load-bearing on exactly the rows that distinguish
+challenge types. The fix is not reverting but revising the six flagged
+statements to name the challenge-type scope explicitly (e.g. G2a:
+"...a recurring choice — strategic, routing, or moment-to-moment
+execution choice per the game's challenge types — whose best answer is
+neither obvious nor a blind guess"). Deliberately NOT tweak-and-rerun in
+this session: revising and re-testing on the same two games would
+overfit the instrument to Celeste/MN9; revise in v0.6.1 and test on a
+fresh game pair. A separate
 `final_metrics.json` holds held-out test-split numbers and is written
 only by the `dvc repro final_eval` pass at chain end. See
 `~/claude-system/claude/rules/evaluation.md`.

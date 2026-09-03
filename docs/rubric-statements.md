@@ -9,6 +9,14 @@ style: "Sweetser 2020 revision checklist: one ratable idea per statement; statem
 
 # Rater statements (v0.6)
 
+> **Status note (2026-09-03).** An instrument-comparison experiment
+> (experiments/2026-09-03-statements-irr) found this statements form
+> slightly *worse* than scoring rubric rows directly (rater range 0.43 vs
+> 0.35; Celeste's G2 halved through context loss on G2a/G2b, 2.1a, 2.2a).
+> Statements needing challenge-type-scoped rewording in v0.6.1: G2a, G2b,
+> 2.1a, 2.2a, 3.4c. Until then, prefer scoring docs/rubric.md rows with
+> this file as a per-row clarification aid, not as the primary instrument.
+
 Rate agreement 0–4 with each statement, or **N/A** when the statement
 cannot apply to this game (record why). Statements aggregate by mean to
 their parent rubric row (e.g. 3.1 = mean of 3.1a–3.1c); rows aggregate per
