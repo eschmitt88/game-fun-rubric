@@ -1,18 +1,25 @@
 # game-fun-rubric
 
-**One-line description of what this project investigates.** _(Fill in when the
-project stops being exploratory — this line is the repo's tagline on GitHub.)_
+**What makes games fun? A literature-grounded, genre-agnostic design rubric for a
+single-player digital game.**
 
-📂 **[Browse this repo →](https://<owner>.github.io/game-fun-rubric/)** —
+📂 **[Browse this repo →](https://eschmitt88.github.io/game-fun-rubric/)** —
 interactive, always-live view of experiments, concepts, literature, and maps of
 content. Served via GitHub Pages from `docs/index.html`; reads the live file
-tree, no build step. _(Link is live once the repo is public and Pages is enabled
-— `/new-project` does both by default.)_
+tree, no build step.
 
 ## What this is
 
-A paragraph on the question, the data, and what success looks like. Keep it
-oriented at a visitor who has never seen the repo.
+A structured reading of the game-design and player-psychology literature —
+Koster's *Theory of Fun*, the MDA framework, Lazzaro's Four Keys,
+Self-Determination Theory and PENS, flow (Csikszentmihalyi, Chen), Schell's
+lenses, Juul on failure, Cook's skill atoms, Malone's intrinsic-motivation
+heuristics, Bartle and Yee on player motivation — distilled into an actionable
+rubric for evaluating a game design. The output of record is `docs/rubric.md`,
+versioned: v0 from the established frameworks, revised as each source is
+ingested. The rubric is deliberately genre-agnostic; genre-specific reweighting
+is a later, explicit step. Success is a rubric a designer can actually score a
+prototype against and that traces every criterion back to a source.
 
 ## How it's organized
 
